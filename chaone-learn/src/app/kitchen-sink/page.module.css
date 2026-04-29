@@ -1,0 +1,22 @@
+/* page.module.css — Kitchen Sink */
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.heading {
+  font-family: var(--font-serif);
+  font-size: var(--text-title);
+  font-weight: var(--weight-bold);
+  line-height: var(--text-title-lh);
+  color: var(--color-fg);
+}
+
+.description {
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  line-height: var(--text-body-lh);
+  color: var(--color-fg-muted);
+}

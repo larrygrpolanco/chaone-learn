@@ -29,6 +29,33 @@ Everything else — state, generation, audio pipelines — sits at the edges of 
 
 There is intentionally no generic "stories" content type in the sense of a runtime-generated artifact. Authored readers live in the corpus; text produced during a co-authored session is a separate concern handled by the activity that produces it (and possibly persisted later, in the state layer).
 
+### Vocabulary Entity Design
+
+Each vocabulary entry needs:
+
+- Stable scoped slug
+- Dictionary form (Korean)
+- English gloss(es)
+- Part of speech
+- Tags (honorific, humble, formal, irregular, etc.)
+- Audio reference(s)
+- **Room for inflection awareness** — at minimum a flag for irregular verbs/adjectives, ideally a small set of attested inflected forms or notes for the lemmatizer
+
+This last point matters: stories will be authored in plain Korean and validated against vocabulary at build time. The validator must recognize 계세요 as the polite form of 계시다. We use an existing Korean lemmatizer (kiwipiepy is the current recommendation) — we are not writing morphology code. Vocabulary just needs enough metadata to support lemmatizer-driven lookup and flag exceptions.
+
+### Grammar Entity Design
+
+Each grammar point needs the human-readable v1 fields (title, pattern, description, examples) plus machine-readable tags:
+
+- **Register** — polite-formal, polite-informal, plain, honorific
+- **Structural type** — particle, verb-ending, sentence-pattern, expression
+- **Applies-to** — noun-following, verb-stem-following, adjective-stem-following, etc.
+- **Prerequisites** — list of grammar IDs that must be introduced first
+
+These tags enable: filtering for AI generation ("use only polite-informal present-tense"), validation ("this dialogue uses honorifics that the learner has not reached"), and learner views ("show all particles ordered by stage").
+
+**Rigor is bounded.** We tag the regularities and document exceptions in prose. Korean has too many irregularities to formalize completely, and that is fine. The data layer is a useful index, not a Korean grammar engine. False positives in validation are acceptable; we flag for review and move on.
+
 ### IDs
 
 Stable from day one. Slug-based, scoped by stage and introducing lesson:
@@ -223,6 +250,38 @@ The author:
 7. Sends the lesson to the Korean teacher for review before it ships.
 
 Heavier authoring tooling — a CMS, a web-based editor, an admin UI — is out of scope. The TypeScript files are the textbook.
+
+## 8.5 Story Authoring Format
+
+**Plain Korean prose with build-time validation.** No inline annotation markers in the source by default.
+
+The build pipeline:
+1. Tokenize each story with the Korean lemmatizer.
+2. Resolve each token against the vocabulary corpus.
+3. Flag unknown tokens (not in any introduced vocabulary) for review.
+4. Validate constraints (e.g., "this Beginning 1 Lesson 4 story may only use vocabulary from Beginning 1 Lessons 1–4").
+5. Surface a build report.
+
+Annotation markers (`{vocab:slug}word{/}`) are added only where the lemmatizer gets it wrong or to override defaults. Authoring stays close to natural Korean prose, which keeps human review tractable when AI is the drafting partner.
+
+For mixed-language readers (Korean structure with English substitutes for unlearned words), the same tokenization powers token-level rendering — known tokens render in Korean, unknown tokens render their English gloss. The data layer supports this without additional authoring effort.
+
+## 8.9 Generation Layer (Future, Designed-For-Now)
+
+When AI generation is added, it operates against constraint sets pulled from the content layer:
+
+> Constraint: vocabulary IDs `[v.b1.l1.*, v.b1.l2.*, v.b1.l3.*, v.b1.l4.*]`, grammar IDs `[g.b1.l1.*, ..., g.b1.l4.*]`, register `polite-informal`, no `honorific`.
+> Task: Generate a 6-sentence branching story where the learner chooses between two actions.
+
+The validator script (build-time or runtime):
+1. Tokenizes generated output.
+2. Checks every token against the constraint set.
+3. Checks grammar usage against the grammar tag set.
+4. Returns a structured report.
+5. Either passes, fails (regenerate), or hands to a second-pass LLM with the report attached.
+
+This is why the content layer's tag rigor matters: it is what makes constraint enforcement possible.
+
 
 ## 9. Stack
 

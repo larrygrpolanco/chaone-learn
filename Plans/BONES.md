@@ -42,7 +42,15 @@ This document tracks the phased build of the Korean language learning platform. 
 - Kitchen sink page exists (empty for now).
 
 ### Notes
-- [Fill in during this phase]
+- [done] Tailwind CSS removed; switched to CSS Modules + global CSS tokens.
+- [done] `src/styles/tokens.css` created with all semantic tokens for default (warm off-white `#FAF7F2`) and reading (warm brown `#3E2E25`) modes.
+- [done] Fonts loaded via `next/font/google`: Geist Sans (UI), Geist Mono (debug), Source Serif 4 (display/prose). Korean system font fallback (`Pretendard`, `Noto Sans KR`, `Apple SD Gothic Neo`, `Malgun Gothic`) declared via CSS `font-family` ordering.
+- [done] `layout.tsx` loads all fonts and applies CSS variables.
+- [done] `AppFrame` component provides sidebar + content column layout; `Sidebar` component shows four-level tree (Track → Stage → Lesson, with Activity level stubbed for later).
+- [done] Home page at `/` renders product name in display serif, tracks list (Lessons, Graded Readers), footer note.
+- [done] Kitchen sink route at `/kitchen-sink` exists (empty, ready for Phase 3).
+- [done] Additional scaffold: `/lessons` track page.
+- Cross-phase decision: Keeping Next.js 16 (installed version) rather than downgrading to 15. No issues encountered.
 
 ---
 
@@ -73,7 +81,22 @@ This document tracks the phased build of the Korean language learning platform. 
 - Build succeeds with the content layer compiled.
 
 ### Notes
-- [Fill in during this phase]
+- [done] Type definitions created in `src/lib/types.ts` with architecture-compliant fields:
+  - `VocabularyEntry`: `english: string[]`, `audio?: string[]`, `irregular?: boolean`, `inflectionNotes?: string`
+  - `GrammarPoint`: required `register`, `structuralType`, `appliesTo`, optional `prerequisites` (full grammar IDs)
+- [done] ID utility created in `src/lib/id.ts` with `makeId`, `makeLessonId`, `makeStageId`, and batch helpers.
+- [done] Content directory structure created under `src/content/`: stages/, lessons/, vocabulary/, grammar/, expressions/, stories/.
+- [done] Stage manifest `beginning-1.ts` with ordered lesson list (Lessons 1–3).
+- [done] Lesson 1: 34 vocab items, 5 grammar points (all tagged with register/structuralType/appliesTo/prerequisites), 4 expressions, 1 narration story. Activity configs reference real IDs.
+- [done] Lesson 2: 45 vocab items (inflection notes on 하다 verbs, ㅡ deletion, vowel contractions), 4 grammar points (all tagged), 4 expressions, 1 narration story. Activity configs reference real IDs.
+- [done] Lesson 3: 45 vocab items (inflection notes on 있다/없다, 누구+가), 4 grammar points (all tagged), 3 expressions, 1 narration story. Activity configs reference real IDs.
+- [done] `reinforces` arrays set to empty in all lessons. Natural reuse in stories is handled by constraint-set accumulation; `reinforces` is reserved for explicit pedagogical reactivation.
+- [done] Constraint set computation in `src/lib/constraint-set.ts`. Verified accumulation: Lesson 1 = 34 vocab; Lesson 2 = 79 vocab; Lesson 3 = 124 vocab.
+- [done] Build succeeds with no TypeScript errors. `npm run build` passes.
+- [done] Old conversations skipped per user direction. Narration stories ported as placeholders, marked for future replacement.
+- [done] Vocab slugs use romanized dictionary form (e.g., `annyeonghada`, `gwaenchanta`, `eodi`).
+- Cross-phase decision: Constraint set module imports lesson manifests directly. For multi-stage support later, the `stageLessons` map can be extended or replaced with dynamic discovery.
+- Cross-phase decision: Grammar machine-readable tags (`register`, `structuralType`, `appliesTo`, `prerequisites`) are required fields. All grammar points must be tagged before they can be used by validators or generation harness.
 
 ---
 
@@ -210,8 +233,8 @@ From the architecture and design documents:
 
 | Phase | Status | Notes |
 |---|---|---|
-| 1. Project Skeleton & Design Tokens | `[pending]` | — |
-| 2. Corpus Types & Content Directory | `[pending]` | — |
+| 1. Project Skeleton & Design Tokens | `[done]` | Next.js 16, CSS tokens, Geist+Source Serif 4, sidebar+content frame, home page, kitchen-sink scaffold |
+| 2. Corpus Types & Content Directory | `[done]` | Types, ID utils, 3 lessons of real data, constraint sets, build passes |
 | 3. Component Kit & Kitchen Sink | `[pending]` | — |
 | 4. Pages & Information Architecture | `[pending]` | — |
 | 5. Static Activities | `[pending]` | — |
