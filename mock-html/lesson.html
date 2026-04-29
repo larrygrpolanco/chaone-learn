@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson — Design System Mock</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body class="font-serif-source font-sans-inter">
+
+  <button class="menu-toggle">☰</button>
+
+  <div class="app-frame">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header" style="display:flex;align-items:center;justify-content:space-between;gap:var(--space-2);">
+        <span>Cha:One</span>
+        <select class="input" style="width:auto;min-width:0;padding:var(--space-1) var(--space-2);font-size:var(--text-micro);border-radius:var(--radius-sm);">
+          <option>Lessons</option>
+          <option>Graded Readers</option>
+        </select>
+      </div>
+      <div class="sidebar-track">
+        <div class="sidebar-track-title">Lessons</div>
+
+        <div class="sidebar-stage open">
+          <div class="sidebar-stage-title">Beginning 1</div>
+          <div class="sidebar-lesson-list">
+            <div class="sidebar-lesson">Lesson 1 — Greetings</div>
+            <div class="sidebar-lesson">Lesson 2 — At School</div>
+            <div class="sidebar-lesson">Lesson 3 — Food</div>
+            <div class="sidebar-lesson active recent">Lesson 4 — At Home <span class="recent-dot"></span></div>
+            <div class="sidebar-lesson">Lesson 5 — Family</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Content -->
+    <main class="content-area narrow" style="padding-top:var(--space-8);">
+
+      <!-- Breadcrumb -->
+      <nav class="breadcrumb" style="margin-bottom:var(--space-5);">
+        <a href="home.html">Beginning 1</a>
+        <span class="breadcrumb-sep">/</span>
+        <span>Lesson 4</span>
+      </nav>
+
+      <!-- Page Header -->
+      <header class="page-header">
+        <h1 class="page-header-title">
+          <span lang="ko">집에서</span>
+          <span style="font-weight:var(--weight-regular);color:var(--color-fg-muted);">— At Home</span>
+        </h1>
+        <p class="page-header-subtitle">Introducing location particles and household vocabulary. Steve looks for his hat.</p>
+        <div class="page-header-meta">
+          <span class="chip">6 vocab</span>
+          <span class="chip">2 grammar</span>
+          <span class="chip">1 expression</span>
+        </div>
+      </header>
+
+      <!-- Activity Stepper -->
+      <div class="activity-stepper">
+        <span class="stepper-dot current"></span>
+        <span class="stepper-line"></span>
+        <span class="stepper-dot"></span>
+        <span class="stepper-line"></span>
+        <span class="stepper-dot"></span>
+        <span class="stepper-line"></span>
+        <span class="stepper-dot"></span>
+      </div>
+
+      <!-- Activity 1: Vocab Introduction -->
+      <section class="lesson-activity">
+        <div class="activity-header">
+          <div class="activity-icon">단</div>
+          <h3>New Words</h3>
+        </div>
+        <p style="font-family:var(--font-sans);font-size:var(--text-body);color:var(--color-fg-muted);margin-bottom:var(--space-5);">Meet the words for this lesson. Listen to each one. Hover over the Korean to see the gloss.</p>
+        <div class="vocab-intro-grid">
+          <div class="card" style="text-align:center;">
+            <div style="font-family:var(--font-serif);font-size:var(--text-heading);font-weight:var(--weight-bold);" lang="ko">집</div>
+            <div style="font-family:var(--font-sans);font-size:var(--text-small);color:var(--color-fg-muted);margin-top:var(--space-2);">house, home</div>
+            <div style="margin-top:var(--space-3);">
+              <button class="audio-btn">▶</button>
+            </div>
+          </div>
+          <div class="card" style="text-align:center;">
+            <div style="font-family:var(--font-serif);font-size:var(--text-heading);font-weight:var(--weight-bold);" lang="ko">학교</div>
+            <div style="font-family:var(--font-sans);font-size:var(--text-small);color:var(--color-fg-muted);margin-top:var(--space-2);">school</div>
+            <div style="margin-top:var(--space-3);">
+              <button class="audio-btn">▶</button>
+            </div>
+          </div>
+          <div class="card" style="text-align:center;">
+            <div style="font-family:var(--font-serif);font-size:var(--text-heading);font-weight:var(--weight-bold);" lang="ko">책</div>
+            <div style="font-family:var(--font-sans);font-size:var(--text-small);color:var(--color-fg-muted);margin-top:var(--space-2);">book</div>
+            <div style="margin-top:var(--space-3);">
+              <button class="audio-btn">▶</button>
+            </div>
+          </div>
+          <div class="card" style="text-align:center;">
+            <div style="font-family:var(--font-serif);font-size:var(--text-heading);font-weight:var(--weight-bold);" lang="ko">친구</div>
+            <div style="font-family:var(--font-sans);font-size:var(--text-small);color:var(--color-fg-muted);margin-top:var(--space-2);">friend</div>
+            <div style="margin-top:var(--space-3);">
+              <button class="audio-btn">▶</button>
+            </div>
+          </div>
+          <div class="card" style="text-align:center;">
+            <div style="font-family:var(--font-serif);font-size:var(--text-heading);font-weight:var(--weight-bold);" lang="ko">모자</div>
+            <div style="font-family:var(--font-sans);font-size:var(--text-small);color:var(--color-fg-muted);margin-top:var(--space-2);">hat</div>
+            <div style="margin-top:var(--space-3);">
+              <button class="audio-btn">▶</button>
+            </div>
+          </div>
+          <div class="card" style="text-align:center;">
+            <div style="font-family:var(--font-serif);font-size:var(--text-heading);font-weight:var(--weight-bold);" lang="ko">컴퓨터</div>
+            <div style="font-family:var(--font-sans);font-size:var(--text-small);color:var(--color-fg-muted);margin-top:var(--space-2);">computer</div>
+            <div style="margin-top:var(--space-3);">
+              <button class="audio-btn">▶</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Activity 2: Flashcards -->
+      <section class="lesson-activity">
+        <div class="activity-header">
+          <div class="activity-icon">카</div>
+          <h3>Flashcards</h3>
+        </div>
+        <div class="flashcard-activity">
+          <div class="vocab-card" style="max-width:360px;width:100%;cursor:pointer;">
+            <div class="vocab-card-inner">
+              <div class="vocab-card-front">
+                <div class="vocab-card-korean" lang="ko">모자</div>
+                <div style="font-family:var(--font-sans);font-size:var(--text-small);color:var(--color-fg-subtle);margin-top:var(--space-2);">Click, Space to flip · ← → to move</div>
+              </div>
+              <div class="vocab-card-back">
+                <div class="vocab-card-gloss">hat</div>
+                <div style="font-family:var(--font-sans);font-size:var(--text-small);color:var(--color-fg-subtle);margin-top:var(--space-2);">noun · common</div>
+              </div>
+            </div>
+            <div class="vocab-card-audio"><button class="audio-btn">▶</button></div>
+          </div>
+          <div class="flashcard-controls">
+            <button class="btn btn-secondary btn-md">← Previous</button>
+            <button class="btn btn-primary btn-md">Flip</button>
+            <button class="btn btn-secondary btn-md">Next →</button>
+          </div>
+          <div style="display:flex;gap:var(--space-2);align-items:center;margin-top:var(--space-3);">
+            <label class="toggle" style="font-size:var(--text-small);">
+              <input type="checkbox">
+              <span class="toggle-switch"></span>
+              <span>Shuffle</span>
+            </label>
+            <span style="font-family:var(--font-sans);font-size:var(--text-micro);color:var(--color-fg-subtle);">2 / 6</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Activity 3: Listening Clip -->
+      <section class="lesson-activity">
+        <div class="activity-header">
+          <div class="activity-icon">귀</div>
+          <h3>Listening</h3>
+        </div>
+        <div class="listening-clip">
+          <div class="audio-tray">
+            <button class="audio-btn">▶</button>
+            <div class="audio-tray-progress"><div class="audio-tray-progress-fill" style="width:22%;"></div></div>
+            <span class="audio-tray-time">0:23 / 1:45</span>
+          </div>
+          <div class="listening-transcript">
+            <div class="dialogue-line">
+              <div class="dialogue-speaker">Steve</div>
+              <div class="dialogue-korean" lang="ko">안녕하세요! 오늘 어떤 모자를 쓸까요?</div>
+              <div class="dialogue-gloss">Hello! Which hat shall I wear today?</div>
+            </div>
+            <div class="dialogue-line">
+              <div class="dialogue-speaker">Minji</div>
+              <div class="dialogue-korean" lang="ko">빨간 모자가 좋아요.</div>
+              <div class="dialogue-gloss">The red hat is good.</div>
+            </div>
+          </div>
+          <div class="comprehension-check">
+            <div class="comprehension-question">What does Minji suggest Steve wear?</div>
+            <div class="comprehension-options">
+              <label class="comprehension-option">
+                <input type="radio" name="q1" value="a">
+                <span>A blue hat</span>
+              </label>
+              <label class="comprehension-option">
+                <input type="radio" name="q1" value="b">
+                <span>A red hat</span>
+              </label>
+              <label class="comprehension-option">
+                <input type="radio" name="q1" value="c">
+                <span>No hat</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Activity 4: Grammar Block -->
+      <section class="lesson-activity">
+        <div class="activity-header">
+          <div class="activity-icon">문</div>
+          <h3>Grammar</h3>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:var(--space-4);">
+          <div class="grammar-block">
+            <div class="grammar-pattern" lang="ko">-에 / -에서</div>
+            <div class="grammar-desc">Location particles. 에 marks a static location (at, in). 에서 marks a dynamic location where an action takes place, or the origin of movement.</div>
+            <div style="display:flex;flex-direction:column;gap:var(--space-2);margin-top:var(--space-3);">
+              <div class="grammar-example" lang="ko">집에 있어요 — I am at home.</div>
+              <div class="grammar-example" lang="ko">학교에서 공부해요 — I study at school.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Activity 4: Mixed-Language Reader -->
+      <section class="lesson-activity">
+        <div class="activity-header">
+          <div class="activity-icon">책</div>
+          <h3>Steve Likes Hats</h3>
+        </div>
+        <div class="reader-panel">
+          <div class="reader-panel-header">
+            <div>
+              <div class="reader-panel-title" lang="ko">스티브는 모자를 좋아해요</div>
+              <div class="reader-panel-author">Beginning 1, Lesson 4</div>
+            </div>
+            <div class="reader-mode-toggle">
+              <button class="reader-mode-btn active" data-mode="default">Default</button>
+              <button class="reader-mode-btn" data-mode="reading">Reading</button>
+            </div>
+          </div>
+          <div class="tokenized-prose">
+            <p>
+              <span class="vocab-token known">스티브<span class="gloss">Steve</span></span>는
+              <span class="vocab-token known">모자<span class="gloss">hat</span></span>를
+              <span class="vocab-token unknown">좋아해요<span class="gloss">to like</span></span>.
+              <span class="vocab-token known">그<span class="gloss">he</span></span>는
+              <span class="vocab-token known">매일<span class="gloss">every day</span></span>
+              <span class="vocab-token unknown">다른<span class="gloss">different</span></span>
+              <span class="vocab-token known">모자<span class="gloss">hat</span></span>를
+              <span class="vocab-token unknown">써요<span class="gloss">to wear</span></span>.
+            </p>
+            <p>
+              <span class="vocab-token known">오늘<span class="gloss">today</span></span>은
+              <span class="vocab-token unknown">빨간<span class="gloss">red</span></span>
+              <span class="vocab-token known">모자<span class="gloss">hat</span></span>를
+              <span class="vocab-token known">썼어요<span class="gloss">wore</span></span>.
+              <span class="vocab-token known">집<span class="gloss">home</span></span>에
+              <span class="vocab-token unknown">앉아서<span class="gloss">sitting</span></span>
+              <span class="vocab-token known">책<span class="gloss">book</span></span>을
+              <span class="vocab-token unknown">읽었어요<span class="gloss">read</span></span>.
+            </p>
+            <p>
+              "<span class="vocab-token known">모자<span class="gloss">hat</span></span>가
+              <span class="vocab-token unknown">어디<span class="gloss">where</span></span>에
+              <span class="vocab-token known">있어요<span class="gloss">is</span></span>?"
+              <span class="vocab-token known">스티브<span class="gloss">Steve</span></span>가
+              <span class="vocab-token unknown">물었어요<span class="gloss">asked</span></span>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Lesson Footer -->
+      <div class="lesson-footer">
+        <span style="font-family:var(--font-sans);font-size:var(--text-small);color:var(--color-fg-subtle);">Lesson 4 of 20</span>
+        <a href="#" class="lesson-next">Next lesson →</a>
+      </div>
+
+    </main>
+  </div>
+
+  <script src="js/demo.js"></script>
+</body>
+</html>

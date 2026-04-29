@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reader — Design System Mock</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body class="font-serif-source font-sans-inter">
+
+  <!-- Collapsible Sidebar for Reader -->
+  <button class="menu-toggle">☰</button>
+  <aside class="sidebar" style="transform:translateX(-100%);">
+    <div class="sidebar-header" style="display:flex;align-items:center;justify-content:space-between;gap:var(--space-2);">
+      <span>Cha:One</span>
+      <select class="input" style="width:auto;min-width:0;padding:var(--space-1) var(--space-2);font-size:var(--text-micro);border-radius:var(--radius-sm);">
+        <option>Graded Readers</option>
+        <option>Lessons</option>
+      </select>
+    </div>
+    <div class="sidebar-track">
+      <div class="sidebar-track-title">Graded Readers</div>
+      <div class="sidebar-item active recent">Steve's Day <span class="recent-dot" style="margin-left:auto;"></span></div>
+      <div class="sidebar-item">At the Cafe</div>
+      <div class="sidebar-item">The Bus Ride</div>
+    </div>
+  </aside>
+
+  <!-- Reader Frame -->
+  <div class="reader-frame">
+    <main class="content-area" style="padding-top:var(--space-6);padding-bottom:var(--space-4);">
+      <div class="reader-container" style="max-width:var(--measure-default);width:100%;">
+
+        <div class="reader-panel">
+          <!-- Header -->
+          <div class="reader-panel-header">
+            <div>
+              <div class="reader-panel-title" lang="ko">스티브의 하루</div>
+              <div class="reader-panel-author">Graded Reader · Beginning 1</div>
+            </div>
+            <div style="display:flex;gap:var(--space-2);align-items:center;">
+              <div class="reader-mode-toggle">
+                <button class="reader-mode-btn active" data-mode="default">Default</button>
+                <button class="reader-mode-btn" data-mode="reading">Reading</button>
+              </div>
+              <button class="reader-settings-btn" aria-label="Settings">⚙</button>
+            </div>
+          </div>
+
+          <!-- Prose -->
+          <div class="tokenized-prose">
+            <p>
+              <span class="vocab-token known">스티브<span class="gloss">Steve</span></span>는
+              <span class="vocab-token known">아침<span class="gloss">morning</span></span>에
+              <span class="vocab-token unknown">일어났어요<span class="gloss">woke up</span></span>.
+              <span class="vocab-token known">창문<span class="gloss">window</span></span>을
+              <span class="vocab-token unknown">열었어요<span class="gloss">opened</span></span>.
+              <span class="vocab-token unknown">햇살<span class="gloss">sunlight</span></span>이
+              <span class="vocab-token known">집<span class="gloss">home</span></span>안에
+              <span class="vocab-token unknown">들어왔어요<span class="gloss">came in</span></span>.
+            </p>
+            <p>
+              "<span class="vocab-token known">오늘<span class="gloss">today</span></span>은
+              <span class="vocab-token unknown">좋은<span class="gloss">good</span></span>
+              <span class="vocab-token known">날<span class="gloss">day</span></span>이에요,"
+              <span class="vocab-token known">스티브<span class="gloss">Steve</span></span>가
+              <span class="vocab-token unknown">생각했어요<span class="gloss">thought</span></span>.
+              <span class="vocab-token known">그<span class="gloss">he</span></span>는
+              <span class="vocab-token known">책상<span class="gloss">desk</span></span>위에
+              <span class="vocab-token known">있는<span class="gloss">is (on)</span></span>
+              <span class="vocab-token known">모자<span class="gloss">hat</span></span>를
+              <span class="vocab-token unknown">집었어요<span class="gloss">picked up</span></span>.
+            </p>
+            <p>
+              <span class="vocab-token known">모자<span class="gloss">hat</span></span>는
+              <span class="vocab-token unknown">파란<span class="gloss">blue</span></span>
+              <span class="vocab-token known">색<span class="gloss">color</span></span>이에요.
+              <span class="vocab-token known">스티브<span class="gloss">Steve</span></span>는
+              <span class="vocab-token known">모자<span class="gloss">hat</span></span>를
+              <span class="vocab-token known">머리<span class="gloss">head</span></span>에
+              <span class="vocab-token unknown">썼어요<span class="gloss">put on</span></span>.
+              <span class="vocab-token known">거울<span class="gloss">mirror</span></span>을
+              <span class="vocab-token unknown">보고<span class="gloss">looked at</span></span>
+              <span class="vocab-token unknown">웃었어요<span class="gloss">smiled</span></span>.
+            </p>
+            <p>
+              <span class="vocab-token known">집<span class="gloss">home</span></span>
+              <span class="vocab-token known">밖<span class="gloss">outside</span></span>에는
+              <span class="vocab-token unknown">바람<span class="gloss">wind</span></span>이
+              <span class="vocab-token unknown">불었어요<span class="gloss">blew</span></span>.
+              <span class="vocab-token known">스티브<span class="gloss">Steve</span></span>는
+              <span class="vocab-token known">문<span class="gloss">door</span></span>을
+              <span class="vocab-token unknown">나갔어요<span class="gloss">went out</span></span>.
+              <span class="vocab-token unknown">길<span class="gloss">street</span></span>에는
+              <span class="vocab-token unknown">많은<span class="gloss">many</span></span>
+              <span class="vocab-token known">사람<span class="gloss">people</span></span>들이
+              <span class="vocab-token unknown">있었어요<span class="gloss">were</span></span>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Audio Tray at bottom -->
+        <div class="audio-tray audio-tray-bottom">
+          <button class="audio-btn">▶</button>
+          <div class="audio-tray-progress"><div class="audio-tray-progress-fill" style="width:12%;"></div></div>
+          <span class="audio-tray-time">0:42 / 5:36</span>
+          <button class="audio-tray-close" aria-label="Close audio">×</button>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- Settings Sheet -->
+  <div id="settings-sheet" class="sheet">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:var(--space-6);">
+      <h2 style="font-family:var(--font-serif);font-size:var(--text-heading);font-weight:var(--weight-bold);">Reader Settings</h2>
+      <button class="btn btn-ghost btn-sm sheet-close" style="font-size:var(--text-title);line-height:1;padding:0;">×</button>
+    </div>
+
+    <div class="settings-section">
+      <div class="settings-section-title">Appearance</div>
+      <div class="settings-row">
+        <span class="settings-label">Reading mode</span>
+        <label class="toggle">
+          <input type="checkbox" id="reader-mode-check">
+          <span class="toggle-switch"></span>
+        </label>
+      </div>
+      <div class="settings-row">
+        <span class="settings-label">Type size</span>
+        <input type="range" id="type-size-slider" class="slider" min="14" max="22" value="18" style="width:120px;">
+      </div>
+    </div>
+
+    <div class="settings-section">
+      <div class="settings-section-title">Audio</div>
+      <div class="settings-row">
+        <span class="settings-label">Playback speed</span>
+        <select class="input" style="width:auto;font-size:var(--text-small);">
+          <option>0.75×</option>
+          <option selected>1.0×</option>
+          <option>1.25×</option>
+          <option>1.5×</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="settings-section">
+      <div class="settings-section-title">Language</div>
+      <div class="settings-row">
+        <span class="settings-label">Show gloss on hover</span>
+        <label class="toggle">
+          <input type="checkbox" checked>
+          <span class="toggle-switch"></span>
+        </label>
+      </div>
+      <div class="settings-row">
+        <span class="settings-label">Mixed-language mode</span>
+        <label class="toggle">
+          <input type="checkbox" checked>
+          <span class="toggle-switch"></span>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/demo.js"></script>
+</body>
+</html>
