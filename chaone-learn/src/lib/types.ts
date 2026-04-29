@@ -229,6 +229,8 @@ export interface LessonManifest {
   activities: ActivityConfig[];
   /** Optional prose description of the lesson's purpose */
   description?: string;
+  /** One-line summary for stage listings */
+  summary?: string;
 }
 
 // ---------------------------------------------------------------------------

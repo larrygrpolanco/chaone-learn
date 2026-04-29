@@ -81,6 +81,7 @@ const lessonStories = storyIds(STAGE, LESSON, ["campus-narration"]);
 export const lessonManifest: LessonManifest = {
   id: makeLessonId(STAGE, LESSON),
   title: { en: "The University Campus", kr: "대학 캠퍼스" },
+  summary: "Asking about and describing locations.",
   description:
     "Asking about and describing locations. Existence verb 있다, location particle 에, and the honorific ending ~(으)세요.",
   introduces: {

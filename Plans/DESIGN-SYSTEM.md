@@ -256,7 +256,7 @@ These appear everywhere.
 - **Button** — Three variants: `primary` (accent fill), `secondary` (border, fg text), `ghost` (text only, no border). Three sizes: `sm`, `md`, `lg`. Always uses sans, medium weight. No icon-only buttons in v1 except the audio play control.
 - **Link** — Inline text link. Underlined by default; the underline is the affordance.
 - **Inline tag** — A small piece of muted sans text (`--text-small`, `--color-fg-muted`) used to label a vocab item's part of speech, register, etc. Sits inline with its content, no border, no background, no rounded shape. This is where we used to reach for a chip; we now reach for inline muted text instead.
-- **Segmented control** — A small group of options with one selected, used for binary or ternary mode switches (Audio / Text on the reader). Border on the group, accent-soft fill on the selected segment. Used sparingly.
+- **Segmented control** — A small group of options with one selected, used for binary or ternary mode switches. Border on the group, accent-soft fill on the selected segment. Used sparingly.
 - **Input** — Text input. Single-line and multi-line variants. Borders, not fills.
 - **Toggle** — Binary state switch, used for settings (e.g. "show glosses").
 - **Slider** — Used for type-size, brightness, and (later) speed. Borrowed visually from the Kidory reference.
@@ -387,7 +387,7 @@ Activity pages do not have a global "submit lesson" or "complete" button. Activi
 Reader frame, panel-led layout. Used for graded readers and (when the architecture's mixed-language-reader is invoked on a long story) for story prose. The panel contains:
 
 1. Story title (serif, title size), author (sans, micro).
-2. Mode toggle — Audio / Text — as a segmented control, borrowed from Kidory.
+2. Mode toggle
 3. Audio tray (if audio mode) at the top of the panel.
 4. Story prose, tokenized, in `--text-prose`.
 5. Reading-mode toggle (default mode / reading mode) and type-size slider in a settings sheet, accessed via a settings icon.

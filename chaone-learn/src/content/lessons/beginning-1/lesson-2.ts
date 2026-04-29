@@ -82,6 +82,7 @@ const lessonStories = storyIds(STAGE, LESSON, ["korean-class-narration"]);
 export const lessonManifest: LessonManifest = {
   id: makeLessonId(STAGE, LESSON),
   title: { en: "Korean Language Class", kr: "한국어 수업" },
+  summary: "Talking about classes and well-being.",
   description:
     "Talking about classes and well-being. Polite verb endings, subject and object particles, and the first irregular conjugations.",
   introduces: {

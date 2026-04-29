@@ -1,0 +1,74 @@
+.tray {
+  background-color: var(--color-bg-raised);
+  border-top: var(--border-thin);
+  padding: var(--space-4) var(--space-5);
+  position: sticky;
+  bottom: 0;
+  z-index: var(--z-sticky);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  max-width: var(--measure-wide);
+  margin: 0 auto;
+}
+
+.trackArea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: 0;
+}
+
+.title {
+  font-family: var(--font-sans);
+  font-size: var(--text-small);
+  font-weight: var(--weight-medium);
+  color: var(--color-fg-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.scrubber {
+  position: relative;
+  height: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.track {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: var(--color-bg-sunken);
+  border-radius: 2px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.fill {
+  height: 100%;
+  background-color: var(--color-accent);
+  transition: width var(--duration-instant) linear;
+}
+
+.input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.time {
+  font-family: var(--font-mono);
+  font-size: var(--text-micro);
+  color: var(--color-fg-subtle);
+}

@@ -1,0 +1,60 @@
+.token {
+  position: relative;
+  display: inline;
+  cursor: default;
+  font-family: var(--font-sans);
+  line-height: inherit;
+}
+
+.korean {
+  color: var(--color-known);
+  font-family: var(--font-sans);
+}
+
+.unknown {
+  color: var(--color-unknown);
+  font-style: italic;
+}
+
+.highlighted {
+  background-color: var(--color-accent-soft);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+.gloss {
+  color: var(--color-unknown);
+  font-style: italic;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  background-color: var(--color-bg-raised);
+  color: var(--color-fg);
+  border: var(--border-thin);
+  border-radius: var(--radius-sm);
+  padding: var(--space-2) var(--space-3);
+  font-family: var(--font-sans);
+  font-size: var(--text-small);
+  font-style: normal;
+  box-shadow: var(--shadow-soft);
+  z-index: var(--z-dropdown);
+  pointer-events: none;
+  animation: fadeIn var(--duration-short) var(--ease-standard);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(4px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+/* Mobile tap: tooltip stays visible until tap elsewhere */
+@media (hover: none) {
+  .token:hover .tooltip {
+    display: none;
+  }
+}

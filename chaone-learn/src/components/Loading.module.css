@@ -1,0 +1,34 @@
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-7) 0;
+}
+
+.skeleton {
+  width: 100%;
+  max-width: 320px;
+  height: 1.5rem;
+  background-color: var(--color-bg-sunken);
+  border-radius: var(--radius-sm);
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.text {
+  font-family: var(--font-sans);
+  font-size: var(--text-small);
+  color: var(--color-fg-subtle);
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton {
+    animation: none;
+    opacity: 0.7;
+  }
+}

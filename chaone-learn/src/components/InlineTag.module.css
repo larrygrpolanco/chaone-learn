@@ -1,0 +1,6 @@
+.tag {
+  font-family: var(--font-sans);
+  font-size: var(--text-small);
+  color: var(--color-fg-muted);
+  white-space: nowrap;
+}

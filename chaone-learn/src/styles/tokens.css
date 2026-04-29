@@ -39,8 +39,7 @@
 /* -----------------------------------------------------------
    2. Colors — Reading Mode
    ----------------------------------------------------------- */
-[data-mode="reading"],
-[data-mode="reading"] * {
+[data-mode="reading"] {
   --color-bg: #3E2E25;
   --color-bg-raised: #4A372C;
   --color-bg-sunken: #332520;
@@ -62,6 +61,13 @@
 
   --color-known: #F0E6D6;
   --color-unknown: #A8B5D6;
+
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+
+  /* Smooth transition when toggling modes */
+  transition: color var(--duration-medium) var(--ease-standard),
+              background-color var(--duration-medium) var(--ease-standard);
 }
 
 /* -----------------------------------------------------------

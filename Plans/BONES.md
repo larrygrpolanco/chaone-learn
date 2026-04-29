@@ -138,7 +138,27 @@ This document tracks the phased build of the Korean language learning platform. 
 - All components respect `prefers-reduced-motion`.
 
 ### Notes
-- [Fill in during this phase]
+- [done] Foundation components built: Button (primary/secondary/ghost, 3 sizes), InlineTag, Divider, Input (3 sizes, label, error), Toggle (controlled/uncontrolled, disabled), Slider (custom track + thumb), SegmentedControl (binary/ternary mode switcher).
+- [done] Container components built: Card (bordered, `--radius-md`), Panel (larger, `--radius-lg`), Sheet (modal-like overlay, slides from bottom on mobile / right on desktop, backdrop, close-on-esc, body scroll lock).
+- [done] Navigation components built: Breadcrumb (clickable crumbs + current), PageHeader (title, subtitle, metadata).
+- [done] Sidebar upgraded to 4 levels (Track → Stage → Lesson → Activity) with dynamic data from `src/lib/nav-data.ts` (extracts lightweight tree from corpus manifests). Logo links to home.
+- [done] ActivityLauncher built: card-shaped rows with order numeral, name, description, status text.
+- [done] Korean-language pieces built: VocabToken (known/unknown/highlighted states, hover tooltip), VocabCard (3D flip with reduced-motion fallback, front/back, audio slot), GrammarBlock (accent left-border, pattern, description, examples, tables, meta tags), ExpressionBlock (warning left-border, same structure), DialogueLine (speaker label + Korean + optional gloss), AudioButton (play/pause/loading/error states, 3 sizes, HTML5 audio), AudioTray (scrubber, time display, close button).
+- [done] State & feedback components built: Empty (message + optional action link), Loading (pulsing skeleton + text), Error (danger border, title, message, retry button), Toast (fixed bottom, auto-dismiss demo in kitchen sink).
+- [done] Kitchen sink page (`/kitchen-sink`) renders every component in every state, organized into sections matching DESIGN-SYSTEM.md. Uses real corpus data (Lesson 1 vocab, grammar, expressions) for Korean components.
+- [done] Reading mode demo section in kitchen sink shows Panel + PageHeader + prose rendered inside `[data-mode="reading"]` with warm brown palette.
+- [done] Build passes with zero TypeScript errors. `bun run build` succeeds.
+- [done] `prefers-reduced-motion` respected globally in `globals.css` and locally in VocabCard (flip becomes fade) and Loading (pulse removed).
+- [fix] Added `"use client"` to kitchen sink page — all interactivity now works (Toast, AudioTray, Card flip, Sheet, VocabToken tooltip).
+- [fix] Fixed reading mode Korean text visibility: `[data-mode="reading"]` now explicitly sets `color: var(--color-fg)` and `background-color: var(--color-bg)`.
+- [fix] Added interactive Toggle to reading mode demo so user can actually switch between palettes.
+- [fix] Added `box-shadow: var(--shadow-soft)` to Panel so it visually distinguishes from Card.
+- [fix] Fixed reading mode CSS cascade: merged two `[data-mode="reading"]` blocks into one unambiguous rule.
+- [fix] Added `overflow: hidden` and `border-radius` to reading mode container and Panel to eliminate corner anti-aliasing artifacts.
+- [fix] Added smooth `transition` on background-color and color for reading mode toggle.
+- [fix] Replaced inline prose styles in kitchen sink with CSS module classes (`readingContainer`, `prose`).
+- Cross-phase decision: Renamed `Input` prop `size` → `inputSize` to avoid conflict with native HTML attribute type.
+- Cross-phase decision: `AudioButton` and `AudioTray` use native HTML5 `<audio>` with `src` prop. Adding real audio files later is just passing the path — no additional wiring needed.
 
 ---
 
@@ -161,7 +181,16 @@ This document tracks the phased build of the Korean language learning platform. 
 - Breadcrumbs are present and clickable.
 
 ### Notes
-- [Fill in during this phase]
+- [done] Stage page (`/lessons/beginning-1`) renders with ordered lesson list, summaries, and "next stage" link.
+- [done] Lesson hub pages (`/lessons/beginning-1/lesson-{1,2,3}`) render with breadcrumb, page header, description, vocabulary preview (Korean + gloss + POS tag + audio button), grammar preview (GrammarBlock components), expression preview (ExpressionBlock components), and ActivityLauncher with order numerals.
+- [done] Activity page shells (`/lessons/beginning-1/lesson-{1,2,3}/[activity]`) with `generateStaticParams` for all configured activities.
+- [done] Basic static renders for each activity type: vocab-introduction (list), flashcards (first card demo), mixed-language-reader (story prose in Panel with reading-mode palette), listening-clip and cloze-quiz (placeholders).
+- [done] Reader frame (`ReaderFrame` component) switches layout for `mixed-language-reader` — same URL, wide measure, `data-mode="reading"`, Panel with story prose.
+- [done] Mobile sidebar drawer: hamburger button next to logo, collapsible nav/footer on mobile, fixed overlay drawer when expanded (320px max), backdrop overlay, Escape to close, body scroll lock.
+- [done] Added `summary` field to `LessonManifest` type (cross-phase: all lesson manifests now include one-line summaries for stage listings and hub display).
+- [done] `content-loader.ts` utility resolves full IDs to entity objects for server-side rendering.
+- [done] Keyboard navigation and visible focus states preserved from Phase 1 (`:focus-visible` 2px accent outline in globals.css). Note: `Input.module.css` focus uses border-color instead of outline; flagged for potential Phase 5 refinement.
+- [done] Build passes with zero TypeScript errors. 19 static pages generated.
 
 ---
 
@@ -235,8 +264,8 @@ From the architecture and design documents:
 |---|---|---|
 | 1. Project Skeleton & Design Tokens | `[done]` | Next.js 16, CSS tokens, Geist+Source Serif 4, sidebar+content frame, home page, kitchen-sink scaffold |
 | 2. Corpus Types & Content Directory | `[done]` | Types, ID utils, 3 lessons of real data, constraint sets, build passes |
-| 3. Component Kit & Kitchen Sink | `[pending]` | — |
-| 4. Pages & Information Architecture | `[pending]` | — |
+| 3. Component Kit & Kitchen Sink | `[done]` | Full component kit, dynamic 4-level sidebar, kitchen sink with all states, real corpus data in demos, build passes |
+| 4. Pages & Information Architecture | `[done]` | 19 pages, mobile drawer, reader frame, content loader, build passes |
 | 5. Static Activities | `[pending]` | — |
 | 6. Validators & Build Pipeline | `[pending]` | — |
 
