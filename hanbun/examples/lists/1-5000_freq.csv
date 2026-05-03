@@ -1,0 +1,5001 @@
+lemma,pos,rank,dispersion,gloss
+을,JKO,1,0.95,object marker
+가,JKS,2,0.86,subject marker
+는,JX,3,0.95,topic marker
+은,ETM,4,0.97,relative/adjectival (past/present)
+어,EC,5,0.87,connective/adverbial ending
+었,EP,6,0.93,past tense suffix
+이다,VCP,7,0.87,to be (copula)
+에,JKB,8,0.92,location/direction marker
+고,EC,9,0.87,connective/adverbial ending
+의,JKG,10,0.98,possessive marker
+다,EF,11,0.96,final statement ending
+는,ETM,12,0.93,relative/present ending
+것,NNB,13,0.86,thing; way
+하다,VV,14,0.73,to do
+로,JKB,15,0.96,direction/instrument marker
+을,ETM,16,0.93,relative/future ending
+도,JX,17,0.93,also; too
+게,EC,18,0.85,connective/adverbial ending
+들,XSN,19,0.96,plural suffix
+그,MM,20,0.62,that
+있다,VA,21,0.85,to exist; have
+에서,JKB,22,0.94,at; in; on (location)
+아서,EC,23,0.69,because; since; and then
+어,EF,24,0.37,informal final ending
+지,EC,25,0.89,connective/adverbial ending
+있다,VX,26,0.99,present progressive auxiliary
+되다,VV,27,0.79,to become
+ㄴ다,EF,28,0.91,verbal present ending
+면,EC,29,0.77,if; when; condition
+ㅂ니다,EF,30,0.65,formal polite final ending
+가다,VV,31,0.50,to go
+기,ETN,32,0.97,gerund/nominalizing suffix
+와,JKB,33,0.96,and; with
+나,NP,34,0.76,I (plain)
+이,MM,35,0.76,this
+없다,VA,36,0.91,to not have; not exist
+수,NNB,37,0.96,way; method; possibility
+보다,VV,38,0.72,to see
+않다,VX,39,0.94,negative auxiliary
+말,NNG,40,0.64,language; speech; talk
+사람,NNG,41,0.80,person
+아요,EF,42,0.43,informal polite ending
+가,JCC,43,0.89,complement marker
+하다,VX,44,0.99,causative auxiliary
+시,EP,45,0.56,honorific suffix
+한,MM,46,0.78,one
+는데,EC,47,0.56,but; however; background
+며,EC,48,0.99,while; as
+오다,VV,49,0.57,to come
+구,EF,50,0.14,colloquial final ending
+우리,NP,51,0.80,we; our
+아니다,VCN,52,0.88,to not be
+다,EC,53,0.55,quotative connective
+겠,EP,54,0.72,future/intent suffix
+때,NNG,55,0.83,time; when
+만,JX,56,0.89,only
+그,NP,57,0.97,he
+그렇다,VA,58,0.60,to be like that
+아야,EC,59,0.87,condition/must
+던,ETM,60,0.98,retrospective relative
+같다,VA,61,0.85,to be the same
+주다,VX,62,0.80,auxiliary: do for someone
+라,EF,63,0.70,command ending
+그러다,VV,64,0.46,to do so; say so
+다는,ETM,65,0.98,quotative relative
+와,JKB,66,0.97,comitative (with)
+안,MAG,67,0.42,not (negative adverb)
+아,IC,68,0.11,ah; oh
+보다,VX,69,0.76,auxiliary: try doing
+그것,NP,70,0.73,it; that thing
+지,EF,71,0.51,retrospective final ending
+음,ETN,72,0.85,gerund/nominalizing suffix
+니,EC,73,0.64,because; since
+그런,MM,74,0.52,such; that sort of
+또,MAG,75,0.67,again
+일,NNG,76,0.91,work; task
+니까,EC,77,0.31,because
+면서,EC,78,0.92,while; and
+년,NNB,79,0.90,year
+알다,VV,80,0.80,to know
+에게,JKB,81,1.00,to (dative)
+그래,IC,82,0.16,yes; okay
+내,NP,83,0.56,I; me (my)
+지다,VX,84,0.97,to become (auxiliary)
+라고,EC,85,0.84,quotative/command
+다,MAG,86,0.46,all
+까지,JX,87,0.96,to; till; even
+집,NNG,88,0.67,house
+대하다,VV,89,0.93,to treat; face; about
+이렇다,VA,90,0.48,to be so
+등,NNB,91,0.75,et cetera
+가지다,VV,92,0.59,to have; hold
+나오다,VV,93,0.72,to come out
+살다,VV,94,0.71,to live
+라는,ETM,95,0.94,called; as for
+좋다,VA,96,0.71,to be good
+지만,EC,97,0.98,but; however
+나,JX,98,0.93,or
+어,IC,99,0.04,oh; well
+씨,NNB,100,0.77,Mr.; Ms.
+두,MM,101,0.78,two
+다고,EC,102,0.93,quotative connective
+받다,VV,103,0.90,to receive
+먹다,VV,104,0.55,to eat
+말하다,VV,105,0.98,to speak; talk
+뭐,NP,106,0.37,what
+이,NP,107,0.93,this (one)
+때문,NNB,108,0.96,because (of)
+잘,MAG,109,0.63,well
+어도,EC,110,0.82,even if; although
+다가,EC,111,0.66,while
+그래서,MAJ,112,0.43,so; therefore
+데,NNB,113,0.78,place; spot
+모르다,VV,114,0.78,to not know
+을까,EF,115,0.75,question ending
+더,MAG,116,0.85,more
+크다,VA,117,0.88,to be big; tall; loud
+좀,MAG,118,0.46,a little
+이런,MM,119,0.67,this kind of
+뭐,IC,120,0.12,what (exclamation)
+주다,VV,121,0.67,to give
+위하다,VV,122,0.96,for the sake of
+소리,NNG,123,0.72,sound; talk
+일,NNB,124,0.71,day; date
+는데,EC,125,0.58,while; but
+번,NNB,126,0.70,time (counter)
+나다,VV,127,0.63,to happen; occur
+ㄴ가,EF,128,0.89,question ending
+너,NP,129,0.52,you
+이것,NP,130,0.59,this thing
+많다,VA,131,0.87,to be many
+갖다,VV,132,0.55,to have
+들다,VV,133,0.74,to enter; join
+그러나,MAJ,134,0.99,but; however
+어떻다,VA,135,0.69,how is it
+저,NP,136,0.61,I (humble)
+생각하다,VV,137,0.87,to think
+죽다,VV,138,0.60,to die
+여기,NP,139,0.58,here
+못,MAG,140,0.51,cannot
+생각,NNG,141,0.76,thought; idea
+문제,NNG,142,0.88,problem
+놓다,VX,143,0.67,auxiliary: finish up
+죠,EF,144,0.35,confirmation ending
+나,EC,145,0.91,but; or
+듣다,VV,146,0.74,to hear; listen
+앞,NNG,147,0.86,front
+자기,NP,148,0.73,self
+고,EC,149,0.69,quotative
+얘기,NNG,150,0.43,story; talk
+속,NNG,151,0.96,inside
+나,JX,152,0.85,as much as
+이제,MAG,153,0.03,now
+냐,EF,154,0.44,question ending
+부터,JX,155,0.94,from
+못하다,VX,156,0.99,cannot (auxiliary)
+어떤,MM,157,0.76,what kind of; some
+저,MM,158,0.39,that (over there)
+중,NNB,159,0.91,middle; among
+많이,MAG,160,0.56,many; a lot
+처럼,JX,161,0.97,like
+왜,MAG,162,0.57,why
+돈,NNG,163,0.66,money
+명,NNB,164,0.85,person (counter)
+여자,NNG,165,0.76,woman
+지금,MAG,166,0.50,now
+어디,NP,167,0.66,where
+만들다,VV,168,0.92,to make
+이제,MAG,169,0.55,now; these days
+뒤,NNG,170,0.90,back; rear; after
+들어오다,VV,171,0.68,to enter
+개,NNB,172,0.83,item (counter)
+보다,JKB,173,0.98,than (comparative)
+그냥,MAG,174,0.30,just; as it is
+다시,MAG,175,0.92,again
+그리고,MAJ,176,0.94,and; in addition
+자,EC,177,0.92,when; as
+오다,VX,178,0.95,to come (auxiliary)
+원,NNB,179,0.75,won (currency)
+거기,NP,180,0.44,there
+거든요,EF,181,0.16,background ending
+따르다,VV,182,0.95,to follow
+말다,VX,183,0.79,to not do (auxiliary)
+쓰다,VV,184,0.76,to use
+백,NR,185,0.74,hundred
+전,NNG,186,0.89,before
+월,NNB,187,0.83,month (counter)
+나가다,VV,188,0.64,to go out
+날,NNB,189,0.74,day (counter)
+야,JKV,190,0.50,vocative marker
+참,MAG,191,0.23,real; true
+근데,MAJ,192,0.04,by the way
+누구,NP,193,0.80,who
+니까,EF,194,0.61,question ending
+경우,NNG,195,0.88,case; circumstances
+무슨,MM,196,0.64,what; what kind of
+예,IC,197,0.20,yes
+아이,NNG,198,0.84,child
+다음,NNG,199,0.82,next
+놈,NNB,200,0.45,dude; guy
+하나,NR,201,0.62,one
+다른,MM,202,0.94,another; different
+싶다,VX,203,0.86,to want (auxiliary)
+아라,EF,204,0.56,command ending
+눈,NNG,205,0.87,eye
+내다,VV,206,0.80,to make; pay
+ㄴ다고,EC,207,0.84,quotative connective
+잡다,VV,208,0.74,to catch; hold
+앉다,VV,209,0.68,to sit
+들다,VV,210,0.80,to lift; raise
+두,JX,211,0.20,also; do (colloquial)
+한테,JKB,212,0.44,to (dative)
+막,MAG,213,0.15,just then; now
+님,XSN,214,0.56,Mr./Ms. (honorific)
+손,NNG,215,0.81,hand
+단,ETM,216,0.29,quotative relative
+안,NNG,217,0.85,inside
+버리다,VX,218,0.85,to end up (auxiliary)
+무엇,NP,219,0.90,what
+시간,NNG,220,0.90,time
+보이다,VV,221,0.97,to be shown; look
+물,NNG,222,0.74,water
+정도,NNG,223,0.89,degree; about
+만,NR,224,0.78,ten thousand
+한국,NNP,225,0.84,Korea
+자신,NNG,226,0.99,self
+천,NR,227,0.76,thousand
+가다,VX,228,0.86,to become (auxiliary)
+이거,NP,229,0.15,this thing
+음,IC,230,0.06,well; hmm
+응,IC,231,0.13,yes (informal)
+ㄴ지,EC,232,0.89,whether; if
+그런데,MAJ,233,0.79,by the way
+어머니,NNG,234,0.79,mother
+사회,NNG,235,0.85,society
+치다,VV,236,0.65,to hit; strike
+만나다,VV,237,0.84,to meet
+어느,MM,238,0.89,which
+찾다,VV,239,0.85,to find; look for
+놓다,VV,240,0.54,to put; place
+사다,VV,241,0.62,to buy
+서다,VV,242,0.81,to stand
+길,NNG,243,0.91,way; path
+그때,NNG,244,0.65,then; that time
+쓰다,VV,245,0.77,to write
+몇,MM,246,0.85,how many
+도록,EC,247,0.97,in order to
+네,EF,248,0.47,exclamation ending
+지나다,VV,249,0.90,to pass
+네,IC,250,0.22,yes
+같이,MAG,251,0.75,together
+가지,NNB,252,0.84,sort; kind
+얼굴,NNG,253,0.82,face
+아버지,NNG,254,0.81,father
+서울,NNP,255,0.85,Seoul
+위,NNG,256,0.93,top
+일본,NNP,257,0.91,Japan
+마음,NNG,258,0.95,mind
+없이,MAG,259,0.94,without
+하나,NNG,260,0.90,one
+로서,JKB,261,0.93,as (status)
+오늘,NNG,262,0.68,today
+부르다,VV,263,0.81,to call
+애,NNG,264,0.42,child; kid
+아주,MAG,265,0.54,very
+나라,NNG,266,0.88,nation; country
+ㄴ지,EC,267,0.91,whether; if
+지금,NNG,268,0.85,now
+그녀,NP,269,0.55,she
+더니,EC,270,0.63,while; after
+미국,NNP,271,0.83,America
+루,JKB,272,0.20,to (colloquial)
+너무,MAG,273,0.70,too (much)
+요,JX,274,0.39,polite question particle
+라고,JKB,275,0.89,called (quotative)
+사실,NNG,276,0.98,fact
+삼,NR,277,0.30,three
+남자,NNG,278,0.74,man
+자리,NNG,279,0.89,place; position
+느냐,EF,280,0.56,question ending
+방,NNG,281,0.73,room
+시,NNB,282,0.84,hour (counter)
+짓다,VV,283,0.82,to make; build
+쪽,NNB,284,0.86,page; piece
+가지다,VX,285,0.14,auxiliary: keep doing
+점,NNG,286,0.92,point; aspect
+아니,IC,287,0.43,oh; wow (surprise)
+곳,NNG,288,0.99,place
+몸,NNG,289,0.90,body
+통하다,VV,290,0.91,to go through; connect
+그거,NP,291,0.12,that thing
+모두,MAG,292,0.97,all
+후,NNG,293,0.97,after
+들어오다,VV,294,0.70,to enter
+묻다,VV,295,0.82,to ask
+두다,VV,296,0.86,to put; place
+정부,NNG,297,0.75,government
+ㄴ가,EF,298,0.93,question ending
+아들,NNG,299,0.67,son
+란,ETM,300,0.91,called
+제,NP,301,0.38,my (humble)
+동안,NNG,302,0.95,during; while
+터,NNB,303,0.69,place; space
+그러니까,MAJ,304,0.28,therefore
+러,EC,305,0.56,purpose ending
+거나,EC,306,0.97,or
+나,EF,307,0.61,question ending
+여러,MM,308,0.87,many; several
+분,NNB,309,0.46,minute (counter)
+보내다,VV,310,0.83,to send
+함께,MAG,311,0.98,together
+시작하다,VV,312,0.98,to start
+친구,NNG,313,0.75,friend
+바로,MAG,314,0.95,right after; immediately
+술,NNG,315,0.68,alcohol
+가장,MAG,316,0.94,most; best
+처음,NNG,317,0.90,first time
+무녀,NNG,318,0.02,female shaman
+모든,MM,319,0.98,every; all
+는데,EF,320,0.31,background ending
+라도,JX,321,0.90,even
+이야기,NNG,322,0.91,story; talk
+선생님,NNG,323,0.67,teacher
+께,JKB,324,0.35,to (honorific)
+이름,NNG,325,0.87,name
+문,NNG,326,0.73,door
+밤,NNG,327,0.80,night
+세,MM,328,0.76,three
+뿐,NNB,329,1.00,only
+말다,VV,330,0.55,to stop; not do
+관계,NNG,331,0.91,relation
+세계,NNG,332,0.91,world
+머리,NNG,333,0.78,head
+이상,NNG,334,0.96,more than
+내리다,VV,335,0.89,to get off; pour
+당신,NP,336,0.76,you (formal)
+이번,NNG,337,0.82,this time
+타다,VV,338,0.78,to ride
+에다,JX,339,0.50,on; top of
+아직,MAG,340,0.94,still
+경제,NNG,341,0.78,economy
+하고,JKB,342,0.42,with
+인간,NNG,343,0.91,human
+구,NNG,344,0.35,district
+산,NNG,345,0.70,mountain
+학교,NNG,346,0.89,school
+십,NR,347,0.40,ten
+거,NNB,348,0.19,thing
+그럼,MAJ,349,0.39,then; yes
+사이,NNG,350,0.99,gap; between
+줄,NNB,351,0.73,fact; method
+생기다,VV,352,0.80,to be formed; happen
+자다,VV,353,0.50,to sleep
+보이다,VX,354,0.96,to show (auxiliary)
+느끼다,VV,355,0.97,to feel
+세요,EF,356,0.56,honorific polite ending
+아,JKV,357,0.49,vocative (informal)
+라고,EC,358,0.29,quotative
+정말,MAG,359,0.62,really
+뜻,NNG,360,0.86,meaning
+딱,MAG,361,0.15,suddenly; perfectly
+말씀,NNG,362,0.54,speech (honorific)
+다니다,VV,363,0.77,to go around; attend
+어렵다,VA,364,0.92,to be difficult
+었었,EP,365,0.80,past-perfect suffix
+떨어지다,VV,366,0.85,to fall
+일어나다,VV,367,0.91,to get up
+자,EF,368,0.81,let's (propose)
+세상,NNG,369,0.91,world
+의하다,VV,370,0.84,to be according to
+그러면,MAJ,371,0.41,if so
+글,NNG,372,0.77,writing
+밖,NNG,373,0.89,outside
+교육,NNG,374,0.86,education
+맞다,VV,375,0.60,to be right
+옛날,NNG,376,0.44,old days
+열다,VV,377,0.87,to open
+밖에,JX,378,0.95,only; except
+모습,NNG,379,0.99,figure; appearance
+적,NNB,380,0.75,time when
+요,EC,381,0.58,and (connective)
+밥,NNG,382,0.51,meal; rice
+내다,VX,383,0.99,to accomplish (auxiliary)
+구서,EC,384,0.04,after; and
+대통령,NNG,385,0.66,president
+다르다,VA,386,0.93,to be different
+웃다,VV,387,0.74,to laugh; smile
+에,IC,388,0.14,huh? (surprise)
+입다,VV,389,0.77,to wear
+살,NNB,390,0.59,age (counter)
+불,NNG,391,0.72,fire; light
+지역,NNG,392,0.81,region; area
+엄마,NNG,393,0.72,mom
+넣다,VV,394,0.82,to put in
+중국,NNP,395,0.86,China
+남다,VV,396,0.91,to remain
+남,NNG,397,0.79,others
+북한,NNP,398,0.68,North Korea
+입,NNG,399,0.85,mouth
+딸,NNG,400,0.61,daughter
+이러하다,VA,401,0.77,to be like this
+둘,NR,402,0.60,two
+나타나다,VV,403,0.98,to appear
+내용,NNG,404,0.90,content
+려고,EC,405,0.94,in order to
+책,NNG,406,0.94,book
+로부터,JKB,407,0.96,from (origin)
+시대,NNG,408,0.89,period; era
+얻다,VV,409,0.91,to acquire; gain
+열,NR,410,0.52,ten
+시,NNG,411,0.82,poem; poetry
+해,NNG,412,0.70,sun; day
+생활,NNG,413,0.95,life; living
+니,NP,414,0.30,you (colloquial)
+문화,NNG,415,0.84,culture
+나무,NNG,416,0.70,tree
+학생,NNG,417,0.92,student
+기자,NNG,418,0.65,reporter
+억,NR,419,0.63,hundred million
+방법,NNG,420,0.92,method; way
+국민,NNG,421,0.81,citizen
+모양,NNG,422,0.86,shape; appearance
+중요하다,VA,423,0.88,to be important
+밝히다,VV,424,0.73,to lighten; reveal
+옷,NNG,425,0.71,clothes
+야,IC,426,0.23,hey
+얘기하다,VV,427,0.36,to talk; speak
+먼저,MAG,428,0.89,first; beforehand
+조사,NNG,429,0.71,survey; examination
+오르다,VV,430,0.88,to go up
+울다,VV,431,0.66,to cry
+가운데,NNG,432,0.92,middle
+놀다,VV,433,0.51,to play
+특히,MAG,434,0.89,particularly
+구나,EF,435,0.55,exclamation ending
+힘,NNG,436,0.97,power; energy
+예,NNG,437,0.72,example
+저녁,NNG,438,0.63,evening; dinner
+아무,MM,439,0.63,any; no
+운동,NNG,440,0.90,exercise
+차,NNG,441,0.82,car
+면,EC,442,0.15,if (colloquial)
+대학,NNG,443,0.92,university
+채,NNB,444,0.93,as it is; while
+땅,NNG,445,0.91,ground; soil
+분,NNB,446,0.84,person (honorific counter)
+팔다,VV,447,0.66,to sell
+지내다,VV,448,0.69,to live; get along
+이미,MAG,449,1.00,already
+국가,NNG,450,0.86,nation
+읽다,VV,451,0.92,to read
+조사자,NNG,452,0.01,examiner
+다면,EC,453,0.99,if (condition)
+니,EF,454,0.59,question ending
+밑,NNG,455,0.65,bottom
+물론,MAG,456,0.97,of course
+랑,JKB,457,0.25,with
+및,MAG,458,0.74,as well as; and
+꼭,MAG,459,0.69,surely; certainly
+의미,NNG,460,0.88,meaning
+나다,VX,461,0.79,to finish (auxiliary)
+드리다,VV,462,0.47,to give (humble)
+못하다,VA,463,0.70,to be poor/inferior
+요,EF,464,0.39,polite final ending
+일,NR,465,0.43,one
+끝,NNG,466,0.92,end
+얼마나,MAG,467,0.85,how much
+ㄴ다면,EC,468,0.98,if (condition)
+서로,MAG,469,0.86,each other
+듯,NNB,470,0.83,as if
+돌아가다,VV,471,0.83,to go back; return
+정치,NNG,472,0.87,politics
+새롭다,VA,473,0.92,to be new
+마다,JX,474,0.95,each; every
+부분,NNG,475,0.80,part
+높다,VA,476,0.91,to be high
+비,NNG,477,0.71,rain
+상황,NNG,478,0.91,situation
+하루,NNG,479,0.82,one day
+이러다,VV,480,0.32,to do so
+전화,NNG,481,0.86,phone
+떠나다,VV,482,0.94,to leave
+로써,JKB,483,0.89,with; by
+과정,NNG,484,0.87,process
+노래,NNG,485,0.75,song
+지,NNB,486,0.73,since
+오,NR,487,0.34,five
+사랑,NNG,488,0.93,love
+교수,NNG,489,0.85,professor
+자,IC,490,0.35,well
+옆,NNG,491,0.76,side; beside
+기업,NNG,492,0.74,enterprise
+께서,JKS,493,0.72,subject marker (honorific)
+넘다,VV,494,0.84,to go over; pass
+대,NNB,495,0.83,university (counter)
+거의,MAG,496,0.92,almost
+이유,NNG,497,0.97,reason
+역시,MAG,498,0.97,also; as well
+란,JX,499,0.94,as for
+올라가다,VV,500,0.63,to go up
+혼자,NNG,501,0.77,alone
+간,NNB,502,0.87,between
+올리다,VV,503,0.90,to raise
+아침,NNG,504,0.81,morning
+연구,NNG,505,0.84,research|study
+달,NNB,506,0.73,month (counter)
+이제,NNG,507,0.85,now
+시장,NNG,508,0.80,market
+남편,NNG,509,0.88,husband
+사건,NNG,510,0.93,incident|accident
+게,EF,511,0.45,final ending (command)
+정신,NNG,512,0.95,mind|spirit|consciousness
+기다리다,VV,513,0.88,to wait
+필요하다,VA,514,0.94,necessary|in need of
+해당하다,VV,515,0.28,to correspond to|be the same as
+회사,NNG,516,0.91,company
+얼마,NNG,517,0.81,how much|how many
+선생,NNG,518,0.80,teacher
+이,NNB,519,0.65,person (bound noun)
+끝나다,VV,520,0.90,to finish
+돌다,VV,521,0.67,to turn|circle around
+계속,MAG,522,0.77,continuously|always
+멀다,VA,523,0.69,far|remote
+당시,NNG,524,0.90,at that time
+영화,NNG,525,0.86,movie
+방언,NNG,526,0.07,dialect
+자식,NNG,527,0.66,children
+시키다,VV,528,0.65,to make|get (someone to do)
+쉽다,VA,529,0.96,easy
+작다,VA,530,0.95,small|short
+바,NNB,531,0.94,way|method
+대로,JX,532,0.88,like|as
+웃음,NNG,533,0.58,laughter
+결과,NNG,534,0.88,result
+을지,EC,535,0.97,whether|if
+의원,NNG,536,0.72,member of assembly
+또는,MAJ,537,0.85,or|otherwise
+이후,NNG,538,0.88,since|after that time
+돌아오다,VV,539,0.91,to come back|return
+떡,NNG,540,0.25,rice cake
+믿다,VV,541,0.95,to believe|trust
+정보,NNG,542,0.86,information
+고개,NNG,543,0.74,head
+죽이다,VV,544,0.70,to kill|slaughter
+상태,NNG,545,0.95,state|condition
+조선,NNP,546,0.90,Joseon dynasty
+곧,MAG,547,0.97,soon
+결국,NNG,548,0.93,finally|in the end
+또한,MAG,549,0.90,in addition|also
+나이,NNG,550,0.80,age
+하지만,MAJ,551,0.97,but|however
+마을,NNG,552,0.92,village
+으려,EC,553,0.95,connective (purpose)
+하늘,NNG,554,0.89,sky
+신,NNG,555,0.81,God|god
+ㄴ데,EC,556,0.45,connective (background)
+동네,NNG,557,0.59,town|neighborhood
+청중,NNG,558,0.12,audience
+형,NNG,559,0.75,elder brother
+나가다,VX,560,0.94,to progress|continue (aux)
+부인,NNG,561,0.71,wife
+안되다,VV,562,0.87,to turn out bad|to be sorry
+지방,NNG,563,0.87,province|region
+배우다,VV,564,0.80,to learn
+창,NNG,565,0.41,window
+발,NNG,566,0.82,foot
+나서다,VV,567,0.93,to come forward|start
+작품,NNG,568,0.88,work (artistic)
+마시다,VV,569,0.87,to drink
+즉,MAG,570,0.79,in other words
+세우다,VV,571,0.96,to establish|set up
+그대로,MAG,572,0.95,as it is
+대로,NNB,573,0.83,as|in accordance with
+할머니,NNG,574,0.63,grandmother
+배,NNB,575,0.70,boat|ship
+걸리다,VV,576,0.88,to take (time)|catch (cold)
+양반,NNG,577,0.45,noble|husband
+정책,NNG,578,0.77,policy
+진짜,NNG,579,0.33,real|authentic
+듯,EC,580,0.93,as if
+새,MM,581,0.87,new (adnominal)
+필요,NNG,582,0.95,need|necessity
+이르다,VV,583,0.96,to reach|arrive at
+부,NNG,584,0.82,department
+따라서,MAJ,585,0.87,thus|therefore
+역사,NNG,586,0.91,history
+라면,EC,587,0.97,if (condition)
+어다,EC,588,0.58,while|connective
+어리다,VA,589,0.84,young|immature
+려느냐,EC,590,0.99,intention (ending)
+고서,EC,591,0.59,and then (connective)
+그리다,VV,592,0.87,to draw|describe
+길다,VA,593,0.89,long
+여성,NNG,594,0.86,women
+가슴,NNG,595,0.89,mind|chest|heart
+면,NNG,596,0.86,face|side|aspect
+아래,NNG,597,0.94,below|under
+노인,NNG,598,0.78,old person
+굉장히,MAG,599,0.12,extremely|greatly
+대다,VV,600,0.71,to put|touch
+나누다,VV,601,0.95,to share|divide
+더욱,MAG,602,0.98,more
+아내,NNG,603,0.92,wife
+문학,NNG,604,0.81,literature
+군,NNG,605,0.95,military
+낳다,VV,606,0.72,to give birth to
+꿈,NNG,607,0.87,dream
+기술,NNG,608,0.84,technology|skill
+두다,VX,609,0.94,to finish|do (aux)
+삶,NNG,610,0.94,life
+듯하다,VX,611,0.94,to seem to (aux)
+공부,NNG,612,0.68,study
+자네,NP,613,0.61,you (familiar)
+목,NNG,614,0.73,throat
+그만,MAG,615,0.62,no longer|stopping
+젊다,VA,616,0.88,to be young
+그저,MAG,617,0.61,just|only
+걸다,VV,618,0.81,to hang|risk
+바라보다,VV,619,0.85,to look at
+바람,NNG,620,0.91,wind
+자체,NNG,621,0.91,itself
+이루어지다,VV,622,0.91,to be accomplished
+달다,VX,623,0.72,to give (aux)
+관하다,VV,624,0.92,to be related to
+오빠,NNG,625,0.47,elder brother (female speaker)
+므로,EC,626,0.90,therefore|so
+민족,NNG,627,0.87,people|ethnicity
+걷다,VV,628,0.84,to walk
+병,NNG,629,0.79,disease|illness
+데리다,VV,630,0.61,to take|bring (a person)
+좋아하다,VV,631,0.78,to like
+미,NNP,632,0.80,America|USA
+열리다,VV,633,0.88,to open|be opened
+언니,NNG,634,0.50,elder sister (female speaker)
+잠,NNG,635,0.76,sleep
+최근,NNG,636,0.68,recent|latest
+향하다,VV,637,0.94,to direct|be toward
+이,NR,638,0.37,two
+계획,NNG,639,0.82,plan
+얼,NNG,640,0.15,spirit
+과거,NNG,641,0.86,past
+잇다,VV,642,0.96,to connect|continue
+싫다,VA,643,0.65,to hate|dislike
+풀다,VV,644,0.83,to untie|relax
+식,NNB,645,0.70,ceremony (bound noun)
+각,MM,646,0.89,each (adnominal)
+버리다,VV,647,0.83,to throw away
+번째,NNB,648,0.84,counter (order)
+어쩌다,VV,649,0.75,to do what|how
+반,NNG,650,0.83,half
+어도,EC,651,0.17,even if
+관심,NNG,652,0.93,interest|concern
+달,NNG,653,0.75,moon
+돌리다,VV,654,0.88,to turn|spin
+대상,NNG,655,0.86,object|target
+아마,MAG,656,0.59,probably
+빨리,MAG,657,0.70,quickly|fast
+쪼다,VV,658,0.08,to peck
+사용하다,VV,659,0.89,to use
+당하다,VV,660,0.92,to suffer|undergo
+붙이다,VV,661,0.86,to stick|attach
+머,IC,662,0.07,well|gee
+요즘,NNG,663,0.74,these days
+저희,NP,664,0.35,we|our (humble)
+꽃,NNG,665,0.86,flower
+주인,NNG,666,0.82,owner
+언어,NNG,667,0.75,language
+입장,NNG,668,0.90,position|situation
+힘들다,VA,669,0.79,hard|tough|difficult
+활동,NNG,670,0.86,activity
+읍시다,EF,671,0.78,let's (formal)
+사진,NNG,672,0.83,photo
+더라도,EC,673,0.99,even though
+지키다,VV,674,0.96,to guard|defend|keep
+놀라다,VV,675,0.83,to be surprised
+바꾸다,VV,676,0.90,to change|exchange
+구조,NNG,677,0.84,structure
+부모,NNG,678,0.80,parents
+그리하다,VV,679,0.40,to do so
+끌다,VV,680,0.87,to pull|drag|attract
+목소리,NNG,681,0.86,voice
+변화,NNG,682,0.89,change
+든지,JX,683,0.72,either... or
+세,NNB,684,0.83,counter (age)
+당기다,VV,685,0.12,to catch fire|pull
+만큼,NNB,686,0.98,as much as
+아까,MAG,687,0.31,a while ago
+현재,MAG,688,0.76,present|current
+이상하다,VA,689,0.72,strange
+사업,NNG,690,0.82,business
+이래,NNB,691,0.46,since
+현실,NNG,692,0.92,reality
+이놈,NP,693,0.30,this guy (slang)
+붙다,VV,694,0.80,to attach|stick
+막다,VV,695,0.85,to block|keep from
+그러하다,VA,696,0.89,to be so|like that
+법,NNG,697,0.90,law
+표정,NNG,698,0.83,facial expression
+오히려,MAG,699,0.98,on the contrary
+바라다,VV,700,0.86,to wish|hope
+삼다,VV,701,0.88,to make|take|use
+자,NNG,702,0.78,letter|character
+환경,NNG,703,0.80,environment
+우선,MAG,704,0.94,first of all
+신문,NNG,705,0.94,newspaper
+귀,NNG,706,0.80,ear
+여러분,NP,707,0.50,you (plural, honorific)
+자꾸,MAG,708,0.43,repeatedly
+대,EF,709,0.26,final ending (report)
+자료,NNG,710,0.81,material|data
+아프다,VA,711,0.73,sick|ill
+군,EF,712,0.68,final ending (exclamation)
+나중,NNG,713,0.59,later
+이루다,VV,714,0.95,to accomplish
+모시다,VV,715,0.58,to attend|serve
+첫,MM,716,0.88,first (adnominal)
+잔,NNB,717,0.64,counter (cup)
+개혁,NNG,718,0.76,reform
+음악,NNG,719,0.91,music
+돌,NNG,720,0.66,stone|rock
+사장,NNG,721,0.89,president|owner
+들리다,VV,722,0.81,to be heard
+조금,MAG,723,0.80,a little|bit
+모으다,VV,724,0.91,to collect|save up
+갑자기,MAG,725,0.85,suddenly
+당,NNG,726,0.86,political party
+장관,NNG,727,0.72,minister
+그리,MAG,728,0.59,so|very
+빠지다,VV,729,0.93,to fall into
+괜찮다,VA,730,0.50,good|all right
+소,NNG,731,0.66,cow|bull
+전혀,MAG,732,0.95,not at all
+걔,NP,733,0.14,that kid
+전쟁,NNG,734,0.96,war|battle
+가족,NNG,735,0.97,family
+맞추다,VV,736,0.80,to match|check|set
+이십,NR,737,0.28,twenty
+사실,MAG,738,0.73,in fact
+강,NNG,739,0.74,river
+차,NNB,740,0.86,counter (order)|moment
+잘하다,VV,741,0.58,to do well
+깊다,VA,742,0.98,deep
+중심,NNG,743,0.88,center|middle
+바다,NNG,744,0.91,sea
+다구,EF,745,0.27,final ending (statement)
+더라,EF,746,0.41,final ending (retrospect)
+피,NNG,747,0.83,blood
+쌀,NNG,748,0.67,rice
+빼다,VV,749,0.66,to subtract|count out
+듯이,EC,750,0.95,as if
+마지막,NNG,751,0.93,last|final
+같이,JX,752,0.83,like (particle)
+소설,NNG,753,0.89,novel
+내려오다,VV,754,0.71,to come down
+다리,NNG,755,0.77,leg
+눈물,NNG,756,0.85,tear
+내일,NNG,757,0.66,tomorrow
+제도,NNG,758,0.85,institution|system
+그림,NNG,759,0.95,picture|drawing
+호,NNB,760,0.88,counter (room/house)
+대표,NNG,761,0.64,representative
+영감,NNG,762,0.44,old man
+일단,MAG,763,0.75,first|once
+가능하다,VA,764,0.92,possible
+따다,VV,765,0.65,to pick|win
+담배,NNG,766,0.80,cigarette
+죄,NNG,767,0.72,sin|crime
+만하다,VX,768,0.99,worth|be worthy of (aux)
+든,EC,769,0.72,either... or
+대부분,NNG,770,0.92,most|almost
+어른,NNG,771,0.76,adult
+벌써,MAG,772,0.79,already
+전하다,VV,773,0.96,to deliver|send
+지다,VV,774,0.72,to carry (on shoulder)
+다섯,NR,775,0.68,five
+손님,NNG,776,0.73,guest|customer
+집안,NNG,777,0.85,family|home
+발전,NNG,778,0.84,development
+아무리,MAG,779,0.90,no matter how
+우리나라,NNG,780,0.85,our country
+기분,NNG,781,0.85,mood|feeling
+의식,NNG,782,0.92,consciousness
+거든,EC,783,0.28,connective (background)
+저기,NP,784,0.29,there|that place
+뿐,JX,785,1.00,only|just
+느낌,NNG,786,0.94,feeling|sense
+회장,NNG,787,0.79,president|chair
+팔,NNG,788,0.70,arm
+순간,NNG,789,0.93,moment|instant
+전체,NNG,790,0.91,whole|entirety
+맡다,VV,791,0.91,to take care of
+모이다,VV,792,0.90,to get together
+계시다,VV,793,0.53,to exist (honorific)
+어서,MAG,794,0.51,quickly|promptly
+선,NNG,795,0.86,line
+일부,NNG,796,0.83,some|part
+든,JX,797,0.90,or
+가만히,MAG,798,0.50,still|motionlessly
+를,JKO,799,0.65,object marker (focus)
+인물,NNG,800,0.96,person|character
+참,IC,801,0.31,oh
+사,NR,802,0.28,four
+네,MM,803,0.71,four (adnominal)
+흐르다,VV,804,0.94,to flow|run
+거리,NNG,805,0.88,street
+내,NNB,806,0.90,within
+배,NNG,807,0.68,stomach|belly
+눕다,VV,808,0.74,to lie down
+동생,NNG,809,0.70,younger sibling
+에다가,JX,810,0.24,onto|at
+성,NNG,811,0.84,sex|gender
+선거,NNG,812,0.74,election
+작업,NNG,813,0.91,work|job
+만,NNB,814,0.86,interval time
+단계,NNG,815,0.84,step|stage
+국제,NNG,816,0.75,international
+곤,EC,817,0.90,used to (connective)
+맞다,VV,818,0.91,to meet|greet
+국내,NNG,819,0.65,domestic
+걱정,NNG,820,0.75,worry
+회의,NNG,821,0.83,meeting|conference
+가르치다,VV,822,0.82,to teach
+가능성,NNG,823,0.83,possibility
+원래,MAG,824,0.66,originally
+리,NNB,825,0.81,reason|logic
+기관,NNG,826,0.82,organization
+새끼,NNG,827,0.63,young animal|bastard
+년대,NNB,828,0.84,counter (years/decade)
+대신,NNG,829,0.97,instead
+병원,NNG,830,0.91,hospital
+관련,NNG,831,0.70,relation|relevance
+현상,NNG,832,0.86,phenomenon
+니까,EC,833,0.05,as|because
+들어서다,VV,834,0.93,to enter
+이해하다,VV,835,0.97,to understand
+대화,NNG,836,0.83,conversation
+성격,NNG,837,0.90,personality|character
+개발,NNG,838,0.73,development
+단체,NNG,839,0.82,organization
+측,NNB,840,0.76,side|party
+과,NNB,841,0.78,department|lesson
+통일,NNG,842,0.87,unification
+적다,VA,843,0.93,few
+역할,NNG,844,0.89,role
+사내,NNG,845,0.63,man
+춤,NNG,846,0.63,dance
+산업,NNG,847,0.80,industry
+찍다,VV,848,0.72,to take (photo)
+무섭다,VA,849,0.75,scary|frightening
+그날,NNG,850,0.80,that day
+잠시,MAG,851,0.84,for a minute
+나쁘다,VA,852,0.81,bad
+잃다,VV,853,0.97,to lose
+능력,NNG,854,0.91,ability
+차이,NNG,855,0.88,difference
+체제,NNG,856,0.83,system
+살리다,VV,857,0.74,to save|spare
+학년,NNB,858,0.81,school year
+직접,MAG,859,0.94,directly|in person
+기능,NNG,860,0.83,function
+형태,NNG,861,0.84,shape|form
+장,NNB,862,0.86,counter (paper)
+이용하다,VV,863,0.90,to use
+매우,MAG,864,0.93,very|really
+코,NNG,865,0.79,nose
+제일,MAG,866,0.58,most|first
+늘,MAG,867,0.88,always
+짜다,VV,868,0.49,to make|set up
+니,EC,869,0.72,and|or|so on
+별로,MAG,870,0.76,not particularly
+방향,NNG,871,0.93,direction
+않다,VX,872,0.79,do not (aux)
+벗다,VV,873,0.71,to take off
+영향,NNG,874,0.86,influence|impact
+불다,VV,875,0.70,to blow
+행동,NNG,876,0.96,behavior|act
+육,NR,877,0.25,six
+벌다,VV,878,0.67,to make|earn
+분위기,NNG,879,0.93,atmosphere
+시민,NNG,880,0.87,citizen
+꺼내다,VV,881,0.79,to take out
+가깝다,VA,882,0.97,close
+어찌,MAG,883,0.77,how|what
+마리,NNB,884,0.80,counter (animal)
+컴퓨터,NNG,885,0.85,computer
+옮기다,VV,886,0.99,to move
+칼,NNG,887,0.69,knife|sword
+과학,NNG,888,0.83,science
+제대로,MAG,889,0.95,properly|right
+항상,MAG,890,0.81,always
+도시,NNG,891,0.95,city
+마찬가지,NNG,892,0.98,same
+논,NNG,893,0.46,rice paddy
+담다,VV,894,0.90,to contain|put in
+금,NNG,895,0.72,gold
+세기,NNG,896,0.82,century
+국회,NNG,897,0.73,congress
+경찰,NNG,898,0.89,police
+질,NNG,899,0.52,quality
+수준,NNG,900,0.83,level|standard
+짓,NNG,901,0.74,behavior|act
+편지,NNG,902,0.87,letter
+잖아,EF,903,0.28,final ending (emphasis)
+수,NNG,904,0.93,number
+방식,NNG,905,0.86,way|method
+음식,NNG,906,0.89,food
+들이대다,VV,907,0.77,to spend|let in
+아름답다,VA,908,0.98,beautiful
+래,EF,909,0.25,final ending (quotation)
+절,NNG,910,0.52,Buddhist temple
+행위,NNG,911,0.89,behavior
+삼십,NR,912,0.32,thirty
+개인,NNG,913,0.89,individual|private
+조금,NNG,914,0.95,little|some
+뜨다,VV,915,0.72,to open (eyes)
+네,NP,916,0.71,your (possessive)
+약,NNG,917,0.70,medicine
+전부,MAG,918,0.29,entirely|all
+주장하다,VV,919,0.83,to argue|claim
+동,NNG,920,0.77,district|town
+잊다,VV,921,0.89,to forget
+쉬다,VV,922,0.76,to rest|relax
+구하다,VV,923,0.86,to seek|search for
+대회,NNG,924,0.63,competition|rally
+사랑하다,VV,925,0.95,to love
+던지다,VV,926,0.92,to throw
+시기,NNG,927,0.87,time|period
+마치,MAG,928,0.96,like|as if
+지나가다,VV,929,0.82,to pass by
+자면,EC,930,0.82,connective (condition)
+저,IC,931,0.19,well|um
+은행,NNG,932,0.72,bank
+금융,NNG,933,0.59,finance|banking
+혹은,MAG,934,0.88,or
+심하다,VA,935,0.93,heavy|severe
+표현,NNG,936,0.86,expression
+애기,NNG,937,0.24,baby
+다가,JX,938,0.41,at|on
+대다,VX,939,0.83,do a lot (aux)
+기,NNG,940,0.71,spirit|energy
+시절,NNG,941,0.97,days|years
+정하다,VV,942,0.90,to decide
+오래,MAG,943,0.84,long|for a long time
+아야지,EF,944,0.50,final ending (should)
+싸다,VV,945,0.51,to wrap
+아저씨,NNG,946,0.70,middle-aged man|uncle
+최고,NNG,947,0.81,best|top
+일으키다,VV,948,1.00,to raise|trigger
+자유,NNG,949,0.93,freedom
+자연,NNG,950,0.88,nature
+얘,NP,951,0.24,this kid
+늦다,VA,952,0.83,late
+상,NNG,953,0.80,award|prize
+만약,NNG,954,0.79,if|in case
+알려지다,VV,955,0.79,to be known
+칠,NR,956,0.32,seven
+일하다,VV,957,0.93,to work
+내려가다,VV,958,0.77,to go down
+때리다,VV,959,0.58,to hit|smack
+시험,NNG,960,0.77,exam|test
+조직,NNG,961,0.92,organization
+가치,NNG,962,0.88,value
+값,NNG,963,0.89,price
+오후,NNG,964,0.77,afternoon
+방송,NNG,965,0.83,broadcasting
+키,NNG,966,0.76,height
+변하다,VV,967,0.96,to change
+결혼,NNG,968,0.91,marriage
+맛,NNG,969,0.87,taste
+설명하다,VV,970,0.95,to explain
+차다,VV,971,0.86,to be full
+장사,NNG,972,0.51,business
+기회,NNG,973,0.96,opportunity
+모두,NNG,974,0.99,all|everyone
+할아버지,NNG,975,0.77,grandfather
+배,NNB,976,0.87,double|counter (times)
+듯이,NNB,977,0.81,like|as
+팀,NNG,978,0.60,team
+동시,NNG,979,0.96,same time
+물건,NNG,980,0.89,thing|item
+분야,NNG,981,0.82,field|area
+개념,NNG,982,0.79,concept
+차례,NNG,983,0.94,turn|order
+비하다,VV,984,0.92,to compare
+어찌하다,VV,985,0.67,to do how
+ㄴ데요,EF,986,0.40,final ending (polite)
+개,NNG,987,0.69,dog
+구체적,NNG,988,0.89,concrete|specific
+이날,NNG,989,0.40,this day|today
+집단,NNG,990,0.87,group
+떨다,VV,991,0.78,to shake|tremble
+언제,MAG,992,0.72,when
+지니다,VV,993,0.88,to have|possess
+비다,VV,994,0.84,empty|vacant
+고기,NNG,995,0.67,meat
+회,NNB,996,0.76,counter (times)
+책임,NNG,997,0.93,responsibility
+고향,NNG,998,0.96,hometown
+가정,NNG,999,0.92,family|home
+피하다,VV,1000,0.96,to avoid
+고자,EC,1001,0.89,connective|purpose
+비슷하다,VA,1002,0.90,similar to
+이때,NNG,1003,0.86,that time|just now
+고맙다,VA,1004,0.70,be thankful|be grateful
+외국,NNG,1005,0.86,foreign country
+효과,NNG,1006,0.86,effect|effectiveness
+주,NNB,1007,0.74,counter (stock)
+외,NNB,1008,0.93,outside|besides
+작가,NNG,1009,0.90,writer
+넘어가다,VV,1010,0.65,cross|pass
+안다,VV,1011,0.85,hug|embrace
+약,MM,1012,0.90,about|approximately
+상당히,MAG,1013,0.59,considerably|fairly|quite
+여기다,VV,1014,0.99,consider
+움직이다,VV,1015,0.97,move
+장군,NNG,1016,0.68,general
+환자,NNG,1017,0.94,patient
+하고,JK,1018,0.19,with|comitative
+한참,NNG,1019,0.73,good while|for a long time
+위원회,NNG,1020,0.78,committee
+보통,NNG,1021,0.81,usual|average|ordinary
+벌이다,VV,1022,0.83,start|set up|arrange
+새,NNG,1023,0.74,bird
+태도,NNG,1024,0.99,attitude
+드리다,VV,1025,0.57,give|offer
+리라,EF,1026,0.92,final|promise
+추다,VV,1027,0.52,dance
+죽음,NNG,1028,0.97,death
+짐,NNG,1029,0.63,baggage|burden
+투자,NNG,1030,0.64,investment
+기간,NNG,1031,0.84,period
+점,NNB,1032,0.79,point|fact
+아이구,IC,1033,0.22,oh|my goodness|gosh
+지다,VV,1034,0.56,become|get
+아무,NP,1035,0.83,anyone|no one
+형제,NNG,1036,0.67,brother|sibling
+아파트,NNG,1037,0.89,apartment
+주로,MAG,1038,0.88,mainly
+영어,NNG,1039,0.83,English (language)
+전,MM,1040,0.67,former|ex-
+목적,NNG,1041,0.91,purpose
+아빠,NNG,1042,0.73,dad
+노력,NNG,1043,0.91,efforts
+의견,NNG,1044,0.91,opinion
+이리,MAG,1045,0.39,in this way|like this
+생명,NNG,1046,0.95,life
+ㅂ시오,EF,1047,0.79,final|command
+빠르다,VA,1048,0.95,fast
+말씀하다,VV,1049,0.53,speak (honorific)
+그놈,NP,1050,0.38,that fellow
+검찰,NNG,1051,0.55,prosecution
+스스로,MAG,1052,0.99,for oneself|by oneself
+며칠,NNG,1053,0.83,a few days|how many days
+지르다,VV,1054,0.77,yell|shout
+쳐다보다,VV,1055,0.73,stare at|look at
+내놓다,VV,1056,0.86,put out|bring out|present
+기억,NNG,1057,0.90,memory
+완전히,MAG,1058,0.91,completely|totally
+예술,NNG,1059,0.86,art
+묵다,VV,1060,0.37,stay
+형사,NNG,1061,0.80,police officer|detective
+조차,JX,1062,0.99,even
+몰다,VV,1063,0.71,drive|steer|navigate
+라,JK,1064,0.78,that|complementizer
+으,IC,1065,0.14,oh|ah
+호랑이,NNG,1066,0.50,tiger
+도움,NNG,1067,0.92,help
+사라지다,VV,1068,0.98,disappear
+달다,VV,1069,0.73,hang|put up
+이전,NNG,1070,0.86,before|previous
+훨씬,MAG,1071,0.97,much
+차리다,VV,1072,0.78,set|prepare
+의사,NNG,1073,0.95,doctor
+재산,NNG,1074,0.87,asset|wealth
+주장,NNG,1075,0.89,argument|claim
+고치다,VV,1076,0.80,fix|repair|mend
+뽑다,VV,1077,0.82,pull out|pick|select
+우,EF,1078,0.43,final|question
+그리고,MAJ,1079,0.10,and
+밭,NNG,1080,0.64,field|farm
+사상,NNG,1081,0.82,ideology
+약간,MAG,1082,0.73,little|somewhat
+과연,MAG,1083,0.90,indeed|sure enough
+짝,NNG,1084,0.61,partner|pair
+뛰다,VV,1085,0.74,run
+조건,NNG,1086,0.92,condition|terms|qualification
+요,MM,1087,0.28,this
+스님,NNG,1088,0.97,Buddhist monk
+굿,NNG,1089,0.45,gut
+가리키다,VV,1090,0.78,point
+감정,NNG,1091,0.97,emotion|feeling
+골,NNG,1092,0.70,goal (in sports)
+팔,NR,1093,0.25,eight
+인생,NNG,1094,0.94,life
+준비,NNG,1095,0.92,preparation
+존재,NNG,1096,0.89,existence
+올해,NNG,1097,0.63,this year
+마련하다,VV,1098,0.90,prepare for
+달러,NNB,1099,0.58,dollar
+바뀌다,VV,1100,0.93,change|turn into
+마당,NNG,1101,0.77,yard
+싸우다,VV,1102,0.86,fight
+자금,NNG,1103,0.67,fund
+초,NNB,1104,0.84,beginning (of)
+다만,MAG,1105,0.99,only|just|simply
+회담,NNG,1106,0.61,talk|meeting|conference
+지난해,NNG,1107,0.34,last year
+남,NNG,1108,0.37,male
+일반,NNG,1109,0.86,general
+뭐,NP,1110,0.21,what
+옳다,VA,1111,0.85,right|proper
+관리,NNG,1112,0.79,management
+공장,NNG,1113,0.96,factory
+지원,NNG,1114,0.75,support
+질문,NNG,1115,0.92,question
+이론,NNG,1116,0.78,theory
+줄,NNG,1117,0.80,string|rope|line
+개월,NNB,1118,0.84,counter (month)
+신경,NNG,1119,0.94,nerve|thought|mind
+너희,NP,1120,0.78,you
+보다,MAG,1121,0.93,more|than|to
+처녀,NNG,1122,0.65,single woman|virgin
+인하다,VV,1123,0.93,be caused by|arise
+려면,EC,1124,0.97,connective|in order to
+교회,NNG,1125,0.85,church
+요새,NNG,1126,0.34,recently|lately
+숨,NNG,1127,0.88,breath|respiration
+대,NNB,1128,0.86,counter (car, computer)
+핵,NNG,1129,0.66,nuclear|nucleus
+늙다,VV,1130,0.73,get old|age
+층,NNB,1131,0.97,counter (floor)
+든가,EC,1132,0.59,either...or...
+강조하다,VV,1133,0.86,emphasize|highlight
+기준,NNG,1134,0.81,standard|criterion
+시작되다,VV,1135,0.98,start|begin
+ㄹ수록,EC,1136,1.00,connective|the more/less
+다양하다,VA,1137,0.83,diverse
+일곱,NR,1138,0.51,seven
+경험,NNG,1139,0.94,experience
+교사,NNG,1140,0.89,teacher|instructor
+언론,NNG,1141,0.82,press|media
+사회적,NNG,1142,0.81,social|societal
+봄,NNG,1143,0.91,spring
+나타내다,VV,1144,0.85,appear|show
+주변,NNG,1145,0.95,surroundings|periphery
+셈,NNB,1146,0.99,calculation|sum|same
+낮다,VA,1147,0.97,low
+만큼,JX,1148,0.91,as much as|like
+정치적,NNG,1149,0.86,political
+원하다,VV,1150,0.95,desire|wish
+참다,VV,1151,0.86,suppress|retain (oneself)
+이해,NNG,1152,0.87,understanding
+부리다,VV,1153,0.77,show|make
+주제,NNG,1154,0.88,topic|thesis|theme
+강하다,VA,1155,0.96,strong|firm
+진짜,MAG,1156,0.07,really|genuinely
+여인,NNG,1157,0.92,woman
+돕다,VV,1158,0.90,help
+아이고,IC,1159,0.27,oh my goodness|gosh
+요구하다,VV,1160,0.89,require|request
+대답,NNG,1161,0.85,answer|reply
+아기,NNG,1162,0.92,baby
+자는,EC,1163,0.97,relative|propose
+세력,NNG,1164,0.89,power|strength
+빠지다,VV,1165,0.84,fall out|deflate|drain
+감독,NNG,1166,0.68,director
+오십,NR,1167,0.30,fifty
+올라오다,VV,1168,0.69,come up
+이곳,NP,1169,0.99,this place|here
+청년,NNG,1170,0.93,young man|young people
+러시아,NNG,1171,0.79,Russia
+프로그램,NNG,1172,0.83,program
+박사,NNG,1173,0.93,PhD|expert
+대문,NNG,1174,0.60,gate
+주,NNG,1175,0.62,state|province
+남기다,VV,1176,1.00,leave|save|set aside
+평가,NNG,1177,0.78,evaluation
+업체,NNG,1178,0.44,business|company
+열심히,MAG,1179,0.82,hard|diligently
+후보,NNG,1180,0.50,candidate
+섬,NNG,1181,0.87,island
+여름,NNG,1182,0.94,summer
+뜨다,VV,1183,0.70,float
+생산,NNG,1184,0.79,production
+구,NR,1185,0.21,nine
+공부하다,VV,1186,0.73,study
+설명,NNG,1187,0.89,explanation
+반드시,MAG,1188,0.95,surely|certainly
+전국,NNG,1189,0.73,whole country
+어린이,NNG,1190,0.75,children
+차원,NNG,1191,0.86,level|dimension
+공동,NNG,1192,0.78,joint|communal
+받아들이다,VV,1193,0.98,take|accept|receive
+찾아가다,VV,1194,0.89,visit|go
+노동,NNG,1195,0.87,labor
+사고,NNG,1196,0.88,accident
+끊다,VV,1197,0.76,disconnect|hang up
+부자,NNG,1198,0.53,rich
+공간,NNG,1199,0.93,space
+편,NNB,1200,0.92,side
+빛,NNG,1201,0.97,light
+터지다,VV,1202,0.90,explode
+떼다,VV,1203,0.86,detach
+아이,IC,1204,0.17,oh|ah|oh my
+자동차,NNG,1205,0.91,car|automobile
+냥,NNB,1206,0.25,counter (money in old times)
+확인하다,VV,1207,0.98,confirm
+키우다,VV,1208,0.84,raise|bring up|grow
+드러나다,VV,1209,0.97,reveal|appear
+분명하다,VA,1210,1.00,clear|obvious
+반대,NNG,1211,0.93,opposition
+자주,MAG,1212,0.96,frequently|often
+현재,NNG,1213,0.89,current time|present|now
+벽,NNG,1214,0.94,wall|barrier
+라고,EF,1215,0.43,final|command
+뭣,NP,1216,0.43,what
+태어나다,VV,1217,0.98,be born
+벗어나다,VV,1218,0.99,get out of|deviate
+종,NNG,1219,0.91,species|kind
+매,NNG,1220,0.53,rod|lash
+밝다,VA,1221,0.91,bright|light|dawn
+겪다,VV,1222,0.96,experience
+이기다,VV,1223,0.91,win
+새로,MAG,1224,0.90,newly
+거치다,VV,1225,0.93,go through|pass
+한편,MAG,1226,0.78,meanwhile
+잠깐,MAG,1227,0.63,for a moment|briefly
+장,NNB,1228,0.83,chapter|counter (chapter)
+위원,NNG,1229,0.76,member (of a committee)
+갖추다,VV,1230,0.93,have|be equipped with
+틀리다,VV,1231,0.64,be wrong|incorrect
+넓다,VA,1232,0.94,broad|spacious
+서,JK,1233,0.67,subject marker
+녀석,NNB,1234,0.77,guy|fellow
+계속하다,VV,1235,0.93,continue|keep (on)
+쥐다,VV,1236,0.79,hold|clench|grasp
+주민,NNG,1237,0.86,resident
+겨울,NNG,1238,0.97,winter
+딴,MM,1239,0.45,another|irrelevant
+여섯,NR,1240,0.60,six
+언제,NP,1241,0.85,when
+펴다,VV,1242,0.94,unfold|straighten|press out
+쌓다,VV,1243,0.81,pile up|stack up|build
+영국,NNG,1244,0.87,Britain
+독일,NNG,1245,0.83,Germany
+달리다,VV,1246,0.93,run|race
+양,NNG,1247,0.88,quantity|amount|volume
+알리다,VV,1248,0.98,inform|notify|report
+수업,NNG,1249,0.68,class|lesson
+자고,EC,1250,0.83,connective
+사태,NNG,1251,0.85,situation|state of affairs
+석,MM,1252,0.46,three
+흔들다,VV,1253,0.81,shake
+마치다,VV,1254,0.94,finish
+대답하다,VV,1255,0.89,answer
+냄새,NNG,1256,0.89,smell
+둘째,NR,1257,0.88,second
+원인,NNG,1258,0.92,reason
+걸치다,VV,1259,0.99,wear|put on|cover
+광고,NNG,1260,0.87,advertisement
+자라다,VV,1261,0.93,grow (up)|be raised
+거,NP,1262,0.18,thing
+오늘날,NNG,1263,0.82,today|present
+든지,EC,1264,0.58,whether ... or ...
+인사,NNG,1265,0.82,greeting|salutation
+어깨,NNG,1266,0.85,shoulder
+형님,NNG,1267,0.62,elder brother
+정권,NNG,1268,0.87,regime|administration
+사정,NNG,1269,0.97,circumstances|reason
+낮,NNG,1270,0.74,day|daytime
+찾아오다,VV,1271,0.92,visit|drop by
+저거,NP,1272,0.09,that|that thing
+중간,NNG,1273,0.79,middle|center
+프랑스,NNG,1274,0.82,France
+여전히,MAG,1275,0.98,still
+다루다,VV,1276,0.93,deal with|handle|treat
+분명히,MAG,1277,0.89,clearly|distinctly
+법,NNB,1278,0.93,way|law
+달리,MAG,1279,0.98,in any other way|differently
+별,MM,1280,0.76,different|unusual
+수사,NNG,1281,0.71,investigation
+실제로,MAG,1282,0.91,really|actually
+아다가,EC,1283,0.43,connective
+위,NNB,1284,0.72,ranking
+놓이다,VV,1285,0.95,be placed at|relaxed
+한번,NNG,1286,0.68,once|one time
+가격,NNG,1287,0.72,price
+새벽,NNG,1288,0.92,dawn|daybreak
+피다,VV,1289,0.76,bloom|blossom
+결정,NNG,1290,0.89,decision
+현,MM,1291,0.87,present|current
+매다,VV,1292,0.54,tie|tighten
+낫다,VA,1293,0.76,better|superior to
+부산,NNG,1294,0.82,Busan
+그동안,NNG,1295,0.86,meanwhile|in the meantime
+백만,NR,1296,0.77,million
+허리,NNG,1297,0.82,waist
+흔히,MAG,1298,0.84,commonly|frequently
+집다,VV,1299,0.59,pick up
+쓰이다,VV,1300,0.86,be used|serve as
+끼다,VV,1301,0.71,insert (in/between)|wear
+유럽,NNG,1302,0.82,Europe
+당장,NNG,1303,0.89,right now|right away
+선수,NNG,1304,0.74,player|athlete
+여,NNG,1305,0.46,female|womankind
+건물,NNG,1306,0.99,building
+짧다,VA,1307,0.94,short
+살,NNG,1308,0.66,flesh|skin
+증인,NNG,1309,0.34,witness
+마누라,NNG,1310,0.44,wife
+점점,MAG,1311,0.89,gradually|by degree
+잘못,MAG,1312,0.72,wrong|mistakenly
+중앙,NNG,1313,0.88,center|middle
+바쁘다,VA,1314,0.85,busy
+똑같다,VA,1315,0.73,same|identical
+전통,NNG,1316,0.85,tradition
+화,NNG,1317,0.84,anger
+경기,NNG,1318,0.62,game|match|event
+미리,MAG,1319,0.90,in advance
+건설,NNG,1320,0.76,construction
+규모,NNG,1321,0.75,size
+냐면,EC,1322,0.08,connective
+위기,NNG,1323,0.81,crisis
+발표하다,VV,1324,0.77,announce|present
+그룹,NNG,1325,0.78,group
+인식,NNG,1326,0.87,awareness|realization
+알아보다,VV,1327,0.95,investigate|search|recognize
+시설,NNG,1328,0.76,facility
+차지하다,VV,1329,0.91,occupy|take possession|win
+얼른,MAG,1330,0.66,quickly
+소식,NNG,1331,0.96,news
+덕,NNG,1332,0.70,virtue
+각각,MAG,1333,0.84,each
+지식,NNG,1334,0.86,knowledge
+혹시,MAG,1335,0.73,by any chance
+재미있다,VA,1336,0.79,amusing|interesting
+남북,NNG,1337,0.75,south and north
+혁명,NNG,1338,0.87,revolution
+앞서다,VV,1339,0.93,get ahead|outpace
+고만,MAG,1340,0.15,that much|to that extent
+상대,NNG,1341,0.96,facing|opponent|company
+글쎄,IC,1342,0.54,well
+형식,NNG,1343,0.90,form|formality|convention
+대책,NNG,1344,0.73,measure|countermeasure
+결코,MAG,1345,0.98,never
+미치다,VV,1346,0.72,go crazy|out of one's mind
+권,NNB,1347,0.93,counter (book)
+현장,NNG,1348,0.93,site|scene|actual place
+언제나,MAG,1349,0.96,always
+누르다,VV,1350,0.85,press|push
+아부지,NNG,1351,0.26,father (colloquial)
+조,NR,1352,0.79,trillion
+목표,NNG,1353,0.89,goal
+흘리다,VV,1354,0.93,spill|shed
+맨,MM,1355,0.66,top|very
+출신,NNG,1356,0.86,of ...|coming from ...
+떠오르다,VV,1357,0.93,occur|think of
+위원장,NNG,1358,0.69,chairperson
+종이,NNG,1359,0.82,paper
+며느리,NNG,1360,0.58,daughter-in-law
+멈추다,VV,1361,0.86,stop|cease
+귀신,NNG,1362,0.58,ghost
+멀리,MAG,1363,0.90,far (away)
+단,MM,1364,0.94,only
+꼴,NNG,1365,0.83,look|appearance|sight
+불구하고,VV,1366,0.96,disregard|be not deterred
+버스,NNG,1367,0.95,bus
+권력,NNG,1368,0.89,power|authority
+나머지,NNG,1369,0.95,rest|remainder
+에이,IC,1370,0.22,eh|what
+자세,NNG,1371,0.98,posture|attitude
+심다,VV,1372,0.82,plant
+도로,NNG,1373,0.88,road
+희다,VA,1374,0.88,white|fair
+다고,EF,1375,0.43,emphasis
+이어지다,VV,1376,0.96,be connected|continue
+살펴보다,VV,1377,0.93,examine|look into
+노동자,NNG,1378,0.94,worker|laborer
+주위,NNG,1379,0.96,surrounding
+방안,NNG,1380,0.73,way|measure|plan
+부부,NNG,1381,0.95,couple|husband and wife
+일어서다,VV,1382,0.75,stand up
+해,NNB,1383,0.84,counter (year)
+피우다,VV,1384,0.89,bloom|burn|smoke
+말,NNB,1385,0.80,end (of)
+미안하다,VA,1386,0.72,sorry
+북,NNG,1387,0.75,north
+신랑,NNG,1388,0.50,bridegroom
+분석,NNG,1389,0.83,analysis
+넘기다,VV,1390,0.93,pass over|flip
+알,NNG,1391,0.70,egg|spawn
+쏘다,VV,1392,0.73,shoot|fire
+바위,NNG,1393,0.78,rock
+기록,NNG,1394,0.89,record
+쫓다,VV,1395,0.56,chase|run after
+가져오다,VV,1396,0.92,bring
+그곳,NP,1397,0.91,there|that place
+눈치,NNG,1398,0.85,sense|notice
+실제,NNG,1399,0.89,truth|practical
+닦다,VV,1400,0.86,clean|wash|wipe
+미치다,VV,1401,0.96,reach
+하나님,NNG,1402,0.72,God
+작년,NNG,1403,0.75,last year
+그릇,NNG,1404,0.75,dish|bowl|container
+치료,NNG,1405,0.86,treatment|remedy
+기사,NNG,1406,0.97,article|news report
+세월,NNG,1407,0.88,time
+자손,NNG,1408,0.35,descendant|offspring
+취하다,VV,1409,0.98,select|take
+따로,MAG,1410,0.87,separately
+식구,NNG,1411,0.79,family member
+싣다,VV,1412,0.85,load|take
+기르다,VV,1413,0.88,raise|cultivate|breed
+준비하다,VV,1414,0.90,prepare|be ready
+시선,NNG,1415,0.89,eyes|gaze
+따지다,VV,1416,0.96,argue|discuss|calculate
+비롯하다,VV,1417,0.88,originate|including ...
+협상,NNG,1418,0.66,negotiation
+던지다,EC,1419,0.52,connective
+살피다,VV,1420,0.94,check|examine
+행사,NNG,1421,0.79,event
+꺼,NNB,1422,0.22,thing
+제품,NNG,1423,0.72,product|goods
+시인,NNG,1424,0.93,poet
+무대,NNG,1425,0.89,stage
+아홉,NR,1426,0.50,nine
+행정,NNG,1427,0.82,administration
+물다,VV,1428,0.76,bite|nip
+잡히다,VV,1429,0.92,be caught|be grabbed
+지만은,EC,1430,0.28,but|however
+경영,NNG,1431,0.76,management
+셋,NR,1432,0.60,three
+씻다,VV,1433,0.82,wash|cleanse
+오,IC,1434,0.42,oh|wow
+지구,NNG,1435,0.92,earth
+저것,NP,1436,0.46,that|that thing
+맞다,VV,1437,0.77,be hit|be struck
+인정하다,VV,1438,0.95,admit|acknowledge
+상품,NNG,1439,0.81,product|merchandise
+발견하다,VV,1440,0.99,discover|find|detect
+달다,VV,1441,0.46,give
+측면,NNG,1442,0.84,side|aspect
+댁,NNG,1443,0.61,residence|house
+평,NNB,1444,0.83,counter (size of land)
+다니,EF,1445,0.83,exclamation
+약속,NNG,1446,0.94,promise
+띠다,VV,1447,0.88,be charged with
+통신,NNG,1448,0.64,communication
+예전,NNG,1449,0.66,before
+나름,NNB,1450,0.87,one's own|depending on
+백성,NNG,1451,0.89,subjects|people
+해방,NNG,1452,0.93,liberation|emancipation
+인터넷,NNG,1453,0.60,Internet
+직원,NNG,1454,0.87,employee|staff
+마디,NNG,1455,0.78,joint|knuckle|counter (word)
+어둡다,VA,1456,0.91,dark
+맺다,VV,1457,0.94,bear|form
+선배,NNG,1458,0.74,senior
+전문,NNG,1459,0.79,specialty
+편하다,VA,1460,0.74,comfortable|easy
+갚다,VV,1461,0.61,pay back|repay
+노릇,NNG,1462,0.84,part|role|situation
+반응,NNG,1463,0.95,reaction
+이야기하다,VV,1464,0.92,speak|talk
+고통,NNG,1465,1.00,pain
+저렇다,VA,1466,0.55,be like that
+기본,NNG,1467,0.86,basics|fundamentals
+예정,NNG,1468,0.57,schedule|plan
+달라지다,VV,1469,0.95,change|alter
+소문,NNG,1470,0.90,rumor
+읍,NNG,1471,0.52,town
+어떠하다,VA,1472,0.89,be how
+농사,NNG,1473,0.72,farming
+싸움,NNG,1474,0.97,fight|quarrel
+즐기다,VV,1475,0.98,enjoy
+단어,NNG,1476,0.73,vocabulary|word
+군대,NNG,1477,0.85,military
+밀다,VV,1478,0.82,push|shove
+현대,NNG,1479,0.85,modern
+계시다,VV,1480,0.66,exist|be (honorific)
+첫째,NR,1481,0.89,first
+맘,NNG,1482,0.50,mind|heart
+엄청나다,VA,1483,0.95,enormous|massive|great
+중,NNG,1484,0.82,middle|medium
+조정,NNG,1485,0.77,adjustment|rearrangement
+존재하다,VV,1486,0.85,exist
+일반적,NNG,1487,0.81,general
+너무나,MAG,1488,0.96,so|too many|too much
+결혼하다,VV,1489,0.81,marry
+고등학교,NNG,1490,0.74,high school
+똥,NNG,1491,0.42,poo|excrement
+늘다,VV,1492,0.85,increase|grow|extended
+사십,NR,1493,0.32,forty
+경제적,NNG,1494,0.85,economic
+헌,MM,1495,0.38,old|shabby|used
+숨다,VV,1496,0.88,hide
+발생하다,VV,1497,0.85,occur|happen
+따위,NNB,1498,0.94,et cetera|and so forth
+그렇지만,MAJ,1499,0.86,however|but
+마저,JX,1500,0.98,even
+다가오다,VV,1501,0.92,come|approach
+이끌다,VV,1502,0.95,lead|guide
+오전,NNG,1503,0.68,morning|a.m.
+바닥,NNG,1504,0.91,bottom|floor
+목사,NNG,1505,0.78,pastor|minister
+도대체,MAG,1506,0.87,how|what|why|on earth
+다하다,VV,1507,0.95,run out|be exhausted|do one's best
+설화,NNG,1508,0.45,story|tale|fable
+뉴스,NNG,1509,0.69,news
+거짓말,NNG,1510,0.74,lie
+모,MM,1511,0.55,certain|so and so|such and such
+제시하다,VV,1512,0.86,suggest|propose
+걸음,NNG,1513,0.82,step|walk
+각종,NNG,1514,0.78,various (kinds of)
+제사,NNG,1515,0.65,ancestral rites|memorial service
+평화,NNG,1516,0.86,peace
+문장,NNG,1517,0.77,sentence
+편,NNB,1518,0.92,COUNTER (book|film|etc.)
+종교,NNG,1519,0.88,religion
+경쟁,NNG,1520,0.80,competition
+마르다,VV,1521,0.82,dry (up)|get dry
+해외,NNG,1522,0.75,foreign country|abroad
+결정하다,VV,1523,0.91,decide|determine
+거리,NNG,1524,0.96,distance|space|street
+농민,NNG,1525,0.88,farmer
+표현하다,VV,1526,0.90,express
+가끔,MAG,1527,0.89,occasionally|from time to time
+천만,NR,1528,0.77,ten million
+관계자,NNG,1529,0.32,party concerned|persons concerned
+이쪽,NP,1530,0.59,this way
+깔다,VV,1531,0.62,spread|pave
+복,NNG,1532,0.58,good fortune|luck
+원칙,NNG,1533,0.88,principle
+여행,NNG,1534,0.97,travel|journey
+철학,NNG,1535,0.86,philosophy
+까닭,NNG,1536,0.94,reason|cause
+견디다,VV,1537,0.93,endure|bear|tolerate
+늘어나다,VV,1538,0.76,stretch|increase|grow
+해결하다,VV,1539,0.92,solve|resolve
+민중,NNG,1540,0.70,people|public
+갈등,NNG,1541,0.91,conflict
+지적하다,VV,1542,0.80,point out
+특징,NNG,1543,0.85,characteristic
+건너다,VV,1544,0.81,cross
+한마디,NNG,1545,0.96,remark|word
+위치,NNG,1546,0.92,location|position
+체계,NNG,1547,0.81,system|structure
+유지하다,VV,1548,0.89,maintain|retain
+그전,NNG,1549,0.26,before that
+벌어지다,VV,1550,0.96,happen|take place
+한,NNG,1551,0.92,limit|degree|end
+요소,NNG,1552,0.79,element|factor|constituent
+물어보다,VV,1553,0.60,ask
+일찍,MAG,1554,0.84,early
+요구,NNG,1555,0.90,demand|claim
+검다,VA,1556,0.93,black|dark
+감다,VV,1557,0.79,shut (one's eyes)
+가을,NNG,1558,0.99,fall|autumn
+유명하다,VA,1559,0.88,famous|celebrated
+뿌리다,VV,1560,0.87,sprinkle|scatter|spray
+총리,NNG,1561,0.61,prime minister
+곱다,VA,1562,0.79,pretty|refined|dainty
+치르다,VV,1563,0.95,pay|go through
+정,NNG,1564,0.83,affection|attachment
+켜다,VV,1565,0.76,light up|turn on
+별,NNG,1566,0.92,star
+베,NNG,1567,0.36,cloth|hemp cloth
+투쟁,NNG,1568,0.93,fight|struggle
+냐고,EC,1569,0.68,CONNECTIVE PROPOSITIVE
+묶다,VV,1570,0.81,tie
+여덟,NR,1571,0.51,eight
+전,MM,1572,0.86,whole|all
+웬,MM,1573,0.49,what|why
+학자,NNG,1574,0.86,scholar
+막히다,VV,1575,0.87,blocked|clogged
+돌아보다,VV,1576,0.79,look back|think back
+불교,NNG,1577,0.88,Buddhism
+파다,VV,1578,0.61,dig|excavate
+시작,NNG,1579,0.85,beginning|start
+내년,NNG,1580,0.60,next year
+쇠,NNG,1581,0.51,iron
+대왕,NNG,1582,0.38,great king
+예쁘다,VA,1583,0.78,pretty
+기구,NNG,1584,0.81,organization
+참여하다,VV,1585,0.84,participate in
+잘못,NNG,1586,0.87,mistake|fault
+직,NNG,1587,0.82,employment|position|occupation
+질서,NNG,1588,0.88,order
+급,NNB,1589,0.79,COUNTER (class|grade|rank)
+곁,NNG,1590,0.87,side|nearby
+공사,NNG,1591,0.89,construction
+조상,NNG,1592,0.72,ancestor|forefathers
+업무,NNG,1593,0.78,work|business|task
+바치다,VV,1594,0.86,offer|present|devote
+업다,VV,1595,0.64,carry on one's back
+나아가다,VV,1596,0.92,advance|proceed
+연극,NNG,1597,0.94,play|theater
+고르다,VV,1598,0.86,select|choose
+장소,NNG,1599,0.98,place|location
+대,NNB,1600,0.80,large size|COUNTER (size or value)
+겨우,MAG,1601,0.94,just|barely
+시골,NNG,1602,0.82,rural area|countryside
+아예,MAG,1603,0.91,never|not at all
+빌리다,VV,1604,0.89,borrow|rent
+건강,NNG,1605,0.90,health
+아버님,NNG,1606,0.54,father (honorific)
+가게,NNG,1607,0.86,store
+카드,NNG,1608,0.78,card
+살아가다,VV,1609,0.99,live|get along
+의지,NNG,1610,0.95,will|volition
+거두다,VV,1611,0.97,harvest|achieve|stop
+금방,MAG,1612,0.75,soon|shortly
+어제,NNG,1613,0.79,yesterday
+무역,NNG,1614,0.77,trade
+이익,NNG,1615,0.89,profit|gain
+탁,MAG,1616,0.37,with a clap|with a snap
+종류,NNG,1617,0.89,kind|sort|type
+닭,NNG,1618,0.65,chicken|rooster
+하얗다,VA,1619,0.84,white
+가,NNG,1620,0.57,edge|verge
+내밀다,VV,1621,0.81,stick out|stretch out
+암,NNG,1622,0.73,cancer
+점심,NNG,1623,0.75,lunch
+제공하다,VV,1624,0.86,provide|offer
+덮다,VV,1625,0.78,cover
+기에,EC,1626,0.99,since|as
+기계,NNG,1627,0.92,machine
+대중,NNG,1628,0.88,public
+부장,NNG,1629,0.89,department chief
+정확하다,VA,1630,0.96,accurate
+계속되다,VV,1631,0.95,continue
+피해,NNG,1632,0.84,harm|damage
+매일,MAG,1633,0.92,every day
+채우다,VV,1634,0.94,fill|pack
+심각하다,VA,1635,0.95,serious|severe
+빌다,VV,1636,0.68,beg|apologize
+미래,NNG,1637,0.92,future
+도리,NNG,1638,0.70,method|duty
+아무래도,MAG,1639,0.77,no matter what|by all means
+훌륭하다,VA,1640,0.91,excellent|superb
+서비스,NNG,1641,0.64,service
+에게서,JKB,1642,0.96,from (animate noun)
+역사적,NNG,1643,0.81,historic|historical
+그치다,VV,1644,0.97,stop
+큰일,NNG,1645,0.50,big deal|serious matter
+뿌리,NNG,1646,0.95,root
+두르다,VV,1647,0.65,put around|wrap around
+먹이다,VV,1648,0.82,feed
+느구나,EF,1649,0.49,FINAL EXCLAMATION
+손가락,NNG,1650,0.86,finger
+국어,NNG,1651,0.62,national language
+어둠,NNG,1652,0.73,darkness
+내부,NNG,1653,0.92,interior|inner part
+느다고,EC,1654,0.19,that (connective)
+장면,NNG,1655,0.97,scene
+탓,NNG,1656,0.97,reason|responsibility
+속하다,VV,1657,0.89,belong to|affiliated to
+기존,NNG,1658,0.78,existing
+이르다,VV,1659,0.78,tell|say
+정승,NNG,1660,0.23,minister (Joseon)
+관련하다,VV,1661,0.71,be related to
+얘,IC,1662,0.31,hey|you
+파,NNG,1663,0.92,group|faction
+높이다,VV,1664,0.91,raise|increase
+무릎,NNG,1665,0.87,knee
+색,NNG,1666,0.91,color
+옛,MM,1667,0.95,old
+아무것,NNG,1668,0.83,anything
+줄이다,VV,1669,0.84,reduce|decrease
+등장하다,VV,1670,0.88,appear
+불리다,VV,1671,0.96,be called|be named
+반면,NNG,1672,0.79,on the other hand|whereas
+그러므로,MAJ,1673,0.65,therefore
+성장,NNG,1674,0.83,growth
+드러내다,VV,1675,0.97,show|reveal
+을,NNG,1676,0.65,second|latter
+용,NNG,1677,0.63,dragon
+기대,NNG,1678,0.94,expectation
+끼,NNB,1679,0.48,COUNTER (meal)
+과제,NNG,1680,0.84,task|homework
+깨닫다,VV,1681,0.97,realize
+전문가,NNG,1682,0.72,expert|professional
+바탕,NNG,1683,0.91,basis|foundation
+되,EC,1684,0.91,though|even though
+독립,NNG,1685,0.92,independence
+발표,NNG,1686,0.73,presentation|announcement
+가,JX,1687,0.82,EMPHASIS particle
+식사,NNG,1688,0.97,meal|eating
+처리,NNG,1689,0.83,treatment|handling
+건,NNB,1690,0.82,COUNTER (case|matter)
+누나,NNG,1691,0.74,elder sister
+마루,NNG,1692,0.68,floor
+척,NNB,1693,0.71,pretense
+울리다,VV,1694,0.87,ring|echo
+만일,NNG,1695,0.96,if
+직장,NNG,1696,0.93,workplace|job
+소년,NNG,1697,0.98,boy
+담,NNG,1698,0.65,wall|fence
+어울리다,VV,1699,0.97,hang out|mix|socialize
+보호,NNG,1700,0.83,protection|preservation
+주요,NNG,1701,0.71,major
+아무런,MM,1702,0.99,any sort of
+터,NNG,1703,0.71,site|ground
+한편,NNG,1704,0.96,same team|one side
+정상,NNG,1705,0.70,summit|top
+대개,MAG,1706,0.80,generally|mostly
+관련되다,VV,1707,0.87,be related to|involved in
+어쨌든,MAG,1708,0.81,any way|in any case
+전망,NNG,1709,0.64,prospect|view
+논리,NNG,1710,0.89,logic|reasoning
+쭉,MAG,1711,0.32,straight|persistently
+저런,MM,1712,0.55,that|such
+거래,NNG,1713,0.76,deal|trade
+도,NNB,1714,0.91,COUNTER (degree)
+퍼센트,NNB,1715,0.55,percent
+놀이,NNG,1716,0.89,play|game
+어허,IC,1717,0.16,uh-oh|oh
+라며,EC,1718,0.58,QUOTATIVE connective
+주식,NNG,1719,0.62,stock
+춥다,VA,1720,0.76,cold
+조치,NNG,1721,0.81,action|measure
+포함하다,VV,1722,0.85,include
+가까이,MAG,1723,0.93,close|nearby
+덜,MAG,1724,0.70,less
+생각되다,VV,1725,0.93,be thought|look|appear
+부족하다,VA,1726,0.93,lacking|insufficient
+임금,NNG,1727,0.87,wage|pay
+시집,NNG,1728,0.46,husband's family
+수단,NNG,1729,0.92,means|tools
+쓰러지다,VV,1730,0.83,fall|collapse
+동물,NNG,1731,0.93,animal
+닿다,VV,1732,0.93,touch|reach
+ㄴ가요,EF,1733,0.64,FINAL QUESTION
+남녀,NNG,1734,0.95,men and women
+신라,NNP,1735,0.85,Silla (kingdom)
+살림,NNG,1736,0.67,housekeeping
+영역,NNG,1737,0.81,area|field
+노조,NNG,1738,0.75,labor union
+되,NNB,1739,0.36,measuring cup|COUNTER
+부담,NNG,1740,0.84,burden|load
+떼,NNG,1741,0.76,group|crowd
+이튿날,NNG,1742,0.55,next day|following day
+건,EC,1743,0.92,whatever|whether
+지나치다,VA,1744,0.98,excessive|immoderate
+풀,NNG,1745,0.77,grass|plant
+맨날,MAG,1746,0.17,all the time|always
+세대,NNG,1747,0.92,generation
+쥐,NNG,1748,0.65,rat|mouse
+밟다,VV,1749,0.90,step on|trample
+전설,NNG,1750,0.57,legend
+방침,NNG,1751,0.55,policy|plan
+영,MAG,1752,0.54,at all|totally
+비록,MAG,1753,0.97,even if|even though
+열,NNG,1754,0.78,heat|fever
+노력하다,VV,1755,0.94,make an effort
+생,NNG,1756,0.76,life
+끄다,VV,1757,0.56,put out|turn off
+아시아,NNP,1758,0.74,Asia
+계기,NNG,1759,0.88,chance|opportunity
+계급,NNG,1760,0.72,class|stratum
+서양,NNG,1761,0.86,the West
+무렵,NNB,1762,0.97,about that time
+사용되다,VV,1763,0.81,be used
+자본,NNG,1764,0.84,capital
+어떡하다,VV,1765,0.40,do so|what to do
+부억,NNG,1766,0.79,kitchen
+검사,NNG,1767,0.82,examination
+총각,NNG,1768,0.46,bachelor|single man
+수출,NNG,1769,0.71,export
+폭,NNG,1770,0.87,width|breath
+적다,VV,1771,0.88,put down|write
+쏟아지다,VV,1772,0.93,pour
+고생,NNG,1773,0.69,hardship|suffering
+이웃,NNG,1774,0.95,neighbor
+판,NNB,1775,0.72,space|situation|round
+온,MM,1776,0.95,whole|entire
+땀,NNG,1777,0.90,sweat
+중,NNG,1778,0.36,Buddhist monk
+충분히,MAG,1779,0.96,enough|fully
+붉다,VA,1780,0.96,red
+호텔,NNG,1781,0.97,hotel
+고려,NNP,1782,0.85,Goryeo (dynasty)
+맑다,VA,1783,0.98,clean|clear
+적극적,NNG,1784,0.90,active|enthusiastic
+맡기다,VV,1785,0.98,leave|deposit
+목숨,NNG,1786,0.94,life
+직업,NNG,1787,0.94,profession|occupation
+진행되다,VV,1788,0.90,progress|run|go along
+한쪽,NNG,1789,0.93,one side|one slice
+하고,JC,1790,0.36,and (particle)
+판단,NNG,1791,0.94,judgment|decision
+구경,NNG,1792,0.67,sightseeing
+서로,NNG,1793,0.97,each other
+가난하다,VA,1794,0.90,poor|needy
+비싸다,VA,1795,0.74,expensive
+구성,NNG,1796,0.83,composition|constitution
+더러,JKB,1797,0.68,to (colloquial)
+맛있다,VA,1798,0.57,tasty|delicious
+해결,NNG,1799,0.86,solution|settlement
+인기,NNG,1800,0.78,popularity
+가볍다,VA,1801,0.98,light
+사항,NNG,1802,0.91,item|matter
+커다랗다,VA,1803,0.98,big|huge
+불과하다,VA,1804,0.93,be just|be merely
+군사,NNG,1805,0.91,military|soldiers
+깨다,VV,1806,0.74,wake|become sober
+굴,NNG,1807,0.50,cave|cavern|tunnel
+여보,IC,1808,0.39,darling|honey
+추진하다,VV,1809,0.75,carry forward|prosecute
+단지,MAG,1810,0.96,only|merely
+표,NNG,1811,0.88,table
+솔직히,MAG,1812,0.50,honestly|frankly
+꽤,MAG,1813,0.89,fairly|quite
+가득,MAG,1814,0.96,full|packed
+여사,NNG,1815,0.81,Madam|Mrs.
+희망,NNG,1816,0.98,hope|wish
+뜨겁다,VA,1817,0.96,hot
+붓다,VV,1818,0.77,pour|deposit
+부,NNB,1819,0.89,COUNTER (books|magazines)
+종합,NNG,1820,0.68,general|overall
+결론,NNG,1821,0.94,conclusion
+비용,NNG,1822,0.81,cost|expense
+민간,NNG,1823,0.80,private
+드라마,NNG,1824,0.75,drama
+등,NNG,1825,0.89,back (body part)
+죽,NNG,1826,0.42,porridge|gruel
+가구,NNG,1827,0.77,household|family
+감사하다,VV,1828,0.63,appreciate|be thankful
+반갑다,VA,1829,0.74,glad|pleasant
+평양,NNP,1830,0.83,Pyeongyang
+뜯다,VV,1831,0.61,pick|pluck|bite
+틈,NNG,1832,0.92,crack|gap|spare time
+바깥,NNG,1833,0.78,outside
+모임,NNG,1834,0.86,meeting|gathering
+자르다,VV,1835,0.91,cut|chop
+여부,NNG,1836,0.74,whether or not
+랑,JC,1837,0.24,and (particle)
+캐다,VV,1838,0.54,dig|delve into
+썩,MAG,1839,0.39,very|fairly|right away
+약하다,VA,1840,0.92,weak|feeble
+비판,NNG,1841,0.83,criticism
+시간,NNB,1842,0.79,time
+주인공,NNG,1843,0.94,hero|heroine|main character
+달리다,VV,1844,0.95,hang
+전자,NNG,1845,0.79,electron|electronic
+깊이,MAG,1846,0.98,deeply
+협력,NNG,1847,0.74,collaboration
+흙,NNG,1848,0.87,soil|dirt|earth
+바람,NNB,1849,0.92,result of|wearing
+가만,MAG,1850,0.39,just as it is
+공연,NNG,1851,0.82,performance
+깎다,VV,1852,0.75,peel|shave|cut
+논의,NNG,1853,0.85,discussion|debate
+없애다,VV,1854,0.86,eliminate
+천천히,MAG,1855,0.79,slowly
+훈련,NNG,1856,0.91,training|drill
+자기,NP,1857,0.32,he|she|self
+숲,NNG,1858,0.95,forest|grove
+배경,NNG,1859,0.91,background
+무겁다,VA,1860,0.93,heavy
+따라가다,VV,1861,0.72,follow
+젊은이,NNG,1862,1.00,young person
+공,NNG,1863,0.83,ball
+독자,NNG,1864,0.87,reader
+총,NNG,1865,0.78,gun|firearm
+논문,NNG,1866,0.81,thesis
+감추다,VV,1867,0.96,hide
+상호,NNG,1868,0.85,mutual|reciprocal
+뛰다,VV,1869,0.85,beat|pound
+공무원,NNG,1870,0.75,civil official
+확실하다,VA,1871,0.96,clear|certain
+참여,NNG,1872,0.80,participation
+기대하다,VV,1873,0.92,anticipate|expect
+정리하다,VV,1874,0.94,arrange|clean
+조사하다,VV,1875,0.89,examine|survey
+학문,NNG,1876,0.85,study|academics
+한국인,NNG,1877,0.93,Korean
+기초,NNG,1878,0.86,basis|foundation
+주택,NNG,1879,0.76,house|housing
+청와대,NNP,1880,0.52,Blue House
+잘못되다,VV,1881,0.90,go wrong
+당연하다,VA,1882,0.98,natural|reasonable
+석,NNB,1883,0.61,COUNTER (seat)
+끝내다,VV,1884,0.94,finish|end
+닫다,VV,1885,0.79,close
+단위,NNG,1886,0.86,unit|measure
+총장,NNG,1887,0.72,president|chancellor
+봉사,NNG,1888,0.67,service
+이미지,NNG,1889,0.88,image
+평소,NNG,1890,0.95,usual|ordinary day
+지다,VV,1891,0.73,set|sink|go down
+스물,NR,1892,0.57,twenty
+구름,NNG,1893,0.87,cloud
+특성,NNG,1894,0.81,characteristic|property
+틀,NNG,1895,0.81,frame|routine|mold
+남성,NNG,1896,0.89,man|male
+왜냐하면,MAG,1897,0.87,because|since
+수입,NNG,1898,0.74,import
+전략,NNG,1899,0.77,strategy
+도,NNG,1900,0.71,province
+가리다,VV,1901,0.89,distinguish|differentiate
+프로,NNG,1902,0.71,professional
+운영,NNG,1903,0.70,management|operation
+미군,NNG,1904,0.90,US Army
+선택,NNG,1905,0.91,choice|selection
+부문,NNG,1906,0.70,field|sector
+게임,NNG,1907,0.81,game
+모,NP,1908,0.76,so-and-so
+어쩌면,MAG,1909,0.89,maybe|possibly
+토지,NNG,1910,0.89,land|ground
+좁다,VA,1911,0.94,narrow|cramped
+선택하다,VV,1912,0.93,select|choose
+변호사,NNG,1913,0.85,lawyer|attorney
+침,NNG,1914,0.74,spit|saliva
+소위,MAG,1915,0.81,so-called
+재미,NNG,1916,0.85,fun|interest
+차라리,MAG,1917,0.87,would rather
+경향,NNG,1918,0.83,tendency|inclination
+몹시,MAG,1919,0.88,exceedingly|awfully
+보도,NNG,1920,0.84,report|coverage
+아가씨,NNG,1921,0.78,young lady|Miss
+돌아서다,VV,1922,0.82,turn around
+사무실,NNG,1923,0.94,office
+마침내,MAG,1924,0.92,finally
+사용,NNG,1925,0.82,use
+젖다,VV,1926,0.91,get wet|soaked
+부대,NNG,1927,0.96,troops|corps
+더군,EF,1928,0.81,FINAL RETROSPECT
+근처,NNG,1929,0.90,nearby (area)
+찌르다,VV,1930,0.78,stab|prick|poke
+챙기다,VV,1931,0.88,gather|arrange
+인구,NNG,1932,0.85,population
+이쁘다,VA,1933,0.24,pretty
+입술,NNG,1934,0.77,lips
+민주주의,NNG,1935,0.88,democracy
+그만큼,MAG,1936,0.96,that much|to that extent
+지도,NNG,1937,0.91,guidance|instruction
+소원,NNG,1938,0.54,wish|desire
+축구,NNG,1939,0.59,soccer|football
+부정,NNG,1940,0.86,illegality|corruption
+잘못하다,VV,1941,0.65,make a mistake|blunder
+일제,NNG,1942,0.93,Japanese Empire
+실시하다,VV,1943,0.73,implement|carry out
+즐겁다,VA,1944,0.97,pleasant|joyful
+이틀,NNG,1945,0.86,two days
+평생,NNG,1946,0.90,lifetime|entire life
+의미하다,VV,1947,0.83,mean|signify
+한숨,NNG,1948,0.77,deep sigh
+깨끗하다,VA,1949,0.93,clean
+인사,NNG,1950,0.76,figure|personage
+망하다,VV,1951,0.68,fail|go bankrupt
+처,NNG,1952,0.76,office|branch
+외교,NNG,1953,0.75,diplomacy
+걸어가다,VV,1954,0.77,walk
+운명,NNG,1955,0.98,destiny
+마주,MAG,1956,0.81,face to face
+친하다,VA,1957,0.60,close (relationship)
+돼지,NNG,1958,0.76,pig|hog|boar
+소비자,NNG,1959,0.73,consumer
+짐승,NNG,1960,0.83,beast|animal
+실수,NNG,1961,0.77,mistake
+곡,NNG,1962,0.82,tune|piece of music
+예산,NNG,1963,0.70,budget
+육십,NR,1964,0.22,sixty
+기울이다,VV,1965,1.00,lean|tilt|devote
+항,NNG,1966,0.75,section|clause
+아주머니,NNG,1967,0.75,aunt|middle-aged woman
+하인,NNG,1968,0.44,servant
+물질,NNG,1969,0.86,matter|material
+얼다,VV,1970,0.59,freeze
+들다,VV,1971,0.93,try|take (auxiliary)
+비밀,NNG,1972,0.99,secret
+마는,JX,1973,0.35,but|only
+명령,NNG,1974,0.98,order
+냐는,EC,1975,0.94,RELATIVE QUESTION
+어머님,NNG,1976,0.56,mother (honorific)
+판,NNG,1977,0.78,edition|printing
+욕,NNG,1978,0.64,swearing|curse
+박다,VV,1979,0.81,drive into|set into
+상처,NNG,1980,0.98,injury|abrasion
+파악하다,VV,1981,0.89,grasp|comprehend
+문자,NNG,1982,0.81,letter|character
+소개하다,VV,1983,0.93,introduce
+주머니,NNG,1984,0.82,pocket
+단순하다,VA,1985,0.96,simple
+풀리다,VV,1986,0.94,get loose|come untied
+초,NNB,1987,0.76,second
+통합,NNG,1988,0.76,combination|integration
+임금,NNG,1989,0.77,king
+속도,NNG,1990,0.95,speed
+최대,NNG,1991,0.75,maximum|biggest
+본래,MAG,1992,0.84,originally
+교통,NNG,1993,0.83,transportation|traffic
+시각,NNG,1994,0.90,view|perspective
+개방,NNG,1995,0.71,open
+사방,NNG,1996,0.71,every side|direction
+대단하다,VA,1997,0.89,great|immense
+감사,NNG,1998,0.74,inspection|audit
+마침,MAG,1999,0.86,just at that time
+궁금하다,VA,2000,0.84,wonder
+초기,NNG,2001,0.84,beginning|the early part (of)
+쌓이다,VV,2002,0.93,pile up|stack up
+형편,NNG,2003,0.96,circumstances
+개선,NNG,2004,0.73,improvement
+싸다,VA,2005,0.73,cheap|inexpensive
+꾸다,VV,2006,0.71,dream
+기록하다,VV,2007,0.74,record|document
+무,NNG,2008,0.67,white radish
+비로소,MAG,2009,0.94,at last|for the first time
+그르다,VA,2010,0.36,wrong|incorrect
+의도,NNG,2011,0.95,intention|purpose
+도착하다,VV,2012,0.99,arrive|get to
+하도,MAG,2013,0.52,too much|very
+요인,NNG,2014,0.83,main factor|cause
+답,NNG,2015,0.69,answer|solution
+느라고,EC,2016,0.67,while|as
+꾸미다,VV,2017,0.97,decorate|adorn
+평균,NNG,2018,0.73,average
+헤어지다,VV,2019,0.85,be separated
+사흘,NNG,2020,0.72,three days
+오늘,MAG,2021,0.58,today
+커피,NNG,2022,0.89,coffee
+간단하다,VA,2023,0.94,simple
+연락,NNG,2024,0.84,contact
+성공하다,VV,2025,0.93,succeed
+군인,NNG,2026,0.89,soldier
+포기하다,VV,2027,0.98,give up|abandon
+지하,NNG,2028,0.92,basement
+한반도,NNP,2029,0.82,Korean peninsula
+틀다,VV,2030,0.74,turn|turn on|play
+성공,NNG,2031,0.89,success|hit
+성과,NNG,2032,0.87,result|outcome
+그대,NP,2033,0.88,you (POETIC)
+특별,NNG,2034,0.75,special
+관중,NNG,2035,0.41,spectator|audience
+정성,NNG,2036,0.68,sincere and true heart
+이른바,MAG,2037,0.86,so-called
+콩,NNG,2038,0.66,bean|soy
+비교하다,VV,2039,0.89,compare
+뜨다,VV,2040,0.54,scoop|slice|cut out
+ㄹ세,EF,2041,0.67,explain (final ending)
+일종,NNG,2042,0.95,sort|kind
+더구나,MAG,2043,0.99,besides|moreover
+연구소,NNG,2044,0.72,research center
+취하다,VV,2045,0.87,get drunk
+화자,NNG,2046,0.45,speaker
+원리,NNG,2047,0.80,principle
+기운,NNG,2048,0.87,energy|vitality
+끓이다,VV,2049,0.80,boil|simmer
+부처,NNG,2050,0.89,Buddha
+혐의,NNG,2051,0.53,charge|suspicion
+재,NNG,2052,0.75,ashes
+권리,NNG,2053,0.91,right
+불가능하다,VA,2054,0.96,impossible
+외국인,NNG,2055,0.74,foreigner
+만지다,VV,2056,0.74,touch|feel
+복잡하다,VA,2057,0.95,complex|complicated|tangled
+기도,NNG,2058,0.79,prayer
+ㄹ래,EF,2059,0.41,willingness (final ending)
+이하,NNG,2060,0.86,below|the following
+행복하다,VA,2061,0.96,happy
+절차,NNG,2062,0.89,procedure
+한계,NNG,2063,0.89,limit
+겁,NNG,2064,0.80,fear|fright
+가르다,VV,2065,0.67,cut (through)|divide
+무너지다,VV,2066,0.98,collapse|crumble
+시체,NNG,2067,0.82,dead body
+택시,NNG,2068,0.91,taxi|cab
+스스로,NNG,2069,0.99,oneself
+견해,NNG,2070,0.86,opinion|view
+털다,VV,2071,0.84,dust off|shake
+과장,NNG,2072,0.93,section chief
+어려움,NNG,2073,0.89,difficulty
+에서부터,JKB,2074,0.99,source|from
+깜짝,MAG,2075,0.74,surprising|startling
+미소,NNG,2076,0.87,smile|grin
+가방,NNG,2077,0.81,bag
+의자,NNG,2078,0.86,chair|stool
+기본적,NNG,2079,0.83,basic|fundamental
+천하,NNG,2080,0.71,world|whole country
+선물,NNG,2081,0.92,gift
+토론,NNG,2082,0.79,discussion|debate
+눈길,NNG,2083,0.86,sight|look
+학원,NNG,2084,0.83,private educational institute
+뛰다,VV,2085,0.96,stand out
+절대,MAG,2086,0.68,absolutely|completely
+셋째,NR,2087,0.87,third
+잔뜩,MAG,2088,0.77,very|a great deal of
+반대하다,VV,2089,0.93,oppose|disagree
+지배,NNG,2090,0.76,government|control
+사전,NNG,2091,0.82,encyclopedia
+적어도,MAG,2092,0.99,at least
+대사,NNG,2093,0.79,ambassador
+제목,NNG,2094,0.92,title
+우주,NNG,2095,0.89,space|the universe
+근거,NNG,2096,0.91,grounds|basis
+자본주의,NNG,2097,0.78,capitalism
+급하다,VA,2098,0.80,urgent|fast|rash
+잎,NNG,2099,0.85,leaf
+서방,NNG,2100,0.69,one’s husband
+주,NNB,2101,0.66,week
+개인적,NNG,2102,0.87,personal|private
+지경,NNB,2103,0.90,situation|condition
+기독교,NNG,2104,0.84,Christianity
+중학교,NNG,2105,0.83,middle school
+제자,NNG,2106,0.85,disciple|student
+불안하다,VA,2107,0.92,anxious|uneasy
+장난,NNG,2108,0.57,fun|mischief|prank
+색시,NNG,2109,0.37,unmarried woman|bride
+던가,EF,2110,0.91,final question ending
+욕심,NNG,2111,0.80,greed
+앓다,VV,2112,0.86,suffer|be ill|be sick
+안정,NNG,2113,0.84,stability|stabilization
+처지,NNG,2114,0.98,situation
+책상,NNG,2115,0.88,desk
+부모님,NNG,2116,0.80,parents (HONORIFIC)
+저쪽,NP,2117,0.65,there|that place
+따뜻하다,VA,2118,0.99,warm
+해석,NNG,2119,0.86,interpretation
+처리하다,VV,2120,0.94,handle|process
+기획,NNG,2121,0.70,plan|project
+수술,NNG,2122,0.88,surgery
+전기,NNG,2123,0.93,electricity|power
+의사,NNG,2124,0.93,opinion
+그이,NP,2125,0.51,that person|he
+악기,NNG,2126,0.56,instrument
+푸르다,VA,2127,0.97,green|blue
+계약,NNG,2128,0.85,contract
+무기,NNG,2129,0.93,weapon|arms
+ㅂ디다,EF,2130,0.37,final confirmation ending
+복지,NNG,2131,0.82,welfare
+둥,NNB,2132,0.55,state of hardly doing
+겉,NNG,2133,0.74,surface|outside|exterior
+걱정하다,VV,2134,0.90,worry|concern
+지다,VV,2135,0.68,lose|be defeated
+시내,NNG,2136,0.95,downtown
+야당,NNG,2137,0.72,opposition party
+펼치다,VV,2138,0.92,open|spread
+장치,NNG,2139,0.88,equipment|device
+시스템,NNG,2140,0.74,system
+병,NNG,2141,0.88,bottle
+안,NNG,2142,0.73,item|plan
+혀,NNG,2143,0.81,tongue
+워낙,MAG,2144,0.79,very|by nature
+울음,NNG,2145,0.81,cry
+도저히,MAG,2146,0.81,no matter what
+아아,IC,2147,0.53,oh-oh|ah
+여,JKV,2148,0.67,vocative particle
+글자,NNG,2149,0.89,letter|character
+여유,NNG,2150,0.98,room|spare
+커지다,VV,2151,0.93,grow bigger|expand
+확대,NNG,2152,0.76,expansion|enlargement
+정리,NNG,2153,0.79,arrangement|organization
+기,NNB,2154,0.84,counter for class
+절,NNG,2155,0.53,deep bow
+서른,NR,2156,0.58,thirty
+치마,NNG,2157,0.66,skirt
+소녀,NNG,2158,0.96,girl
+멋,NNG,2159,0.69,style|refinement
+학습,NNG,2160,0.87,learning
+부탁,NNG,2161,0.78,favor
+슬프다,VA,2162,0.90,sad
+답답하다,VA,2163,0.83,stuffy|stifling
+합의,NNG,2164,0.77,agreement|consent
+최초,NNG,2165,0.88,first
+구멍,NNG,2166,0.91,hole
+짚다,VV,2167,0.74,put one’s hand on|point to|guess
+문득,MAG,2168,0.80,suddenly|all of a sudden
+쓰다,VV,2169,0.79,wear|use
+기억하다,VV,2170,0.97,remember|recall
+지도자,NNG,2171,0.88,leader|coach
+양식,NNG,2172,0.84,style|mode|pattern
+주먹,NNG,2173,0.79,fist
+농촌,NNG,2174,0.91,farming village
+조,NNB,2175,0.90,article (legal)
+화면,NNG,2176,0.88,screen
+참으로,MAG,2177,0.96,really|truly
+농업,NNG,2178,0.83,agriculture
+대표적,NNG,2179,0.84,representative
+오랜,MM,2180,0.99,old|long
+시,NNG,2181,0.82,city
+대단히,MAG,2182,0.85,greatly|enormously
+총재,NNG,2183,0.51,president|governor
+꺾다,VV,2184,0.85,break|twist|turn
+신다,VV,2185,0.74,wear (shoes)|put on
+눈,NNG,2186,0.91,snow
+외치다,VV,2187,0.98,shout|cry
+분석하다,VV,2188,0.84,analyze
+막,NNG,2189,0.72,curtain|act
+소금,NNG,2190,0.79,salt
+진행,NNG,2191,0.84,progress|progression
+숨기다,VV,2192,0.96,hide
+시계,NNG,2193,0.92,clock|watch
+숙이다,VV,2194,0.79,bow|bend|incline
+그분,NP,2195,0.79,that person (HONORIFIC)
+보고,NNG,2196,0.87,report|briefing
+지켜보다,VV,2197,0.92,watch
+비치다,VV,2198,0.95,shine|light up
+친정,NNG,2199,0.54,married woman’s parents’ home
+숫자,NNG,2200,0.93,number
+관점,NNG,2201,0.81,perspective|view
+고대,NNG,2202,0.81,ancient time|antiquity
+지적,NNG,2203,0.73,pointing out|criticism
+용어,NNG,2204,0.82,term|terminology
+칠,NNG,2205,0.52,paint
+제일,MAG,2206,0.71,best|most
+민주,NNG,2207,0.91,democracy|democratic
+충격,NNG,2208,0.97,shock|impact
+자유롭다,VA,2209,0.95,free
+무척,MAG,2210,0.98,very|really
+고을,NNG,2211,0.57,village|district
+붙잡다,VV,2212,0.77,keep|catch|hold|detain
+시위,NNG,2213,0.88,demonstration|protest
+당국,NNG,2214,0.72,authorities
+입구,NNG,2215,0.87,entrance
+치다,VV,2216,0.74,count|consider|assume
+주체,NNG,2217,0.80,main agent|subject
+이불,NNG,2218,0.70,blanket|covers
+묘,NNG,2219,0.58,grave|tomb
+더불다,VV,2220,0.91,join in|partake of
+썩다,VV,2221,0.83,be rotten|be corrupted
+지지,NNG,2222,0.83,support
+특별하다,VA,2223,0.95,special
+군,NNB,2224,0.91,Mr. (to a younger person)
+양쪽,NNG,2225,0.87,both sides
+연구하다,VV,2226,0.88,study|research
+바르다,VV,2227,0.85,cover|spread|put on
+황제,NNG,2228,0.94,emperor
+혼,NNG,2229,0.72,soul|spirit
+누다,VV,2230,0.33,have (a pee or a poop)
+천지,NNG,2231,0.71,heaven and earth|whole world
+자연스럽다,VA,2232,0.97,natural
+보험,NNG,2233,0.71,insurance
+봉,NNG,2234,0.61,pole|stick
+요리,NNG,2235,0.81,cooking|dish
+흐름,NNG,2236,0.91,flow|stream
+꽂다,VV,2237,0.67,put|stick
+두루,MAG,2238,0.53,throughout|all over
+이마,NNG,2239,0.79,forehead|brow
+판매,NNG,2240,0.71,sales
+침대,NNG,2241,0.83,bed
+떠들다,VV,2242,0.76,talk|chat|make noise
+몰리다,VV,2243,0.92,be driven
+뜻하다,VV,2244,0.91,mean|signify
+본부,NNG,2245,0.82,headquarters
+턱,NNG,2246,0.64,chin|jaw
+움직임,NNG,2247,0.91,movement
+달아나다,VV,2248,0.85,run away
+일다,VV,2249,0.95,rise|form
+인사,NNG,2250,0.71,human resources|personnel matters
+발언,NNG,2251,0.76,comment|remark
+야말로,JSX,2252,0.98,very|precisely
+아무개,NP,2253,0.61,anybody|Mr. So-and-So
+자마자,EC,2254,0.92,as soon as
+간부,NNG,2255,0.90,executive
+고객,NNG,2256,0.76,customer|client
+고민,NNG,2257,0.84,worry|trouble
+연합,NNG,2258,0.63,alliance|coalition
+이사,NNG,2259,0.88,director
+평가하다,VV,2260,0.85,evaluate
+고려하다,VV,2261,0.85,consider
+사례,NNG,2262,0.81,case|instance
+안방,NNG,2263,0.79,main bedroom
+찾아보다,VV,2264,0.96,search|find|visit
+문서,NNG,2265,0.84,document|papers
+서두르다,VV,2266,0.93,hurry|hasten
+당연히,MAG,2267,0.86,naturally|of course
+추진,NNG,2268,0.64,pushing ahead|propel
+상담,NNG,2269,0.69,advice|counsel
+핵심,NNG,2270,0.81,core|point
+예수,NNG,2271,0.85,Jesus
+구석,NNG,2272,0.86,corner
+이외,NNG,2273,0.94,besides|in addition to
+위험,NNG,2274,0.93,danger
+실험,NNG,2275,0.90,experiment
+상대방,NNG,2276,0.95,other party|opponent
+한국어,NNG,2277,0.44,Korean language
+심정,NNG,2278,0.96,feeling|heart
+티,NNG,2279,0.64,sign|look
+이념,NNG,2280,0.81,ideology
+다소,MAG,2281,0.96,somewhat|a little
+들여다보다,VV,2282,0.86,look into|peep
+대목,NNG,2283,0.91,passage|part
+다시피,EC,2284,0.88,as (connective)
+공격,NNG,2285,0.88,attack|assault
+협회,NNG,2286,0.75,association|society
+퍼지다,VV,2287,0.98,spread|circulate
+ㄴ들,EC,2288,0.76,even if
+인류,NNG,2289,0.85,humankind
+들려오다,VV,2290,0.73,reach one’s ears
+쏟다,VV,2291,0.96,pour
+재주,NNG,2292,0.66,talent|skill|gift
+괜히,MAG,2293,0.57,in vain|needlessly
+싫어하다,VV,2294,0.81,hate|dislike
+불만,NNG,2295,0.95,complaint|dissatisfaction
+도와주다,VV,2296,0.81,help
+느냐고,EC,2297,0.92,connective question quote
+졸업하다,VV,2298,0.86,graduate from
+푼,NNB,2299,0.70,counter for coin|penny
+바지,NNG,2300,0.77,pants|trousers
+장가,NNG,2301,0.41,marriage|getting a wife
+뼈,NNG,2302,0.88,bone
+생각나다,VV,2303,0.83,rise|occur to
+어차피,MAG,2304,0.73,any way|in any case
+바르다,VA,2305,0.92,straight|right|polite
+너머,NNG,2306,0.77,over
+갑,NNG,2307,0.80,one|former
+진실,NNG,2308,0.99,truth
+꽉,MAG,2309,0.71,tightly|fast|fully
+증거,NNG,2310,0.99,evidence|proof
+온갖,MM,2311,0.98,all|every
+공동체,NNG,2312,0.81,community
+웃기다,VV,2313,0.45,make laugh
+메다,VV,2314,0.58,carry|sling
+학기,NNG,2315,0.64,semester
+하여튼,MAG,2316,0.34,at any rate|any way
+때로,MAG,2317,0.96,sometimes|occasionally
+갓,MAG,2318,0.60,just (new)|freshly
+현실적,NNG,2319,0.92,realistic
+마련,NNB,2320,0.98,be bound to
+의장,NNG,2321,0.76,chairperson
+조용히,MAG,2322,0.85,quietly|silently
+규정,NNG,2323,0.81,regulation|rule
+로구나,EF,2324,0.40,final exclamation ending
+묻다,VV,2325,0.69,bury
+칸,NNG,2326,0.78,space|block|compartment
+부드럽다,VA,2327,0.98,tender|soft
+덥다,VA,2328,0.73,hot
+일정하다,VA,2329,0.84,regular|fixed
+송,NNG,2330,0.61,Song (dynasty)
+달려가다,VV,2331,0.87,run
+적,NNG,2332,0.95,enemy|foe
+가져가다,VV,2333,0.66,carry|take|bring
+아줌마,NNG,2334,0.69,middle-aged woman
+세계적,NNG,2335,0.83,global|worldwide
+그쪽,NP,2336,0.65,there|that side
+크기,NNG,2337,0.93,size
+청소년,NNG,2338,0.73,youth|adolescent
+에서,JKB,2339,0.88,subject marker (inanimate)
+인도,NNG,2340,0.95,India
+회원,NNG,2341,0.78,member
+운,NNG,2342,0.77,luck|fortune|fate
+언젠가,MAG,2343,0.93,sometime
+게다가,MAG,2344,0.99,besides|moreover
+미,NNG,2345,0.83,beauty
+왼쪽,NNG,2346,0.96,left side
+색깔,NNG,2347,0.91,color
+방문,NNG,2348,0.79,visit
+공기,NNG,2349,0.99,air|atmosphere
+군데,NNB,2350,0.68,place|part
+애쓰다,VV,2351,0.96,make an effort|struggle
+매달리다,VV,2352,0.95,cling to|hang
+붙들다,VV,2353,0.63,hold on|grip|grasp
+상당하다,VA,2354,0.92,proper|suitable|considerable
+여론,NNG,2355,0.74,public opinion
+야단,NNG,2356,0.52,uproar|scolding
+자녀,NNG,2357,0.84,children
+상,NNG,2358,0.72,top|the first
+내세우다,VV,2359,0.93,nominate|put forward
+우려,NNG,2360,0.72,concern
+조용하다,VA,2361,0.90,quiet
+무덤,NNG,2362,0.89,grave|tomb
+용기,NNG,2363,0.99,courage
+참석하다,VV,2364,0.80,attend
+거부하다,VV,2365,0.94,refuse|reject
+남쪽,NNG,2366,0.97,south
+굽다,VV,2367,0.71,toast|grill|bake|burn
+징,NNG,2368,0.47,jing (musical instrument)
+기반,NNG,2369,0.83,base|groundwork
+뱀,NNG,2370,0.66,snake
+교장,NNG,2371,0.94,principal
+부락,NNG,2372,0.40,village|town
+모델,NNG,2373,0.88,model
+뚫다,VV,2374,0.86,dig|drill|evade|go through
+높아지다,VV,2375,0.86,get higher|rise
+행하다,VV,2376,0.80,act|do|conduct
+닮다,VV,2377,0.87,resemble|take after
+안녕하다,VA,2378,0.40,stay in peace|be well
+떨리다,VV,2379,0.78,tremble|shake
+잔치,NNG,2380,0.76,feast|party|banquet
+기름,NNG,2381,0.85,oil|gasoline
+타다,VV,2382,0.83,burn|blaze
+마구,MAG,2383,0.84,severely|badly|recklessly
+극장,NNG,2384,0.91,theater
+신앙,NNG,2385,0.81,religious faith
+벼슬,NNG,2386,0.61,government post
+수많다,VA,2387,0.98,numerous|a lot of
+공원,NNG,2388,0.91,park
+사귀다,VV,2389,0.67,date|get acquainted
+아마도,MAG,2390,0.98,perhaps
+카메라,NNG,2391,0.84,camera
+지치다,VV,2392,0.94,get tired
+문제점,NNG,2393,0.82,problem|drawback
+부동산,NNG,2394,0.75,real estate|property
+실리다,VV,2395,0.99,be loaded|be reported
+병사,NNG,2396,0.88,soldier|enlisted man
+대학생,NNG,2397,0.91,college students
+짊어지다,VV,2398,0.42,carry on the shoulder
+가령,MAG,2399,0.81,suppose|for example
+들르다,VV,2400,0.92,stop by|drop by
+기다,VV,2401,0.73,crawl|creep
+본인,NNG,2402,0.80,person concerned|oneself
+난리,NNG,2403,0.56,fuss|uproar|war
+활용하다,VV,2404,0.81,utilize|use
+이라크,NNP,2405,0.57,Iraq
+벼,NNG,2406,0.69,rice|rice plant
+하느님,NNG,2407,0.85,God|gods
+끄덕이다,VV,2408,0.69,nod
+주부,NNG,2409,0.84,housewife
+골목,NNG,2410,0.82,alley
+벌리다,VV,2411,0.81,open|spread
+품다,VV,2412,0.95,breast|bosom
+불쌍하다,VA,2413,0.69,pitiful|poor
+뛰어나다,VA,2414,0.94,outstanding|excellent
+라서,EC,2415,0.67,as|because
+재벌,NNG,2416,0.78,conglomerate
+주가,NNG,2417,0.55,stock price
+제외하다,VV,2418,0.87,exclude|leave out
+비행기,NNG,2419,0.97,airplane
+치우다,VV,2420,0.70,clean|straighten up
+줍다,VV,2421,0.79,pick up|gather
+더하다,VV,2422,0.99,increase|add
+폭력,NNG,2423,0.91,violence
+능,NNG,2424,0.50,royal tomb
+사위,NNG,2425,0.58,son-in-law
+베다,VV,2426,0.74,cut|fell
+그만두다,VV,2427,0.91,stop|quit|cease
+이동,NNG,2428,0.89,movement|migration
+대사,NNG,2429,0.65,line|dialog|speech
+추구하다,VV,2430,0.87,pursue|seek
+강력하다,VA,2431,0.89,strong|powerful
+한두,MM,2432,0.93,one or two
+사회주의,NNG,2433,0.84,Socialism
+감각,NNG,2434,0.95,sense
+어머,IC,2435,0.37,oh|oh my
+정당,NNG,2436,0.78,political party
+개발하다,VV,2437,0.78,develop|exploit
+얹다,VV,2438,0.78,put on|place|lay
+더럽다,VA,2439,0.79,dirty|filthy|awful
+충분하다,VA,2440,0.97,enough|sufficient
+틀림없다,VA,2441,0.95,certain|sure
+불안,NNG,2442,0.97,anxiety|apprehension
+승,NNB,2443,0.76,counter for winning
+굶다,VV,2444,0.67,starve|fast
+연결,NNG,2445,0.85,link|connection
+건강하다,VA,2446,0.94,healthy
+날씨,NNG,2447,0.96,weather
+쌍,NNG,2448,0.69,pair|couple
+느라,EC,2449,0.93,while|as
+재판,NNG,2450,0.94,trial
+음성,NNG,2451,0.93,voice
+식당,NNG,2452,0.98,restaurant
+극복하다,VV,2453,0.89,overcome
+강화,NNG,2454,0.82,reinforcement|consolidation
+흔들리다,VV,2455,0.96,shake|wave
+어미,NNG,2456,0.88,mother (animals)
+한글,NNG,2457,0.82,Hangeul
+답니다,EF,2458,0.67,final quote ending
+불법,NNG,2459,0.76,illegality
+자격,NNG,2460,0.93,qualification|right
+입히다,VV,2461,0.75,dress|put on|coat
+발전하다,VV,2462,0.86,develop|progress
+의혹,NNG,2463,0.63,doubt|suspicion
+반장,NNG,2464,0.70,president (of class)
+애,NNG,2465,0.75,state of being anxious
+소리치다,VV,2466,0.74,shout
+텔레비전,NNG,2467,0.97,television
+갈다,VV,2468,0.59,change|replace
+작용,NNG,2469,0.78,action|effect
+부끄럽다,VA,2470,0.94,ashamed|embarrassed
+양,MM,2471,0.90,both
+길래,EC,2472,0.55,since|as
+뒤집다,VV,2473,0.80,turn over|overturn
+배우,NNG,2474,0.89,actor|actress
+지시,NNG,2475,0.98,instruction|direction
+절대로,MAG,2476,0.89,never
+순서,NNG,2477,0.88,order
+구만,EF,2478,0.53,final statement ending
+비디오,NNG,2479,0.83,video
+만화,NNG,2480,0.88,comic book|cartoon
+소득,NNG,2481,0.82,income|gain
+다음날,NNG,2482,0.97,following day
+재정,NNG,2483,0.77,finance
+벌,NNG,2484,0.73,punishment|penalty
+동무,NNG,2485,0.70,companion|friend
+공주,NNG,2486,0.74,princess
+기쁘다,VA,2487,0.93,pleased|pleasant
+연대,NNG,2488,0.84,solidarity|banding together
+나르다,VV,2489,0.67,carry
+두드리다,VV,2490,0.81,knock|beat|tap
+착하다,VA,2491,0.79,be good
+문명,NNG,2492,0.85,civilization
+자원,NNG,2493,0.82,resource
+신체,NNG,2494,0.87,physical body
+무시하다,VV,2495,0.98,ignore
+옥,NNG,2496,0.66,jade
+양,NNB,2497,0.91,pretense|intention
+메도,EC,2498,0.96,in spite of
+달래다,VV,2499,0.85,soothe|comfort|coax
+무조건,MAG,2500,0.80,unconditional
+건네다,VV,2501,0.75,pass|speak to
+일제히,MAG,2502,0.71,all together|simultaneously|all at once
+오직,MAG,2503,0.96,only
+똑같이,MAG,2504,0.73,same way|equally|evenly
+정신적,NNG,2505,0.92,mental|psychological
+다가가다,VV,2506,0.81,approach
+대접,NNG,2507,0.72,reception|treatment
+낫다,VV,2508,0.52,get better|recover
+가사,NNG,2509,0.77,lyrics
+랴,EF,2510,0.74,final question ending
+범위,NNG,2511,0.86,range
+도,NNG,2512,0.83,right way|enlightenment
+사실상,MAG,2513,0.83,in fact
+내다보다,VV,2514,0.91,look out|predict
+오른쪽,NNG,2515,0.97,right
+연기,NNG,2516,0.84,performance|acting
+아니하다,VX,2517,0.89,do not|be not
+하여금,MAG,2518,0.91,by (way of)
+유지,NNG,2519,0.88,maintenance
+피부,NNG,2520,0.95,skin
+아우,NNG,2521,0.61,younger sibling
+서구,NNG,2522,0.78,the West
+지우다,VV,2523,0.93,erase|wipe|delete
+편,NNG,2524,0.93,side|direction
+길이,NNG,2525,0.93,length
+이사,NNG,2526,0.79,moving
+강의,NNG,2527,0.86,lecture|course|class
+유일하다,VA,2528,0.98,only|sole
+거울,NNG,2529,0.90,mirror
+에너지,NNG,2530,0.86,energy
+수십,NR,2531,0.94,scores|dozens
+다,MAG,2532,0.52,all|almost
+독,NNG,2533,0.66,poison
+남,NNG,2534,0.75,south
+시어머니,NNG,2535,0.66,mother-in-law
+무,NNG,2536,0.72,nothing|zero|naught
+과부,NNG,2537,0.55,widow
+장단,NNG,2538,0.47,beat|rhythm
+아까,NNG,2539,0.56,a while ago
+활,NNG,2540,0.59,bow
+민요,NNG,2541,0.58,folk song
+자세히,MAG,2542,0.94,in detail|minutely
+검토하다,VV,2543,0.83,examine|look over
+장애,NNG,2544,0.85,obstacle|hindrance|disability
+저리,MAG,2545,0.46,that way|over there
+리라고,EC,2546,0.94,connective ending (to)
+담기다,VV,2547,0.99,be contained
+의회,NNG,2548,0.69,assembly|parliament
+일주일,NNG,2549,0.75,one week
+관광,NNG,2550,0.82,sightseeing
+쉬다,VV,2551,0.86,breathe
+근,MM,2552,0.50,about
+깨다,VV,2553,0.79,break|smash|spoil
+범죄,NNG,2554,0.88,crime
+포함되다,VV,2555,0.86,be included
+굵다,VA,2556,0.79,thick|big|bold
+높이,MAG,2557,0.95,high
+경쟁력,NNG,2558,0.70,competitiveness
+동료,NNG,2559,0.98,colleague
+미술,NNG,2560,0.89,art
+대형,NNG,2561,0.75,large size
+박수,NNG,2562,0.73,applause|ovation
+날다,VV,2563,0.80,fly
+불편하다,VA,2564,0.90,inconvenient|uncomfortable
+인상,NNG,2565,0.97,impression
+상,NNG,2566,0.65,table
+의문,NNG,2567,0.97,question|doubt
+아무튼,MAG,2568,0.74,anyway|at any rate
+빨갛다,VA,2569,0.82,red|crimson
+지혜,NNG,2570,0.98,wisdom
+건축,NNG,2571,0.86,construction
+의무,NNG,2572,0.93,duty
+신분,NNG,2573,0.94,status|identity
+침묵,NNG,2574,0.91,silence
+부탁하다,VV,2575,0.90,request|ask
+점수,NNG,2576,0.75,score|grade
+방학,NNG,2577,0.88,vacation|break
+비교적,MAG,2578,0.93,comparatively|relatively
+임시,NNG,2579,0.93,temporary|provisional
+원수,NNG,2580,0.68,enemy|foe
+엿,NNG,2581,0.46,stick of taffy
+전부,NNG,2582,0.87,all
+누리다,VV,2583,0.97,enjoy
+차량,NNG,2584,0.80,car|vehicle
+세금,NNG,2585,0.82,tax|duty
+확,MAG,2586,0.53,suddenly|in a flash
+줄어들다,VV,2587,0.85,decrease
+근대,NNG,2588,0.75,modern times
+꼬리,NNG,2589,0.86,tail
+궁,NNG,2590,0.55,palace
+맥,NNG,2591,0.85,pulse|energy|legacy
+웬일,NNG,2592,0.64,for what reason|what
+인력,NNG,2593,0.78,manpower
+세다,VA,2594,0.75,strong|powerful|stubborn
+출발하다,VV,2595,0.98,depart|leave
+바보,NNG,2596,0.77,idiot|fool
+현지,NNG,2597,0.76,on-the-spot|local
+확보하다,VV,2598,0.85,secure
+점차,MAG,2599,0.91,gradually
+저지르다,VV,2600,0.98,commit
+모자,NNG,2601,0.78,hat|cap
+신부,NNG,2602,0.81,bride
+지붕,NNG,2603,0.86,roof
+젓다,VV,2604,0.75,stir|roll|wave
+대학원,NNG,2605,0.73,graduate school
+기차,NNG,2606,0.87,train
+남한,NNG,2607,0.90,South Korea
+그리하여,MAJ,2608,0.78,therefore|so
+망,NNG,2609,0.77,net|network
+널리,MAG,2610,0.88,far and wide|extensively
+테이프,NNG,2611,0.69,tape
+검사,NNG,2612,0.83,prosecutor
+돌아다니다,VV,2613,0.84,go around
+한강,NNG,2614,0.87,Han River
+날리다,VV,2615,0.93,fly|blow away
+증권,NNG,2616,0.65,stock
+보고서,NNG,2617,0.80,report
+파업,NNG,2618,0.81,strike
+그럼,MAJ,2619,0.44,yes|indeed|if so|then
+지위,NNG,2620,0.87,status
+글씨,NNG,2621,0.84,handwriting|letter
+수원,NNP,2622,0.71,Suon (city name)
+대체로,MAG,2623,0.86,overall|generally
+구성되다,VV,2624,0.75,be made up|be composed
+철저하다,VA,2625,0.97,complete
+유형,NNG,2626,0.79,type
+심지어,MAG,2627,0.98,even
+조그맣다,VA,2628,0.89,small|little
+바람직하다,VA,2629,0.86,desirable
+트다,VV,2630,0.64,open up|start
+안타깝다,VA,2631,0.95,regrettable|pitiful
+주어지다,VV,2632,0.92,be given|be allowed
+교류,NNG,2633,0.81,exchange|interchange
+내지,MAG,2634,0.85,or
+구두,NNG,2635,0.85,shoes
+행복,NNG,2636,0.98,happiness
+주의,NNG,2637,0.85,principle|belief
+외부,NNG,2638,0.90,outside|exterior
+한동안,NNG,2639,0.86,for a while
+비리,NNG,2640,0.70,corruption|irregularity
+성질,NNG,2641,0.90,temper|character
+들,NNG,2642,0.63,field
+올림픽,NNG,2643,0.75,Olympics
+잠기다,VV,2644,0.87,sink|swamp|be immersed in
+판단하다,VV,2645,0.95,judge
+가하다,VV,2646,0.96,add|apply|impose
+도서관,NNG,2647,0.93,library
+조,NNG,2648,0.88,team|group
+상사,NNG,2649,0.60,trading company
+적절하다,VA,2650,0.89,appropriate|proper
+방문하다,VV,2651,0.86,visit
+의료,NNG,2652,0.78,medical care
+근본적,NNG,2653,0.89,basic|fundamental
+승리,NNG,2654,0.85,victory
+원장,NNG,2655,0.83,director
+안전,NNG,2656,0.79,safety|security
+팔자,NNG,2657,0.61,destiny|fate
+일부러,MAG,2658,0.83,deliberately
+작용하다,VV,2659,0.84,act|work on
+사설,NNG,2660,0.79,editorial
+본격적,NNG,2661,0.87,real|regular|full-fledged
+놓치다,VV,2662,0.94,miss|lose
+앞두다,VV,2663,0.72,have ahead
+오랫동안,NNG,2664,0.99,for a long time
+을지라도,EC,2665,0.93,connective ending (even if)
+규제,NNG,2666,0.71,regulation
+상관,NNG,2667,0.81,relation|care
+창문,NNG,2668,0.85,window
+신발,NNG,2669,0.81,shoes
+긴장,NNG,2670,0.98,tension|nerves
+특별히,MAG,2671,0.86,specially|particularly
+잡지,NNG,2672,0.97,magazine
+지원하다,VV,2673,0.75,support
+전통적,NNG,2674,0.77,traditional
+서방,NNG,2675,0.75,the West
+랴,EC,2676,0.59,connective ending (while)
+발견되다,VV,2677,0.91,be discovered
+신용,NNG,2678,0.70,credit|confidence
+집중,NNG,2679,0.81,concentration|focus
+영혼,NNG,2680,0.97,spirit|soul
+미스,NNG,2681,0.77,Miss
+작전,NNG,2682,0.96,strategy|operation
+내버리다,VV,2683,0.69,throw away
+뜰,NNG,2684,0.65,yard|garden
+좌우,NNG,2685,0.86,left and right
+공개,NNG,2686,0.68,making public
+한때,NNG,2687,0.98,one-time
+철,NNG,2688,0.77,iron|steel
+교실,NNG,2689,0.97,classroom
+소개,NNG,2690,0.81,introduction
+고모,NNG,2691,0.55,aunt
+젖,NNG,2692,0.78,breast milk
+그림자,NNG,2693,0.93,shadow
+손자,NNG,2694,0.67,grandson
+일본인,NNG,2695,0.94,Japanese people
+백화점,NNG,2696,0.82,department store
+세어,MM,2697,0.76,three or four
+둘러보다,VV,2698,0.84,look around|browse
+술집,NNG,2699,0.84,bar|pub
+곰,NNG,2700,0.68,bear
+신화,NNG,2701,0.86,myth
+통,NNG,2702,0.78,container|bucket
+확실히,MAG,2703,0.87,certainly|definitely
+비율,NNG,2704,0.75,ratio|proportion
+빨래,NNG,2705,0.58,laundry
+시점,NNG,2706,0.84,time|point of time
+국장,NNG,2707,0.86,director|manager
+깨지다,VV,2708,0.78,break|smash|shatter
+화장실,NNG,2709,0.90,restroom|bathroom
+두렵다,VA,2710,0.94,afraid
+전달하다,VV,2711,0.89,deliver|transfer
+인터뷰,NNG,2712,0.67,interview
+시원하다,VA,2713,0.90,cool
+살아오다,VV,2714,0.96,live
+처,NNG,2715,0.58,wife
+수행하다,VV,2716,0.86,perform|fulfill
+엎드리다,VV,2717,0.77,lie face down
+역,NNG,2718,0.95,station
+뻗다,VV,2719,0.92,reach|stretch out
+버티다,VV,2720,0.94,endure|last
+일대,NNG,2721,0.95,whole area
+압력,NNG,2722,0.86,pressure
+센터,NNG,2723,0.64,center
+고개,NNG,2724,0.49,hill|pass
+주소,NNG,2725,0.74,address
+부처,NNG,2726,0.77,governmental department
+물가,NNG,2727,0.76,price
+진리,NNG,2728,0.81,truth
+빵,NNG,2729,0.79,bread
+단순히,MAG,2730,0.92,simply
+인민,NNG,2731,0.98,people
+귀하다,VA,2732,0.80,precious|valuable
+확인,NNG,2733,0.91,confirmation|verification
+아니,MAG,2734,0.66,not
+불빛,NNG,2735,0.75,light
+이용,NNG,2736,0.81,use
+푸다,VV,2737,0.49,draw up|ladle
+경찰서,NNG,2738,0.91,police station
+사물,NNG,2739,0.78,object|thing
+저러다,VV,2740,0.52,do so
+진정하다,VA,2741,0.94,calm down
+빚,NNG,2742,0.82,debt
+굳이,MAG,2743,0.95,obstinately
+훔치다,VV,2744,0.81,steal
+법률,NNG,2745,0.86,law|act
+북쪽,NNG,2746,0.97,north
+협정,NNG,2747,0.73,agreement|treaty
+회복,NNG,2748,0.84,recovery
+간,NNG,2749,0.78,liver
+욕망,NNG,2750,0.93,desire
+연결되다,VV,2751,0.92,be connected
+공포,NNG,2752,1.00,horror|terror
+섞이다,VV,2753,0.97,mix|be mixed
+거칠다,VA,2754,0.96,rough
+한꺼번에,MAG,2755,0.93,at once|same time
+둘러싸다,VV,2756,0.85,surround|besiege
+신부,NNG,2757,0.97,priest|Father
+전제,NNG,2758,0.87,premise|presupposition
+투,NNG,2759,0.77,manner|tone
+총,MM,2760,0.84,total|entire
+늘리다,VV,2761,0.76,increase|expand
+식품,NNG,2762,0.81,food|grocery
+기둥,NNG,2763,0.83,pillar|column
+국민학교,NNG,2764,0.93,elementary school (old)
+씨,NNG,2765,0.65,seed|pit
+게,NNG,2766,0.65,crab
+그야말로,MAG,2767,0.91,really|indeed
+덧붙이다,VV,2768,0.90,add
+죄송하다,VA,2769,0.65,sorry
+보따리,NNG,2770,0.56,pack|bundle
+다치다,VV,2771,0.87,hurt|be wounded
+잊어버리다,VV,2772,0.77,forget
+문화적,NNG,2773,0.77,cultural
+팔리다,VV,2774,0.91,sell
+중얼거리다,VV,2775,0.60,mutter|mumble
+인식하다,VV,2776,0.86,recognize|realize
+발음,NNG,2777,0.59,pronunciation
+파도,NNG,2778,0.89,wave
+금리,NNG,2779,0.46,interest rate
+설치하다,VV,2780,0.85,install
+다녀오다,VV,2781,0.92,go and come back
+권하다,VV,2782,0.95,recommend|advise
+장,NNG,2783,0.73,place
+묻다,VV,2784,0.85,be stained with
+잠들다,VV,2785,0.85,fall asleep
+은,NNG,2786,0.75,silver
+싶다,VA,2787,0.70,look|seem|feel like to
+교육부,NNG,2788,0.60,Ministry of Education
+계층,NNG,2789,0.79,class|stratum
+거실,NNG,2790,0.75,living room
+관,NNG,2791,0.76,coffin|casket
+비추다,VV,2792,0.99,shine|illuminate
+상자,NNG,2793,0.94,box|case
+나마,JX,2794,0.98,even|although it is
+발달,NNG,2795,0.77,development
+번호,NNG,2796,0.88,number
+재료,NNG,2797,0.87,material|ingredient
+회견,NNG,2798,0.64,interview|press conference
+스포츠,NNG,2799,0.82,sports
+심장,NNG,2800,0.97,heart
+스타일,NNG,2801,0.76,style|form
+역,NNG,2802,0.90,role|part
+방문,NNG,2803,0.75,room door
+비교,NNG,2804,0.87,comparison
+날짜,NNG,2805,0.76,date
+인연,NNG,2806,0.94,relation|tie|connection
+량,NNG,2807,0.86,quantity|amount
+동기,NNG,2808,0.92,motivation
+사고,NNG,2809,0.89,thinking|thought
+풍경,NNG,2810,0.99,scenery
+일상,NNG,2811,0.93,daily life
+연주하다,VV,2812,0.56,play
+민주화,NNG,2813,0.88,democratization
+눈앞,NNG,2814,0.84,before one's eyes
+완전,NNG,2815,0.80,complete|full
+실천,NNG,2816,0.86,practice|fulfillment
+낯설다,VA,2817,0.92,strange|unfamiliar
+아깝다,VA,2818,0.71,regrettable|valuable
+묻히다,VV,2819,0.94,be buried
+몰래,MAG,2820,0.88,secretly|surreptitiously
+벗기다,VV,2821,0.89,take off|strip|peel
+여기저기,NNG,2822,0.91,here and there|everywhere
+어린애,NNG,2823,0.64,child
+심리,NNG,2824,0.94,psychology
+화제,NNG,2825,0.93,topic
+예상되다,VV,2826,0.59,be expected
+쓸다,VV,2827,0.70,sweep
+저놈,NP,2828,0.41,that dude
+라디오,NNG,2829,0.88,radio
+헌법,NNG,2830,0.85,constitution
+추가,NNG,2831,0.62,addition|supplement
+유리,NNG,2832,0.89,glass
+형성되다,VV,2833,0.79,form
+도중,NNG,2834,0.87,on one's way|in the middle of
+당황하다,VV,2835,0.89,embarrassed|perplexed
+수석,NNG,2836,0.66,top|primary
+모순,NNG,2837,0.77,contradiction|paradox
+제작,NNG,2838,0.75,production
+라니,EC,2839,0.64,connective ending (since|as)
+주의,NNG,2840,0.96,caution|care
+띠,NNG,2841,0.65,band|belt
+위험하다,VA,2842,0.93,dangerous|risky
+기쁨,NNG,2843,0.99,pleasure
+입시,NNG,2844,0.82,entrance examination
+공식,NNG,2845,0.73,formal
+생전,NNG,2846,0.61,in one's lifetime
+물론,NNG,2847,1.00,certainly|no doubt
+양국,NNG,2848,0.72,two countries
+상하다,VV,2849,0.86,go stale|rot|spoil
+섞다,VV,2850,0.92,mix|blend|shuffle
+약속하다,VV,2851,0.97,promise
+동양,NNG,2852,0.90,the East
+철,NNG,2853,0.72,season|time
+미루다,VV,2854,0.98,postpone|put off
+초등학교,NNG,2855,0.72,elementary school
+잉,MAG,2856,0.44,surprise|wow
+달려오다,VV,2857,0.81,come running|rush
+제발,MAG,2858,0.77,please
+대학교,NNG,2859,0.58,university|college
+소비,NNG,2860,0.82,consumption|spending
+드물다,VA,2861,0.99,rare|unusual
+피곤하다,VA,2862,0.76,tired|fatigued
+드디어,MAG,2863,0.97,finally
+조화,NNG,2864,0.91,harmony
+이데올로기,NNG,2865,0.76,ideology
+일컫다,VV,2866,0.78,name|refer to
+두어,MM,2867,0.84,about two
+거지,NNG,2868,0.57,beggar
+찾아내다,VV,2869,0.99,find out
+털,NNG,2870,0.81,hair
+양,NNB,2871,0.91,Miss
+자치,NNG,2872,0.74,autonomy|self-government
+청하다,VV,2873,0.88,ask|invite
+텍스트,NNG,2874,0.59,text
+윤리,NNG,2875,0.88,ethics|morality
+약간,NNG,2876,0.92,little|bit|somewhat
+보살,NNG,2877,0.64,Bodhisattva
+구경하다,VV,2878,0.82,watch|see sights
+정의,NNG,2879,0.94,justice|righteousness
+구속,NNG,2880,0.73,imprisonment|restriction
+명예,NNG,2881,0.84,honor
+스타,NNG,2882,0.75,star|celebrity
+연기,NNG,2883,0.87,smoke
+애비,NNG,2884,0.52,daddy
+소장,NNG,2885,0.92,chief|manager|director
+특정,NNG,2886,0.77,particular|specific
+계산,NNG,2887,0.97,calculation|sum
+실패하다,VV,2888,0.96,fail
+뇌,NNG,2889,0.90,brain
+제기하다,VV,2890,0.83,raise|bring up
+선언,NNG,2891,0.84,announcement
+득,NNG,2892,0.67,gain|profit
+는지,EF,2893,0.59,final exclamation ending
+놀랍다,VA,2894,0.99,surprising
+운영하다,VV,2895,0.75,manage
+규정하다,VV,2896,0.78,regulate|define
+상상,NNG,2897,0.97,imagination
+뚝,MAG,2898,0.51,suddenly
+택하다,VV,2899,0.99,select|choose
+허옇다,VA,2900,0.41,white|gray
+이스라엘,NNP,2901,0.81,Israel
+끝내,MAG,2902,0.97,in the end|finally
+당기다,VV,2903,0.86,pull|move up|appeal to
+언덕,NNG,2904,0.91,hill
+구성하다,VV,2905,0.82,constitute|comprise
+다리,NNG,2906,0.80,bridge
+먹다,VX,2907,0.75,auxiliary (do|commit)
+진출,NNG,2908,0.67,advance|entering into
+그물,NNG,2909,0.73,net
+영상,NNG,2910,0.89,picture|images
+인정,NNG,2911,0.78,acknowledgement|recognition
+증가,NNG,2912,0.69,increase|growth
+재다,VV,2913,0.79,measure|gauge
+뛰어들다,VV,2914,0.95,rush into|dive into
+꼽다,VV,2915,0.77,count (on fingers)
+등장,NNG,2916,0.82,appearance
+깔리다,VV,2917,0.96,be buried|be spread
+우습다,VA,2918,0.80,funny|humorous
+화려하다,VA,2919,0.98,fancy|splendid
+사나이,NNG,2920,0.81,man
+참가하다,VV,2921,0.82,participate
+전환,NNG,2922,0.81,change|switch
+벌떡,MAG,2923,0.69,suddenly
+공급,NNG,2924,0.75,supply
+태양,NNG,2925,0.94,sun
+억울하다,VA,2926,0.88,unfair|unjust
+눈빛,NNG,2927,0.75,eyes|look
+용서하다,VV,2928,0.83,forgive|pardon
+이내,MAG,2929,0.85,soon|shortly
+변,NNG,2930,0.73,side
+귀찮다,VA,2931,0.72,troublesome|tiresome
+영업,NNG,2932,0.83,business sales
+안보,NNG,2933,0.70,security
+맥주,NNG,2934,0.91,beer
+가리다,VV,2935,0.85,hide|conceal
+과목,NNG,2936,0.79,subject
+슬픔,NNG,2937,0.97,sadness
+혼란,NNG,2938,0.96,confusion|chaos|mess
+괴롭다,VA,2939,0.84,painful|distressed
+졸업,NNG,2940,0.83,graduation
+로마,NNP,2941,0.84,Rome
+고구려,NNP,2942,0.83,Goguryeo
+푹,MAG,2943,0.75,deeply|completely
+전공,NNG,2944,0.73,major
+끈,NNG,2945,0.78,string
+부족,NNG,2946,0.87,lack|shortage
+세,EF,2947,0.45,final proposal ending
+늙은이,NNG,2948,0.61,old person
+거대하다,VA,2949,0.98,enormous|huge
+지대,NNG,2950,0.95,zone|area|region
+마련,NNG,2951,0.70,preparation
+생겨나다,VV,2952,0.95,come up|emerge
+비중,NNG,2953,0.80,importance|specific gravity
+차다,VV,2954,0.81,kick
+을게,EF,2955,0.51,final promise ending
+내주다,VV,2956,0.87,give|offer|make
+알아듣다,VV,2957,0.80,understand|follow
+보리,NNG,2958,0.69,barley
+증가하다,VV,2959,0.68,increase
+수요,NNG,2960,0.75,demand|need
+종일,NNG,2961,0.84,all day
+급히,MAG,2962,0.81,hastily|urgently
+몫,NNG,2963,0.99,share|portion
+음,NNG,2964,0.80,sound|note|tone
+넘치다,VV,2965,1.00,overflow
+보장,NNG,2966,0.85,guarantee|security
+솟다,VV,2967,0.85,soar|rise
+짙다,VA,2968,0.97,dark|deep|strong
+어제,MAG,2969,0.67,yesterday
+모래,NNG,2970,0.88,sand
+긍정적,NNG,2971,0.85,positive
+해석하다,VV,2972,0.90,interpret|construe
+밤중,NNG,2973,0.54,midnight
+단지,NNG,2974,0.84,complex|subdivision
+안치다,VV,2975,0.72,sit|seat
+대충,MAG,2976,0.73,approximately|roughly
+아끼다,VV,2977,0.99,save|value|cherish
+혼인,NNG,2978,0.74,marriage
+조심하다,VV,2979,0.81,be careful
+속이다,VV,2980,0.88,deceive|cheat
+함부로,MAG,2981,0.89,carelessly|rashly
+소재,NNG,2982,0.88,material|subject matter
+손바닥,NNG,2983,0.86,palm
+상승,NNG,2984,0.63,rise|increase|ascend
+물러나다,VV,2985,0.97,step back|step down
+야,NNG,2986,0.76,opposition party (yadang)
+본질,NNG,2987,0.83,nature
+공공,NNG,2988,0.82,public
+미터,NNB,2989,0.85,counter (meter)
+짐작하다,VV,2990,0.94,presume|guess
+머무르다,VV,2991,1.00,stay|remain
+새,NNG,2992,0.81,space (between)
+품,NNG,2993,0.84,bosom|breast
+도구,NNG,2994,0.91,tool|instrument
+한자,NNG,2995,0.80,Chinese character
+초점,NNG,2996,0.92,focus
+가수,NNG,2997,0.86,singer
+장교,NNG,2998,0.92,officer
+흩어지다,VV,2999,0.95,scatter|disperse
+안개,NNG,3000,0.90,fog
+고급,NNG,3001,0.92,high class|high rank
+신고,NNG,3002,0.80,report|declaration
+온통,MAG,3003,0.94,all|entirely
+절반,NNG,3004,0.87,half
+업계,NNG,3005,0.49,field|business world
+못,NNG,3006,0.76,nail
+곤란하다,VA,3007,0.86,embarrassing|difficult|tough
+세,NNB,3008,0.80,counter (generation)
+인권,NNG,3009,0.73,human rights
+긋다,VV,3010,0.81,draw a line|mark|strike
+욕구,NNG,3011,0.92,desire|drive
+실패,NNG,3012,0.96,failure
+흔적,NNG,3013,1.00,trace|vestige|evidence
+필자,NNG,3014,0.74,writer
+굳다,VA,3015,0.95,hard|strong|firm
+달하다,VV,3016,0.80,reach|amount to
+분명,MAG,3017,0.94,clearly|definitely
+실질적,NNG,3018,0.86,actual|practical|de facto
+최소한,NNG,3019,0.94,minimum
+어휘,NNG,3020,0.63,vocabulary
+손해,NNG,3021,0.93,damage|loss
+모자라다,VV,3022,0.92,be short|be insufficient|be deficient
+떠올리다,VV,3023,0.82,recall|recollect
+비판하다,VV,3024,0.83,criticize|blame
+시늉,NNG,3025,0.59,pretense
+년,NNB,3026,0.51,woman|girl|wench (offensive)
+직후,NNG,3027,0.88,immediately after
+터뜨리다,VV,3028,0.93,pop|burst|explode|bloom
+계단,NNG,3029,0.90,stairs|stairway
+부친,NNG,3030,0.85,father (honorific)
+근본,NNG,3031,0.86,root|basis
+스치다,VV,3032,0.82,graze|brush|flash across
+소서,EF,3033,0.70,final ending (wish)
+스무,MM,3034,0.68,twenty
+합치다,VV,3035,0.94,combine|unite
+공업,NNG,3036,0.85,industry
+기타,NNG,3037,0.89,et cetera
+주일,NNB,3038,0.95,week
+실력,NNG,3039,0.95,skill|ability|competence
+담그다,VV,3040,0.84,soak|immerse
+논의하다,VV,3041,0.80,discuss
+빚다,VV,3042,0.86,make|cause|brew
+동작,NNG,3043,0.98,movement|motion
+담당하다,VV,3044,0.90,take charge|be in charge
+곡식,NNG,3045,0.74,grains
+제물,NNG,3046,0.57,sacrificial offering
+한잔,NNG,3047,0.72,drink
+우물,NNG,3048,0.74,well
+총선,NNG,3049,0.40,general election
+빨다,VV,3050,0.74,suck|suckle
+계집,NNG,3051,0.66,chick|girl (offensive)
+고프다,VA,3052,0.57,hungry
+나가다,VV,3053,0.90,fly|be blown|lose|be gone out
+극,NNG,3054,0.89,extreme|pole
+새기다,VV,3055,0.98,carve|engrave|inscribe
+꺼지다,VV,3056,0.78,go out|extinguish
+나란히,MAG,3057,0.95,side by side
+이윽고,MAG,3058,0.76,finally|at last
+동지,NNG,3059,0.94,comrade
+대만,NNP,3060,0.68,Taiwan
+균형,NNG,3061,0.91,balance
+잃어버리다,VV,3062,0.96,lose
+오염,NNG,3063,0.81,pollution
+여우,NNG,3064,0.65,fox|vixen
+강화하다,VV,3065,0.76,intensify|strengthen up
+상대적,NNG,3066,0.85,relative
+선진국,NNG,3067,0.78,advanced country
+분노,NNG,3068,0.97,rage
+짜증,NNG,3069,0.65,irritation|annoyance
+보통,MAG,3070,0.67,usual|ordinary
+예상,NNG,3071,0.85,expectation|forecast
+창고,NNG,3072,0.89,warehouse|storage
+지식인,NNG,3073,0.83,intellectuals
+솥,NNG,3074,0.50,pot
+도망,NNG,3075,0.57,escape|flight
+익히다,VV,3076,0.99,master|acquaint oneself with
+정치인,NNG,3077,0.77,politician
+특수,NNG,3078,0.84,special
+이자,NNG,3079,0.85,interest
+대우,NNG,3080,0.70,treatment|deal
+온몸,NNG,3081,0.83,whole body
+백제,NNP,3082,0.87,Baekje
+차림,NNG,3083,0.90,attire|style of dressing
+소주,NNG,3084,0.90,soju (distilled drink)
+실장,NNG,3085,0.77,head|chief
+도,NNG,3086,0.90,limit|bound
+보도하다,VV,3087,0.60,report|cover
+유학,NNG,3088,0.91,study abroad
+여야,NNG,3089,0.61,ruling and opposition parties
+형성,NNG,3090,0.75,formation|development
+신청,NNG,3091,0.75,application|subscription|request
+건너가다,VV,3092,0.84,cross|go over
+따라오다,VV,3093,0.74,follow|come with
+면하다,VV,3094,0.95,avoid|evade
+승용차,NNG,3095,0.88,passenger car|sedan
+도망치다,VV,3096,0.85,escape|flee
+날개,NNG,3097,0.94,wing
+뚜렷하다,VA,3098,0.97,clear|distinct|evident
+대립,NNG,3099,0.80,opposition|confrontation
+비우다,VV,3100,0.91,empty (out)|drain (out)
+삼촌,NNG,3101,0.71,uncle
+제한,NNG,3102,0.79,limit|restriction
+전화하다,VV,3103,0.54,call
+순,NNG,3104,0.84,order
+조합,NNG,3105,0.94,association|union|combination
+일행,NNG,3106,0.96,party|company
+접근하다,VV,3107,0.99,approach
+적극,MAG,3108,0.72,actively
+빛나다,VV,3109,0.96,shine|gleam|sparkle
+도입,NNG,3110,0.68,introduction|adoption
+국정,NNG,3111,0.59,state affairs
+연습,NNG,3112,0.91,practice|exercise|drill
+애인,NNG,3113,0.85,lover
+전체적,NNG,3114,0.85,overall|general
+보다,VV,3115,0.47,see
+관객,NNG,3116,0.85,audience
+정말로,MAG,3117,0.87,really|truly
+익다,VV,3118,0.80,ripen|grow
+박히다,VV,3119,0.90,be embedded in|be stuck in
+발휘하다,VV,3120,0.92,demonstrate|exhibit
+조기,NNG,3121,0.71,early (stage|time)
+강제,NNG,3122,0.93,compulsion|coercion
+담당,NNG,3123,0.87,responsibility|being in charge
+고양이,NNG,3124,0.89,cat
+후배,NNG,3125,0.84,junior
+저고리,NNG,3126,0.73,upper garment of traditional clothes
+끼치다,VV,3127,0.96,cause|influence
+접근,NNG,3128,0.90,access|approach
+유통,NNG,3129,0.65,distribution|circulation
+보호하다,VV,3130,0.96,protect|shelter
+악,NNG,3131,0.87,evil|weakness
+부근,NNG,3132,0.97,neighborhood|vicinity
+도무지,MAG,3133,0.88,not at all (negative)
+동쪽,NNG,3134,0.89,east
+직접적,NNG,3135,0.87,direct|immediate
+믿음,NNG,3136,0.97,belief|faith|confidence
+끊어지다,VV,3137,0.83,cut|collapse|break
+끼다,VV,3138,0.82,be caught|be jammed
+반찬,NNG,3139,0.63,side dish
+진지하다,VA,3140,0.99,serious
+등록,NNG,3141,0.77,registration
+공항,NNG,3142,0.91,airport
+말리다,VV,3143,0.81,dry
+절,NNB,3144,0.75,paragraph
+쫓기다,VV,3145,0.89,be chased|be pressured
+튀다,VV,3146,0.84,spatter|spark|bounce|bolt
+노사,NNG,3147,0.76,labor and management
+지점,NNG,3148,0.95,point|spot|place
+여당,NNG,3149,0.70,ruling party
+사촌,NNG,3150,0.61,cousin
+만남,NNG,3151,0.99,meeting
+요청하다,VV,3152,0.82,request|demand|claim
+규칙,NNG,3153,0.86,rule|regulation
+조카,NNG,3154,0.66,niece|nephew
+다며,EC,3155,0.84,connective ending (quotation)
+최선,NNG,3156,0.92,best way|one's best
+다지다,VV,3157,0.91,solidify|lay|brace oneself
+대장,NNG,3158,0.85,general|admiral|leader|boss
+쓰레기,NNG,3159,0.89,trash|waste|litter
+지난달,NNG,3160,0.30,last month
+편안하다,VA,3161,0.97,comfortable|relaxed|calm
+잠깐,NNG,3162,0.58,moment|short time
+시끄럽다,VA,3163,0.76,noisy|boisterous
+형성하다,VV,3164,0.76,form|develop
+테,NNG,3165,0.58,frame
+양상,NNG,3166,0.84,aspect|look|condition
+불과,MAG,3167,0.96,only|just
+서류,NNG,3168,0.95,document|papers
+내내,MAG,3169,0.96,throughout|all the time
+흥미,NNG,3170,0.96,interest
+신호,NNG,3171,0.98,signal|sign|cue
+동,NNG,3172,0.80,east
+갈다,VV,3173,0.69,grind|sharpen
+부딪치다,VV,3174,0.96,bump|hit|confront|disagree
+공화국,NNG,3175,0.88,republic
+멋지다,VA,3176,0.91,great|fabulous|stylish
+정서,NNG,3177,0.90,sentiment|feeling
+활동하다,VV,3178,0.89,move|do|work
+마음대로,MAG,3179,0.89,freely|in one's own way
+반영하다,VV,3180,0.82,reflect|apply
+더러,MAG,3181,0.86,somewhat|occasionally
+엉뚱하다,VA,3182,0.92,erratic|whimsical
+문법,NNG,3183,0.67,grammar
+뒤지다,VV,3184,0.88,search through|rummage
+내외,NNG,3185,0.88,inside and outside
+소속,NNG,3186,0.73,affiliation
+여학생,NNG,3187,0.92,female student
+접촉,NNG,3188,0.83,contact
+근로자,NNG,3189,0.82,worker|laborer
+서쪽,NNG,3190,0.92,west
+비명,NNG,3191,0.78,scream|shriek
+장기,NNG,3192,0.80,long time|long term
+식민지,NNG,3193,0.74,colony
+가문,NNG,3194,0.81,family
+살인,NNG,3195,0.94,murder
+제법,MAG,3196,0.87,fairly|quite
+술잔,NNG,3197,0.77,glass|tumbler
+오줌,NNG,3198,0.68,urine|pee
+귀엽다,VA,3199,0.77,cute|lovely
+열흘,NNG,3200,0.66,ten days
+청춘,NNG,3201,0.59,one's youth
+넘어서다,VV,3202,0.95,pass over|go beyond
+김치,NNG,3203,0.91,kimchi
+통제,NNG,3204,0.88,control|regulation
+위대하다,VA,3205,0.96,great
+장수,NNG,3206,0.79,seller|merchant
+답변,NNG,3207,0.74,answer|response
+머물다,VV,3208,0.99,stay
+외롭다,VA,3209,0.94,lonely|lonesome
+대응,NNG,3210,0.78,action|maneuver|correspondence
+금지,NNG,3211,0.83,prohibition|ban
+주,NNB,3212,0.85,counter (week)
+봉투,NNG,3213,0.86,envelope|bag
+대선,NNG,3214,0.50,presidential election
+즉시,MAG,3215,0.99,immediately|promptly
+갇히다,VV,3216,0.95,be locked in|be confined
+지옥,NNG,3217,0.80,hell
+후반,NNG,3218,0.86,second half|latter half
+자아,NNG,3219,0.82,self|ego
+무리,NNG,3220,0.96,excess|being too much
+금년,NNG,3221,0.74,this year
+태우다,VV,3222,0.87,take|give a ride
+내보내다,VV,3223,0.84,let someone out|expel|broadcast
+생일,NNG,3224,0.77,birthday
+독특하다,VA,3225,0.91,unique|unusual|peculiar
+신기하다,VA,3226,0.84,mysterious
+솜씨,NNG,3227,0.96,skills|dexterity|knack
+이성,NNG,3228,0.91,reason|rationality
+부정적,NNG,3229,0.88,negative|pessimistic
+여관,NNG,3230,0.85,inn|motel
+안경,NNG,3231,0.83,glasses|spectacles
+고생하다,VV,3232,0.75,suffer|have a hard time
+낡다,VA,3233,0.99,old|shabby|outdated
+순수하다,VA,3234,0.96,innocent
+연장,NNG,3235,0.86,extension|renewal
+동사,NNG,3236,0.56,verb
+올바르다,VA,3237,0.91,right|correct|proper
+교환,NNG,3238,0.86,exchange|swap
+군수,NNG,3239,0.70,county chief
+성명,NNG,3240,0.83,statement|announcement
+화학,NNG,3241,0.83,chemistry
+최종,NNG,3242,0.68,final|last
+차,NNG,3243,0.93,tea
+자전거,NNG,3244,0.92,bicycle
+추세,NNG,3245,0.77,trend|tendency
+실정,NNG,3246,0.85,actual state
+일요일,NNG,3247,0.92,Sunday
+설,NNG,3248,0.79,theory|view
+구역,NNG,3249,0.87,area|district|zone
+뉴욕,NNP,3250,0.77,New York
+과학적,NNG,3251,0.79,scientific
+가락,NNG,3252,0.72,tune|melody
+관념,NNG,3253,0.81,idea|sense|concept
+대가,NNG,3254,0.92,reward|price|cost
+도둑,NNG,3255,0.84,thief
+가입,NNG,3256,0.71,affiliation|joining
+아쉽다,VA,3257,0.89,sorry|sad
+결정되다,VV,3258,0.90,be decided|be settled
+타령,NNG,3259,0.54,traditional tune|repeated saying
+기금,NNG,3260,0.64,fund
+수백,NNB,3261,0.93,hundreds
+물결,NNG,3262,0.97,wave|tide|flow
+정확히,MAG,3263,0.97,correctly|accurately
+덩어리,NNG,3264,0.87,mass|chunk|lump
+수학,NNG,3265,0.87,mathematics
+매체,NNG,3266,0.80,medium
+발생,NNG,3267,0.79,occurrence|outbreak
+자살,NNG,3268,0.94,suicide
+저물다,VV,3269,0.57,get dark
+증상,NNG,3270,0.88,symptom
+여건,NNG,3271,0.84,condition
+일생,NNG,3272,0.86,lifetime|one's whole life
+판소리,NNG,3273,0.73,pansori
+객관적,NNG,3274,0.86,objective
+위주,NNG,3275,0.84,mainly with|~-centered
+익숙하다,VA,3276,0.99,skilled|experienced|familiar
+요청,NNG,3277,0.86,request|demand|claim
+임마,IC,3278,0.45,boy|man (slang)
+대기업,NNG,3279,0.73,conglomerate|big company
+지하철,NNG,3280,0.78,subway
+체험,NNG,3281,0.87,experience
+접다,VV,3282,0.90,fold|put aside|stop
+이르다,VA,3283,0.96,early|premature
+국립,NNG,3284,0.79,national
+부럽다,VA,3285,0.78,envious of
+협의,NNG,3286,0.72,consultation|discussion
+가시다,VV,3287,0.67,wash out|rinse|leave|go away
+소용,NNG,3288,0.75,use|good
+버릇,NNG,3289,0.91,habit|manner
+복도,NNG,3290,0.82,corridor|passage
+축제,NNG,3291,0.89,festival
+시집,NNG,3292,0.86,anthology of poems
+지배하다,VV,3293,0.87,control|govern|dominate
+스승,NNG,3294,0.98,teacher
+세계화,NNG,3295,0.69,globalization
+노파,NNG,3296,0.68,old woman
+월급,NNG,3297,0.82,salary|wage
+조심스럽다,VA,3298,0.91,careful|cautious
+판결,NNG,3299,0.81,verdict|judgment
+언급하다,VV,3300,0.87,mention
+지수,NNG,3301,0.72,index|quotient
+의,NNG,3302,0.62,righteousness|justice
+심사,NNG,3303,0.83,evaluation|screening
+저승,NNG,3304,0.57,other world
+다행,NNG,3305,0.85,relief|fortune
+처하다,VV,3306,0.95,face|encounter|sentence|punish
+방금,MAG,3307,0.71,moment ago|now
+시도하다,VV,3308,0.91,attempt|try
+사자,NNG,3309,0.74,lion
+먼지,NNG,3310,0.95,dust
+넷,NNB,3311,0.62,four (number)
+성취,NNG,3312,0.66,achievement|fulfillment
+당초,MAG,3313,0.77,original point|originally
+공자,NNP,3314,0.82,Confucius
+쇼,NNG,3315,0.88,show|pretense
+실명제,NNG,3316,0.61,real-name system
+이어,MAG,3317,0.87,in succession|continually
+스트레스,NNG,3318,0.79,stress
+조각,NNG,3319,0.97,piece|slice|fragment
+청,NNG,3320,0.66,request|favor
+노래하다,VV,3321,0.89,sing
+홀로,MAG,3322,0.96,alone|by oneself
+중소기업,NNG,3323,0.70,small- and medium-sized business
+의학,NNG,3324,0.88,medicine
+한,NNG,3325,0.89,deep sorrow and regret
+태우다,VV,3326,0.91,burn|tan|worry
+말리다,VV,3327,0.80,stop|prohibit
+채,NNB,3328,0.80,counter (house|building)
+친척,NNG,3329,0.92,relative
+감동,NNG,3330,0.99,feeling moved|touching
+치다,VV,3331,0.83,draw|fence
+근,NNB,3332,0.59,counter (weight)
+끊임없이,MAG,3333,0.97,endlessly
+근무,NNG,3334,0.88,work|being on duty
+활발하다,VA,3335,0.88,active|vigorous|animated
+도깨비,NNG,3336,0.66,goblin|hobgoblin
+저항,NNG,3337,0.92,resistance
+뵙다,VV,3338,0.64,see|meet
+시비,NNG,3339,0.94,right and wrong|quarrel|dispute
+기여,NNG,3340,0.58,contribution
+소나무,NNG,3341,0.91,pine (tree)
+과일,NNG,3342,0.94,fruit
+기대다,VV,3343,0.87,expectation|anticipation
+삶다,VV,3344,0.67,boil|simmer
+고위,NNG,3345,0.60,high rank
+다물다,VV,3346,0.80,close|keep quiet
+년도,NNB,3347,0.79,counter (year)
+억지로,MAG,3348,0.84,by force
+건지다,VV,3349,0.81,take out of water|save
+하룻밤,NNG,3350,0.77,one night
+수용하다,VV,3351,0.86,accept|embrace|agree
+나비,NNG,3352,0.87,butterfly
+석유,NNG,3353,0.88,oil|petroleum
+어느새,MAG,3354,0.85,already|before we recognize
+산소,NNG,3355,0.77,oxygen
+내려다보다,VV,3356,0.72,look down|overlook
+은혜,NNG,3357,0.73,grace|kindness|favor
+사전,NNG,3358,0.65,dictionary
+경기,NNG,3359,0.58,economy|business
+소유,NNG,3360,0.91,ownership|possession
+진행하다,VV,3361,0.80,proceed|advance
+권위,NNG,3362,0.92,authority
+효과적,NNG,3363,0.85,effective
+박물관,NNG,3364,0.83,museum
+마련되다,VV,3365,0.87,be prepared for|be created to
+잘되다,VV,3366,0.85,go well|prosper|succeed
+새다,VV,3367,0.81,leak|escape
+학과,NNG,3368,0.84,department
+허허,IC,3369,0.55,ho-ho!
+시달리다,VV,3370,0.98,suffer (from)|be harassed
+뿔,NNG,3371,0.58,horn|antler
+제기되다,VV,3372,0.76,be brought up|be raised
+묵다,VV,3373,0.59,get old
+다스리다,VV,3374,0.94,govern|rule|subdue|discipline
+법원,NNG,3375,0.78,court
+닥치다,VV,3376,0.92,approach|draw near|impend
+씹다,VV,3377,0.83,chew|bite|speak ill of (slang)
+마주치다,VV,3378,0.86,meet|bump into
+분양,NNG,3379,0.62,sale (of land)|parceling-out
+엔,NNB,3380,0.78,yen (Japanese currency)
+강물,NNG,3381,0.93,river
+영웅,NNG,3382,0.93,hero|heroine
+그늘,NNG,3383,0.95,shade|shadow|protection
+덜다,VV,3384,0.75,deduct|lessen|alleviate|save
+못하다,VA,3385,0.89,inferior to|bad
+대비하다,VV,3386,0.87,prepare (for)|be ready
+신,NNG,3387,0.88,joy|excitement
+법인,NNG,3388,0.78,cooperation
+군사,NNG,3389,0.91,military task
+야구,NNG,3390,0.77,baseball
+감히,MAG,3391,0.92,dare
+소중하다,VA,3392,1.00,precious|valuable
+살짝,MAG,3393,0.77,slightly|secretly
+결정적,NNG,3394,0.95,decisive|definite
+줄기,NNG,3395,0.95,stem|stalk|ray
+전투,NNG,3396,1.00,combat|battle
+실,NNG,3397,0.75,thread
+주막,NNG,3398,0.58,tavern|pub
+대위,NNG,3399,0.66,captain|lieutenant
+넉,NNG,3400,0.79,soul|spirit
+엮다,VV,3401,0.91,weave|tie together
+든가,EC,3402,0.59,connective ending (whether... or...)
+까치,NNG,3403,0.84,magpie
+살아나다,VV,3404,0.84,revive|survive
+넘어지다,VV,3405,0.76,fall|tumble
+완벽하다,VA,3406,0.99,perfect|immaculate
+논란,NNG,3407,0.63,controversy|dispute
+장래,NNG,3408,0.94,future
+밉다,VA,3409,0.79,ugly|homely|dislike|detest
+가죽,NNG,3410,0.88,leather
+염려,NNG,3411,0.83,concern|worry|care
+단다,EF,3412,0.90,final ending (statement)
+대체,MAG,3413,0.81,main part|at all|on the earth
+그나마,MAG,3414,0.96,at least
+실시,NNG,3415,0.69,implementation|enforcement
+외우다,VV,3416,0.74,memorize|learn by heart
+식물,NNG,3417,0.85,plants
+도망가다,VV,3418,0.67,run away|escape
+어디,IC,3419,0.54,where|well
+연방,NNG,3420,0.85,federation|union
+공사,NNG,3421,0.68,public corporation
+맞서다,VV,3422,0.90,face|confront|oppose
+전날,NNG,3423,0.90,day before|previous day
+긁다,VV,3424,0.69,scratch|scrape
+망설이다,VV,3425,0.86,hesitate|dither
+필요성,NNG,3426,0.87,necessity|need
+성경,NNG,3427,0.80,the Bible
+주말,NNG,3428,0.78,weekend
+노리다,VV,3429,0.93,seek|aim|be after
+참,NNB,3430,0.81,temporal point|moment
+동일하다,VA,3431,0.77,identical|same
+서서히,MAG,3432,0.99,slowly
+상징,NNG,3433,0.87,symbol
+패,NNG,3434,0.75,group|party
+몇몇,MM,3435,0.98,several
+댐,NNG,3436,0.75,dam
+녹다,VV,3437,0.91,melt|thaw
+행,NNG,3438,0.72,line
+이모,NNG,3439,0.70,(maternal) aunt
+차갑다,VA,3440,0.90,cold|chilly|icy
+비롯되다,VV,3441,0.89,start|begin
+토끼,NNG,3442,0.93,rabbit
+완전하다,VA,3443,0.93,perfect|complete
+열매,NNG,3444,0.90,fruit|result
+엉덩이,NNG,3445,0.86,butt|buttocks
+의심,NNG,3446,0.97,suspicion|doubt
+이치,NNG,3447,0.93,reason|logic
+세포,NNG,3448,0.87,cell
+철도,NNG,3449,0.87,track|railroad
+토요일,NNG,3450,0.82,Saturday
+소송,NNG,3451,0.70,suit|litigation
+허가,NNG,3452,0.81,permission|sanction|admission
+수건,NNG,3453,0.69,towel
+설치,NNG,3454,0.72,installation
+신세,NNG,3455,0.86,one's circumstances
+탑,NNG,3456,0.85,pagoda|tower
+날카롭다,VA,3457,0.94,sharp|keen|sensitive
+빼앗다,VV,3458,0.99,take|steal|deprive
+기지,NNG,3459,0.89,base|station
+판사,NNG,3460,0.85,judge
+혹,MAG,3461,0.81,if
+분단,NNG,3462,0.88,division|partition
+주저앉다,VV,3463,0.80,drop down|sink|collapse|give up
+구실,NNG,3464,0.94,duty|function|role
+진단,NNG,3465,0.85,diagnosis
+지상,NNG,3466,0.97,on the ground
+파리,NNP,3467,0.93,Paris
+대,NNB,3468,0.68,counter (stalk|stick)
+근무하다,VV,3469,0.94,work|be on duty
+달려들다,VV,3470,0.79,attack|throw oneself at
+삼키다,VV,3471,0.86,swallow|gobble
+바둑,NNG,3472,0.90,go (game)
+대규모,NNG,3473,0.75,large scale
+덕분,NNG,3474,0.98,thanks to
+환상,NNG,3475,0.98,fantasy|illusion
+받치다,VV,3476,0.78,support|prop up
+물음,NNG,3477,0.85,question
+신하,NNG,3478,0.80,subject|vassal
+향상,NNG,3479,0.83,improvement|progress
+구분,NNG,3480,0.86,division|classification
+오가다,VV,3481,0.96,come and go|exchange
+차별,NNG,3482,0.89,discrimination
+인상,NNG,3483,0.74,raise|increase|hike
+풍부하다,VA,3484,0.88,rich|abundant
+고전,NNG,3485,0.85,classic|classics
+개편,NNG,3486,0.64,reorganization|reform
+내각,NNG,3487,0.77,cabinet|ministry
+고리,NNG,3488,0.81,ring|loop
+줄다,VV,3489,0.80,decrease|diminish
+성장하다,VV,3490,0.90,grow|develop
+습관,NNG,3491,0.97,habit|custom
+위협,NNG,3492,0.91,threat|menace
+생선,NNG,3493,0.81,fish
+법적,NNG,3494,0.85,legal
+무게,NNG,3495,0.97,weight
+적자,NNG,3496,0.71,deficit|loss
+연결하다,VV,3497,0.86,connect
+의식하다,VV,3498,0.99,be conscious|be aware
+제출하다,VV,3499,0.78,submit|turn in
+소수,NNG,3500,0.88,few|minority
+척,NNB,3501,0.95,counter (ships)
+곳곳,NNG,3502,0.93,everywhere
+투표,NNG,3503,0.71,vote
+주목하다,VV,3504,0.81,pay attention|notice
+느리다,VA,3505,0.87,slow|sluggish
+일정,NNG,3506,0.73,schedule
+구르다,VV,3507,0.81,roll over|tumble
+광장,NNG,3508,0.97,square|plaza
+컵,NNG,3509,0.89,cup|glass
+농담,NNG,3510,0.87,kidding|joke
+흥,IC,3511,0.52,hum|humph
+알맞다,VA,3512,0.83,proper|suitable
+실은,MAG,3513,0.93,in fact
+적당하다,VA,3514,0.97,right|proper|adequate
+토대,NNG,3515,0.82,foundation|base
+다방,NNG,3516,0.83,coffee shop|tea room
+더듬다,VV,3517,0.84,stammer|stutter|grope|trace
+또다시,MAG,3518,0.96,again|over again
+일방적,NNG,3519,0.94,unilateral|one-sided
+대국,NNG,3520,0.63,power nation
+명사,NNG,3521,0.70,noun
+재물,NNG,3522,0.72,wealth|property|asset
+팬,NNG,3523,0.75,fan|admirer
+어색하다,VA,3524,0.86,awkward
+작정,NNG,3525,0.78,intention|decision|plan
+붓,NNG,3526,0.75,brush
+틀림없이,MAG,3527,0.77,certainly|evidently
+글쎄요,IC,3528,0.54,well (polite)
+뒤따르다,VV,3529,0.96,follow
+연주,NNG,3530,0.93,performance|recital
+교과서,NNG,3531,0.91,textbook
+영향력,NNG,3532,0.87,influence|leverage
+디자인,NNG,3533,0.77,design
+신뢰,NNG,3534,0.87,trust|faith
+생산하다,VV,3535,0.86,produce|manufacture
+오해,NNG,3536,0.91,misunderstanding
+직전,NNG,3537,0.94,just before
+유교,NNG,3538,0.75,Confucianism
+떨어뜨리다,VV,3539,0.94,drop|depreciate|lessen
+영원히,MAG,3540,0.98,forever
+경험하다,VV,3541,0.95,experience
+통화,NNG,3542,0.80,call|phone conversation
+동의,NNG,3543,0.91,agreement|assent
+홍보,NNG,3544,0.74,publication|advertisement
+각국,NNG,3545,0.81,every nation
+창작,NNG,3546,0.84,creation
+절로,MAG,3547,0.65,naturally|automatically
+노선,NNG,3548,0.87,route|line
+촬영,NNG,3549,0.83,shooting|filming
+생활하다,VV,3550,0.88,live|exist
+구절,NNG,3551,0.86,phrase|passage
+흔하다,VA,3552,0.98,common
+실내,NNG,3553,0.96,interior
+집어넣다,VV,3554,0.75,put in|throw in
+감싸다,VV,3555,0.93,cover|wrap|defend
+화장,NNG,3556,0.88,make-up
+결합,NNG,3557,0.82,combination|fusion
+문화재,NNG,3558,0.78,cultural assets
+통치,NNG,3559,0.81,rule|government|reign
+질환,NNG,3560,0.86,disease|illness
+밀리다,VV,3561,0.92,be pushed
+천,NNG,3562,0.82,cloth
+겸,NNB,3563,0.96,and|as well as
+아픔,NNG,3564,0.98,pain|agony|torment
+기침,NNG,3565,0.73,cough
+유리하다,VA,3566,0.93,advantageous|favorable
+식량,NNG,3567,0.95,food|provisions
+애정,NNG,3568,0.99,affection|love
+권한,NNG,3569,0.90,authority|right|jurisdiction
+참조,NNG,3570,0.65,reference|consultation
+다투다,VV,3571,0.99,quarrel|argue|fight
+가라앉다,VV,3572,0.92,sink|go under
+발달하다,VV,3573,0.73,develop|grow
+수지,NNG,3574,0.81,earning and expenses|profit
+개정,NNG,3575,0.65,revision|amendment
+파괴,NNG,3576,0.92,destruction|demolition
+조약,NNG,3577,0.85,treaty|pact|convention
+못되다,VA,3578,0.80,bad|mean|evil
+늘어지다,VV,3579,0.83,droop|sag|drag on
+꿀,NNG,3580,0.69,honey
+환하다,VA,3581,0.83,bright|light
+끓다,VV,3582,0.88,boil
+재무,NNG,3583,0.63,finance
+우유,NNG,3584,0.93,milk
+골짜기,NNG,3585,0.87,valley|canyon|gorge
+계절,NNG,3586,0.97,season
+찢다,VV,3587,0.79,tear|rip
+막상,MAG,3588,0.91,actually|in reality
+껍질,NNG,3589,0.93,skin|bark|peel
+비난,NNG,3590,0.86,criticism|denunciation
+철저히,MAG,3591,0.94,completely|thoroughly
+식,NNB,3592,0.77,ceremony|form|formula
+상인,NNG,3593,0.95,merchant
+노랗다,VA,3594,0.88,yellow
+흉내,NNG,3595,0.88,imitation|mimicry
+구분하다,VV,3596,0.83,divide|separate
+수천,NNB,3597,0.92,thousands (number)
+성분,NNG,3598,0.87,ingredient|component
+마땅하다,VA,3599,0.99,suitable|right|appropriate
+홍콩,NNP,3600,0.69,Hong Kong
+정면,NNG,3601,0.98,front|façade
+뱉다,VV,3602,0.79,spit out
+도입하다,VV,3603,0.76,introduce|adopt
+자꾸만,MAG,3604,0.82,repeatedly|over and over again
+가루,NNG,3605,0.89,powder
+양심,NNG,3606,0.95,conscience
+검토,NNG,3607,0.74,examination|review
+대기,NNG,3608,0.91,stand by
+연애,NNG,3609,0.84,dating|romantic relation
+일자,NNG,3610,0.84,date|days
+절대적,NNG,3611,0.91,absolute|unconditional
+공산당,NNG,3612,0.98,Communist Party
+국제적,NNG,3613,0.83,international|global
+부채,NNG,3614,0.81,debt|liability
+별도,NNG,3615,0.80,addition|separation
+번역,NNG,3616,0.88,translation
+꼭대기,NNG,3617,0.63,top|summit
+집행,NNG,3618,0.83,execution|enforcement
+마담,NNG,3619,0.69,bar hostess
+좌,NNG,3620,0.71,left
+번지다,VV,3621,0.97,spread|run
+회관,NNG,3622,0.79,hall|meeting hall
+가지,NNG,3623,0.84,branch|bough|twig
+사원,NNG,3624,0.95,employee|worker|staff
+꿇다,VV,3625,0.83,fall to one's knees|kneel
+멀어지다,VV,3626,0.88,recede|grow apart
+한문,NNG,3627,0.72,Chinese classics
+논쟁,NNG,3628,0.83,argument|dispute
+다가서다,VV,3629,0.79,step up to|approach
+솔직하다,VA,3630,0.93,honest|straightforward
+지시하다,VV,3631,0.94,order|command|direct
+해결되다,VV,3632,0.94,get resolved
+돌보다,VV,3633,0.99,take care of|look after
+접하다,VV,3634,0.94,learn|hear|border
+자존심,NNG,3635,0.98,pride|self-esteem
+자랑하다,VV,3636,0.96,boast|brag
+비평,NNG,3637,0.78,criticism|review
+업종,NNG,3638,0.65,type of business
+서부터,NNB,3639,0.70,from (place)
+범인,NNG,3640,0.98,criminal|culprit
+끌리다,VV,3641,0.88,drag|be attracted to
+잘나다,VA,3642,0.68,good|distinguished
+부하,NNG,3643,0.96,subordinate
+후기,NNG,3644,0.69,latter part
+헤매다,VV,3645,0.95,wander|roam|get confused
+한테서,NNB,3646,0.79,from (person)
+활용,NNG,3647,0.73,utilization|application
+바늘,NNG,3648,0.82,needle
+누이,NNG,3649,0.76,sister
+우연히,MAG,3650,0.96,by chance|by accident
+허공,NNG,3651,0.80,air|void
+합리적,NNG,3652,0.87,reasonable|rational
+총회,NNG,3653,0.81,general meeting
+물고기,NNG,3654,0.96,fish
+거부,NNG,3655,0.87,reversal|rejection
+격,NNB,3656,0.98,standing|class|status
+비서,NNG,3657,0.83,secretary|assistant
+비비다,VV,3658,0.79,rub|scrub|mix
+썰다,VV,3659,0.81,cut|chop|slice
+의존하다,VV,3660,0.82,depend on|rely on
+거느리다,VV,3661,0.92,have|command
+펼쳐지다,VV,3662,0.95,unfold|spread|be held
+부인하다,VV,3663,0.94,deny|repudiate
+거니와,EC,3664,0.93,connective ending (as well as)
+차다,VV,3665,0.77,wear|put on
+빠져나가다,VV,3666,0.90,get out|escape
+햇살,NNG,3667,0.82,sunlight|sunshine
+아울러,MAG,3668,0.86,in addition|together
+느니,EC,3669,0.81,connective ending (rather than)
+풍기다,VV,3670,0.91,smell|give off|exude
+확보,NNG,3671,0.73,securement
+토하다,VV,3672,0.89,vomit|throw up
+프로,NNG,3673,0.73,program
+맞이하다,VV,3674,0.97,receive|greet
+근심,NNG,3675,0.63,worry|concern
+육체,NNG,3676,0.92,body|physical
+확대하다,VV,3677,0.77,expand|enlarge
+결혼식,NNG,3678,0.86,wedding ceremony
+보상,NNG,3679,0.89,indemnification|compensation
+전반적,NNG,3680,0.82,overall|general
+차츰,MAG,3681,0.95,gradually|slowly
+일기,NNG,3682,0.95,diary|journal
+감시,NNG,3683,0.91,surveillance|vigilance
+만주,NNP,3684,0.89,Manchuria
+자세하다,VA,3685,0.90,detailed|minute
+채다,VV,3686,0.81,sense|notice
+숙제,NNG,3687,0.87,homework|assignment
+오리,NNG,3688,0.68,duck
+구입하다,VV,3689,0.82,purchase
+보고하다,VV,3690,0.96,report|inform
+여간,MAG,3691,0.87,common (with negative word)
+만족하다,VA,3692,0.98,be satisfied|be content
+출발,NNG,3693,0.95,departure
+체,NNB,3694,0.80,pretense
+채권,NNG,3695,0.58,bond
+법칙,NNG,3696,0.64,law|rule
+제국,NNG,3697,0.88,empire
+호흡,NNG,3698,0.99,breath|breathing
+자신,NNG,3699,0.92,self-confidence
+어음,NNG,3700,0.86,promissory note
+인수,NNG,3701,0.69,takeover|transfer
+보름,NNG,3702,0.81,fifteen days
+얼음,NNG,3703,0.95,ice
+부치다,VV,3704,0.79,send|dispatch
+장비,NNG,3705,0.77,equipment
+안주,NNG,3706,0.67,bar snacks
+협의회,NNG,3707,0.61,committee
+수화기,NNG,3708,0.66,receiver
+문헌,NNG,3709,0.72,literature
+여태,MAG,3710,0.60,still|so far
+발길,NNG,3711,0.91,walk|steps
+의심하다,VV,3712,0.99,doubt|suspect
+거절하다,VV,3713,0.99,refuse|reject
+성인,NNG,3714,0.92,adult
+예상하다,VV,3715,0.93,expect|anticipate
+녀,NNB,3716,0.81,counter (daughter)
+정월,NNG,3717,0.69,first month of the year
+바닷가,NNG,3718,0.88,seashore|beach
+개성,NNG,3719,0.91,individuality|personality
+총무,NNG,3720,0.72,manager
+각기,MAG,3721,0.93,respectively|each
+전개되다,VV,3722,0.85,unfold|develop
+햇빛,NNG,3723,0.96,sun|sunlight
+주도하다,VV,3724,0.81,lead|take the lead
+빌딩,NNG,3725,0.91,building
+당사자,NNG,3726,0.91,person concerned
+사찰,NNG,3727,0.69,investigation|inspection
+진상,NNG,3728,0.79,truth|reality
+에미,NNG,3729,0.63,mother (lowering)
+탈,NNG,3730,0.89,accident|incident|trouble
+다수,NNG,3731,0.87,majority
+해당,NNG,3732,0.77,correspondence|relevance
+평범하다,VA,3733,1.00,ordinary|common
+낮추다,VV,3734,0.91,lower|reduce|bring down
+헤아리다,VV,3735,0.98,count|understand|figure
+말없이,MAG,3736,0.78,silently
+차다,VA,3737,0.84,cold|icy|freezing
+상당,NNG,3738,0.79,considerable|sizeable
+정식,NNG,3739,0.94,formal|legal
+적용하다,VV,3740,0.80,apply to
+뭉치다,VV,3741,0.81,get together|unite
+촉구하다,VV,3742,0.53,urge|press|demand
+님,NNB,3743,0.67,Mr.|Miss|Ms.|Mrs.
+지난번,NNG,3744,0.81,last time|the other day
+명칭,NNG,3745,0.86,name|title
+조국,NNG,3746,0.97,homeland
+저자,NNG,3747,0.92,writer|author
+대안,NNG,3748,0.84,alternative
+높이,NNG,3749,0.96,height
+합의하다,VV,3750,0.64,reach an agreement
+제조,NNG,3751,0.70,manufacturing|production
+무리,NNG,3752,0.95,group|crowd|party
+허용하다,VV,3753,0.76,allow
+띄우다,VV,3754,0.82,fly|float
+연속,NNG,3755,0.79,continuation
+아무렇다,VA,3756,0.82,indifferent|fine
+휴가,NNG,3757,0.89,holiday|vacation
+민족주의,NNG,3758,0.79,nationalism
+희생,NNG,3759,0.98,sacrifice
+흘러가다,VV,3760,0.93,flow|run
+벌,NNB,3761,0.70,counter (clothing)
+막내,NNG,3762,0.78,last born|youngest child
+열쇠,NNG,3763,0.94,keys
+뺨,NNG,3764,0.80,cheek
+베풀다,VV,3765,0.96,give|do a favor
+설립,NNG,3766,0.75,establishment
+포함,NNG,3767,0.75,inclusion
+동원하다,VV,3768,0.93,mobilize
+기여하다,VV,3769,0.84,contribute
+행동하다,VV,3770,0.96,behave
+화살,NNG,3771,0.81,arrow
+더라면,EC,3772,0.97,connective ending (if)
+건만,EC,3773,0.91,connective ending (although)
+강하다,VA,3774,0.95,strong|powerful|mighty
+자랑,NNG,3775,0.86,boast|bragging
+이내,NNG,3776,0.83,within
+소파,NNG,3777,0.77,sofa
+향기,NNG,3778,0.98,scent|fragrance
+질리다,VV,3779,0.78,be frightened|be sick of
+목욕,NNG,3780,0.86,bath|shower
+사망,NNG,3781,0.82,death|passing
+고민하다,VV,3782,0.89,worry|be troubled
+수비,NNG,3783,0.59,defense
+내려놓다,VV,3784,0.72,put down
+볼,NNG,3785,0.86,cheek
+감안하다,VV,3786,0.74,consider
+정치권,NNG,3787,0.51,political circle
+개국,NNB,3788,0.67,counter (number of nations)
+농부,NNG,3789,0.88,farmer|peasant
+합,NNG,3790,0.63,sum
+둥글다,VA,3791,0.91,round|spherical
+등등,NNB,3792,0.92,et cetera
+실적,NNG,3793,0.64,result|performance
+꼼짝,MAG,3794,0.72,budging|stirring
+두려움,NNG,3795,0.97,fear|fright
+손목,NNG,3796,0.75,wrist
+서,NNG,3797,0.88,west
+임원,NNG,3798,0.71,executive|board member
+도로,MAG,3799,0.65,again|back
+감옥,NNG,3800,0.99,jail|prison
+포,NNG,3801,0.80,cannon|artillery
+씌우다,VV,3802,0.80,cover
+어리석다,VA,3803,0.96,foolish|stupid
+치열하다,VA,3804,0.87,fierce|intense
+추,NNG,3805,0.69,pendulum
+거짓,NNG,3806,0.98,lie|falsehood
+트럭,NNG,3807,0.91,truck
+화해,NNG,3808,0.90,reconciliation
+국방,NNG,3809,0.72,national defense
+국,NNG,3810,0.80,soup
+열차,NNG,3811,0.96,train
+성,NNG,3812,0.84,castle|fortress
+강아지,NNG,3813,0.79,puppy
+장점,NNG,3814,0.86,merit|advantage
+도덕적,NNG,3815,0.86,ethical|moral
+추억,NNG,3816,0.99,memory|remembrance
+불가피하다,VA,3817,0.79,inevitable
+민속,NNG,3818,0.83,folk
+로비,NNG,3819,0.74,lobby
+이해되다,VV,3820,0.80,be understood
+첫날,NNG,3821,0.78,first day
+구먼,EF,3822,0.67,final ending (statement)
+가두다,VV,3823,0.76,lock up|confine
+우산,NNG,3824,0.83,umbrella
+고문,NNG,3825,0.97,torture
+생존,NNG,3826,0.91,survival
+독재,NNG,3827,0.93,dictatorship|tyranny
+라니,EF,3828,0.74,final ending (surprise)
+선비,NNG,3829,0.76,classical scholar
+대한민국,NNP,3830,0.89,Korea
+건드리다,VV,3831,0.84,touch|get on
+간장,NNG,3832,0.75,soy sauce
+파일,NNG,3833,0.84,file
+적용되다,VV,3834,0.81,apply
+탄생,NNG,3835,0.88,birth
+함,NNG,3836,0.73,box|case
+창조,NNG,3837,0.82,creation
+육성,NNG,3838,0.72,human voice
+겹치다,VV,3839,0.90,overlap
+대신하다,VV,3840,0.99,replace|substitute
+중년,NNG,3841,0.94,middle age
+애초,NNG,3842,0.93,beginning|start
+계산하다,VV,3843,0.94,calculate
+흑,NNG,3844,0.95,black
+대원,NNG,3845,0.88,member of a troop
+곧바로,MAG,3846,0.95,directly
+주문,NNG,3847,0.93,order
+안팎,NNG,3848,0.89,inside and outside
+이탈리아,NNP,3849,0.67,Italy
+취미,NNG,3850,0.93,hobby|pastime
+천장,NNG,3851,0.87,ceiling
+구원,NNG,3852,0.94,rescue|salvation
+꼬다,VV,3853,0.64,twist|twirl|fidget
+시도,NNG,3854,0.92,try|attempt
+도전,NNG,3855,0.88,challenge|defiance
+고교,NNG,3856,0.69,high school
+부사,NNG,3857,0.75,adverb
+진출하다,VV,3858,0.81,advance|enter
+끼우다,VV,3859,0.92,put in|insert
+당당하다,VA,3860,0.99,well-built|confident
+귀족,NNG,3861,0.69,aristocrat|noble
+근원,NNG,3862,0.81,root|cause|source
+밥상,NNG,3863,0.76,dining table
+가꾸다,VV,3864,0.96,decorate|adorn
+정원,NNG,3865,0.84,yard|garden
+정작,MAG,3866,0.97,actually|really
+깨끗이,MAG,3867,0.96,neatly|tidily
+특이하다,VA,3868,0.86,peculiar|eccentric
+투자하다,VV,3869,0.79,invest
+대변인,NNG,3870,0.40,spokesperson
+청산,NNG,3871,0.77,settlement|liquidation
+매년,MAG,3872,0.81,every year
+위반,NNG,3873,0.65,violation|infraction
+자극,NNG,3874,0.92,stimulus|excitement
+형상,NNG,3875,0.90,shape|figure
+가난,NNG,3876,0.88,poverty
+대응하다,VV,3877,0.85,action|maneuver
+무어,NP,3878,0.78,what|something
+관리,NNG,3879,0.89,officer
+바짝,MAG,3880,0.83,dried up|firmly
+부총리,NNG,3881,0.59,deputy prime minister
+보람,NNG,3882,0.94,effect|worth|reward
+의복,NNG,3883,0.63,clothing|garment
+재단,NNG,3884,0.80,foundation
+임무,NNG,3885,0.98,task|mission|assignment
+계열,NNG,3886,0.85,affiliation
+도장,NNG,3887,0.82,seal|stamp
+쓸쓸하다,VA,3888,0.89,lonely|lonesome
+관리하다,VV,3889,0.88,manage
+명분,NNG,3890,0.90,cause|justification
+질병,NNG,3891,0.85,illness|disease
+예외,NNG,3892,0.94,exception
+정지,NNG,3893,0.84,stop|halt|standstill
+불행하다,VA,3894,1.00,unhappy|unfortunate
+의의,NNG,3895,0.81,meaning|significance
+배다,VV,3896,0.94,penetrate|permeate
+떠나가다,VV,3897,0.79,leave
+부여하다,VV,3898,0.86,assign|grant|invest
+클럽,NNG,3899,0.92,club
+수염,NNG,3900,0.84,mustache|beard
+아프리카,NNP,3901,0.88,Africa
+순경,NNG,3902,0.79,police officer|cop
+우리말,NNG,3903,0.86,Korean language
+간단히,MAG,3904,0.94,simply|briefly
+남매,NNG,3905,0.78,brother and sister
+이룩하다,VV,3906,0.88,achieve|accomplish|build
+포인트,NNG,3907,0.56,point|key
+확인되다,VV,3908,0.80,be confirmed
+이럴테면,MAG,3909,0.96,for example
+극히,MAG,3910,0.92,extremely|very
+책임자,NNG,3911,0.90,person in charge
+시행,NNG,3912,0.73,enforcement|implementation
+화가,NNG,3913,0.98,painter
+이리저리,MAG,3914,0.81,here and there
+설마,MAG,3915,0.72,no way
+끊기다,VV,3916,0.84,be broken|be cut
+속담,NNG,3917,0.78,adage|saying|proverb
+인원,NNG,3918,0.86,member
+대접하다,VV,3919,0.73,treat|receive
+운전,NNG,3920,0.89,driving
+텅,MAG,3921,0.88,empty|vacant
+요금,NNG,3922,0.70,charge|fee|fare
+다행히,MAG,3923,0.95,fortunately
+묘하다,VA,3924,0.92,peculiar|weird|odd
+금액,NNG,3925,0.80,amount (of money)
+확대되다,VV,3926,0.84,be expanded|be enlarged
+탁자,NNG,3927,0.80,table
+관료,NNG,3928,0.79,government official
+오랜만,NNG,3929,0.88,after a long time
+결심,NNG,3930,0.93,decision
+최대한,NNG,3931,0.90,maximum
+농산물,NNG,3932,0.74,agricultural product
+공학,NNG,3933,0.81,engineering
+대리,NNG,3934,0.88,substitute|deputy
+지향,NNG,3935,0.84,aim|oriented
+실체,NNG,3936,0.92,true nature|entity
+실현,NNG,3937,0.84,realization
+생물,NNG,3938,0.86,life|biology
+이혼,NNG,3939,0.97,divorce
+제재,NNG,3940,0.69,sanction|restriction
+선정,NNG,3941,0.75,selection|choice
+짐작,NNG,3942,0.84,guess|assumption
+정기,NNG,3943,0.75,fixed period
+동포,NNG,3944,0.88,compatriots
+작성하다,VV,3945,0.92,make|fill out
+혜택,NNG,3946,0.82,benefit|favor
+상식,NNG,3947,0.96,common sense
+전달,NNG,3948,0.87,delivery
+외면하다,VV,3949,0.98,turn one's face away
+단,MAG,3950,0.86,only|just|merely
+사연,NNG,3951,0.92,story|situation|reason
+굴다,VV,3952,0.81,behave|act
+접어들다,VV,3953,0.98,enter|get into
+그만하다,VA,3954,0.81,not be better|not be worse
+그립다,VA,3955,0.94,miss|long for
+까맣다,VA,3956,0.85,black
+정상적,NNG,3957,0.94,normal
+부정하다,VV,3958,0.93,deny|disapprove
+고함,NNG,3959,0.83,scream|shout
+시청자,NNG,3960,0.78,viewer|audience
+웬만하다,VA,3961,0.84,fairly good|passable
+대북,NNG,3962,0.46,related to North Korea
+지적,NNG,3963,0.86,intellectual
+발견,NNG,3964,0.92,discovery
+세종,NNP,3965,0.84,King Sejong
+축,NNG,3966,0.87,axis|axle|spindle
+게끔,EC,3967,0.77,connective ending (so that)
+현금,NNG,3968,0.83,cash
+성적,NNG,3969,0.85,record|result
+장자,NNG,3970,0.75,eldest son
+호기심,NNG,3971,0.97,curiosity
+모친,NNG,3972,0.74,mother (honorific)
+이빨,NNG,3973,0.79,teeth
+북경,NNP,3974,0.88,Beijing
+미처,MAG,3975,0.92,not up to that
+통화,NNG,3976,0.55,currency
+요란하다,VA,3977,0.88,noisy|gaudy
+이별,NNG,3978,0.79,separation
+통계,NNG,3979,0.84,statistics
+적용,NNG,3980,0.83,application
+깨어나다,VV,3981,0.89,wake up|awaken
+종업원,NNG,3982,0.97,employee
+왕자,NNG,3983,0.94,prince
+표,NNG,3984,0.87,ticket
+동서,NNG,3985,0.81,east and west
+원고,NNG,3986,0.98,plaintiff
+갈라지다,VV,3987,0.93,split|crack|divide
+저절로,MAG,3988,0.95,by itself|naturally
+설정하다,VV,3989,0.84,establish|set up
+감기,NNG,3990,0.82,cold
+하긴,MAJ,3991,0.73,in fact|however
+치료하다,VV,3992,0.91,cure|treat|remedy
+뻔하다,VA,3993,0.95,clear|evident|transparent
+육군,NNG,3994,0.95,army
+행사하다,VV,3995,0.89,use|exert|exercise
+가치관,NNG,3996,0.85,(a sense of) values
+우울하다,VA,3997,0.88,depressed|gloomy
+고등,NNG,3998,0.88,high|advanced
+조명,NNG,3999,0.88,lighting|illumination
+자루,NNB,4000,0.72,counter (pencils|guns)
+반발,NNG,4001,0.78,resistance|opposition
+아동,NNG,4002,0.83,child
+자신감,NNG,4003,0.90,confidence
+상상하다,VV,4004,0.98,to imagine|to picture
+가스,NNG,4005,0.88,gas
+자니,EC,4006,0.80,as|since (connective)
+들려주다,VV,4007,0.94,to let hear|to tell
+도달하다,VV,4008,0.88,to reach|to arrive
+고집,NNG,4009,0.92,stubbornness|obstinacy
+그다지,MAG,4010,0.99,so|not that
+제의,NNG,4011,0.95,suggestion|proposal
+조처,NNG,4012,0.58,measure|step
+한복,NNG,4013,0.79,hanbok (traditional Korean costume)
+수도,NNG,4014,0.93,capital
+근육,NNG,4015,0.96,muscle
+지구,NNG,4016,0.77,district|zone|area
+예방,NNG,4017,0.83,prevention
+어지럽다,VA,4018,0.93,to be giddy|to be dizzy
+운동장,NNG,4019,0.96,playground|stadium
+진술,NNG,4020,0.94,statement|testimony
+노려보다,VV,4021,0.68,to glare at|to stare at
+판,NNB,4022,0.96,place|spot|situation
+빼앗기다,VV,4023,0.99,to be taken away|to be absorbed
+사기,NNG,4024,0.92,fraud|swindle
+중요성,NNG,4025,0.83,importance|significance
+드나들다,VV,4026,0.94,to come in and out
+누님,NNG,4027,0.78,elder sister (of a male)
+증언,NNG,4028,0.82,testimony
+주주,NNG,4029,0.78,stockholder
+아이디어,NNG,4030,0.86,idea
+범주,NNG,4031,0.67,category
+라면,NNG,4032,0.80,instant noodles
+물러서다,VV,4033,0.87,to step back|to withdraw
+일가,NNG,4034,0.83,family|relative
+제안,NNG,4035,0.94,suggestion|offer|proposal
+연설,NNG,4036,0.87,speech|address
+퍽,MAG,4037,0.82,really|very much
+방울,NNG,4038,0.82,drop (of)
+지속적,NNG,4039,0.82,continuous
+현관,NNG,4040,0.85,entrance
+교양,NNG,4041,0.90,refinement|culture
+소프트웨어,NNG,4042,0.62,software
+여지,NNB,4043,0.97,room|margin
+경력,NNG,4044,0.88,career
+표준,NNG,4045,0.82,standard
+차마,MAG,4046,0.85,for all the world|for one's life
+개구리,NNG,4047,0.85,frog
+해마다,MAG,4048,0.93,every year|annually
+부위,NNG,4049,0.94,region|part
+무늬,NNG,4050,0.95,pattern|design
+오래되다,VA,4051,0.96,to be old
+영광,NNG,4052,0.97,honor|glory
+보장하다,VV,4053,0.87,to assure|to guarantee
+유도하다,VV,4054,0.86,to induce|to lead
+위치하다,VV,4055,0.93,to be located
+방면,NNG,4056,0.84,field|area|direction
+기도하다,VV,4057,0.84,to pray|to wish
+차차,MAG,4058,0.72,gradually|slowly
+그토록,MAG,4059,0.87,so|that much
+읍내,NNG,4060,0.74,in the town
+앞세우다,VV,4061,0.96,to let someone go ahead
+비상,NNG,4062,0.90,emergency
+전선,NNG,4063,0.98,battle front|line
+단독,NNG,4064,0.82,single|solo
+왠지,MAG,4065,0.82,somehow
+테이블,NNG,4066,0.85,table
+주석,NNG,4067,0.78,annotation|footnote
+남부,NNG,4068,0.87,south|southern part
+약물,NNG,4069,0.74,drug
+간신히,MAG,4070,0.86,barely|narrowly
+분리,NNG,4071,0.84,separation|division
+태평양,NNG,4072,0.84,Pacific
+예금,NNG,4073,0.66,deposit|savings
+대량,NNG,4074,0.81,bulk|mass|massive
+다듬다,VV,4075,0.93,to trim|to refine
+받들다,VV,4076,0.79,to respect|to look up to
+논리적,NNG,4077,0.82,logical
+취재,NNG,4078,0.86,coverage|collecting materials
+영장,NNG,4079,0.74,warrant|writ
+도덕,NNG,4080,0.87,ethics|morals
+지지하다,VV,4081,0.90,to support|to stand by
+많아지다,VV,4082,0.93,to increase|to pile up
+동경,NNG,4083,0.95,Tokyo
+꼬마,NNG,4084,0.86,kid
+계집애,NNG,4085,0.60,young girl|chick
+공중,NNG,4086,0.90,air|midair
+분쟁,NNG,4087,0.74,dispute|trouble|strife
+얽히다,VV,4088,0.99,to get tangled
+왈,MAG,4089,0.77,said (Confucius/Mencius)
+변동,NNG,4090,0.83,change|alteration
+학부모,NNG,4091,0.67,parents of students
+제거하다,VV,4092,0.93,to remove|to eliminate
+비난하다,VV,4093,0.86,to criticize|to blame
+기법,NNG,4094,0.82,technique
+예컨대,MAG,4095,0.82,for example
+자산,NNG,4096,0.66,assets|property
+거꾸로,MAG,4097,0.98,upside down|backward
+수정,NNG,4098,0.97,revision|modification
+무장,NNG,4099,0.98,arm
+헤치다,VV,4100,0.91,to push one's way through
+소매,NNG,4101,0.81,sleeve
+들판,NNG,4102,0.91,field
+요즈음,NNG,4103,0.98,these days
+오류,NNG,4104,0.81,mistake|error
+병력,NNG,4105,0.96,military force
+취업,NNG,4106,0.76,getting a job|working
+인간적,NNG,4107,0.95,humane
+반하다,VV,4108,0.90,to oppose|to go against
+단단히,MAG,4109,0.85,tightly|firmly|strictly
+첨단,NNG,4110,0.74,cutting edge
+편리하다,VA,4111,0.91,to be convenient|to be handy
+정말,NNG,4112,0.77,truth
+꿈꾸다,VV,4113,0.99,to dream|to wish
+인근,NNG,4114,0.81,neighborhood|vicinity
+요원,NNG,4115,0.88,personnel|agent
+란다,EF,4116,0.83,quotative ending
+부패,NNG,4117,0.82,decomposition|corruption
+채널,NNG,4118,0.79,channel
+계곡,NNG,4119,0.99,valley
+선언하다,VV,4120,0.84,to declare|to publish
+대결,NNG,4121,0.81,fight|contest|confrontation
+베트남,NNP,4122,0.85,Vietnam
+개입,NNG,4123,0.79,intervention|meddling
+호소하다,VV,4124,0.95,to appeal|to plead
+경계,NNG,4125,0.94,boundary|border
+치고,JX,4126,0.81,when it comes to|as for
+무려,MAG,4127,0.83,as many as|at least
+빌다,VV,4128,0.74,to borrow
+섭섭하다,VA,4129,0.83,to be sorry|to be regretful
+가늘다,VA,4130,0.88,to be thin|to be fine
+상,NNG,4131,0.86,statue|figure
+북방,NNG,4132,0.80,northern region
+돋다,VV,4133,0.72,to come up|to rise|to bud
+동맹,NNG,4134,0.85,alliance|partnership
+설계,NNG,4135,0.84,plan|design
+마당,NNB,4136,0.89,yard|pansori episode
+임신,NNG,4137,0.96,pregnancy
+농구,NNG,4138,0.73,basketball
+더욱이,MAG,4139,0.90,besides|moreover
+짖다,VV,4140,0.71,to bark
+가득하다,VA,4141,0.97,to be full of|to be filled with
+신념,NNG,4142,0.97,belief|creed|conviction
+간판,NNG,4143,0.96,sign|billboard
+광경,NNG,4144,0.95,scene|sight
+까마귀,NNG,4145,0.74,crow
+동화,NNG,4146,0.94,fairy tale
+여편네,NNG,4147,0.64,one's wife
+불쑥,MAG,4148,0.77,bluntly|abruptly
+지급,NNG,4149,0.74,payment
+실무,NNG,4150,0.66,actual affairs
+출입,NNG,4151,0.95,coming and going|access
+실시되다,VV,4152,0.77,to take effect|to be carried out
+비극,NNG,4153,0.95,tragedy
+벤처,NNG,4154,0.57,venture
+속다,VV,4155,0.78,to be deceived|to be fooled
+접시,NNG,4156,0.86,dish|plate
+상업,NNG,4157,0.85,commerce|business
+워싱턴,NNP,4158,0.60,Washington
+마음속,NNG,4159,0.93,one's mind|one's heart
+대륙,NNG,4160,0.88,continent
+쓰이다,VV,4161,0.90,to be written
+한창,MAG,4162,0.95,at the peak|in the middle of
+부러지다,VV,4163,0.81,to be broken
+깨우다,VV,4164,0.78,to wake up
+응하다,VV,4165,0.93,to respond|to accept
+도전하다,VV,4166,0.80,to challenge
+독서,NNG,4167,0.87,reading
+체육,NNG,4168,0.86,physical education
+가요,NNG,4169,0.78,song
+퍼붓다,VV,4170,0.93,to pour
+통상,NNG,4171,0.74,trade|commerce
+해내다,VV,4172,0.99,to accomplish|to achieve
+집회,NNG,4173,0.84,gathering|assembly
+향,NNG,4174,0.90,fragrance|incense
+책임지다,VV,4175,0.93,to take responsibility for
+상가,NNG,4176,0.84,shopping district
+춤추다,VV,4177,0.77,to dance
+실로,MAG,4178,0.94,indeed|surely
+앞장서다,VV,4179,0.95,to lead
+타인,NNG,4180,0.92,others|stranger
+일정,NNG,4181,0.83,uniformity|fixation
+시즌,NNG,4182,0.37,season
+보편적,NNG,4183,0.76,universal
+안쪽,NNG,4184,0.95,inside
+마무리,NNG,4185,0.86,finish|completion
+어쩐지,MAG,4186,0.81,somehow|no wonder
+가설,NNG,4187,0.69,hypothesis
+공식적,NNG,4188,0.90,official|public
+사용자,NNG,4189,0.78,user
+안내,NNG,4190,0.95,guidance|information
+뚜껑,NNG,4191,0.84,lid|cover
+떠돌다,VV,4192,0.97,to wander|to roam
+취지,NNG,4193,0.80,purpose|intent
+제공,NNG,4194,0.78,offer|supply
+통증,NNG,4195,0.98,pain
+점잖다,VA,4196,0.81,to be gentle|to be decent
+우승,NNG,4197,0.35,victory|win|championship
+그제서야,MAG,4198,0.75,only then
+부작용,NNG,4199,0.76,side effect
+비단,MAG,4200,0.82,simply|only
+통과,NNG,4201,0.85,passage|passing
+항목,NNG,4202,0.86,item|point
+호수,NNG,4203,0.98,lake
+주도,NNG,4204,0.83,lead|taking the lead
+울타리,NNG,4205,0.90,fence
+표시하다,VV,4206,0.92,to express|to indicate
+전개,NNG,4207,0.80,unfolding|development
+패,NNB,4208,0.73,loss|counter (loss)
+말투,NNG,4209,0.86,tone|way of speaking
+관행,NNG,4210,0.78,practice|custom
+두들기다,VV,4211,0.83,to beat|to bang
+황금,NNG,4212,0.95,gold|prime|asset
+변화하다,VV,4213,0.82,to change
+테러,NNG,4214,0.78,terror
+합하다,VV,4215,0.89,to combine|to put together
+의지하다,VV,4216,0.96,to lean|to depend on
+긴급,NNG,4217,0.71,emergency
+은근히,MAG,4218,0.90,implicitly|indirectly
+초반,NNG,4219,0.85,early stage
+강사,NNG,4220,0.87,lecturer|instructor
+되찾다,VV,4221,0.97,to recover|to take back
+쳐들다,VV,4222,0.78,to lift|to raise
+온도,NNG,4223,0.83,temperature
+맥락,NNG,4224,0.84,context
+심의,NNG,4225,0.76,deliberation|discussion
+굴리다,VV,4226,0.87,to roll|to neglect
+날로,MAG,4227,0.81,day by day
+시행하다,VV,4228,0.79,to enforce|to execute
+초래하다,VV,4229,0.81,to bring about|to cause
+메우다,VV,4230,0.99,to fill|to make up for
+증시,NNG,4231,0.37,stock market
+입학,NNG,4232,0.87,entrance into a school
+각자,NNG,4233,0.96,each one
+굽히다,VV,4234,0.95,to bend|to yield
+굳어지다,VV,4235,0.95,to get hard|to harden
+공격하다,VV,4236,0.97,to attack
+휘두르다,VV,4237,0.95,to swing|to wield
+진영,NNG,4238,0.94,camp|block
+대외,NNG,4239,0.76,foreign|outside
+방송국,NNG,4240,0.92,broadcasting company
+칭찬,NNG,4241,0.91,compliment|praise
+사회학,NNG,4242,0.82,sociology
+적히다,VV,4243,0.99,to be written
+과정,NNG,4244,0.83,course|curriculum
+자동,NNG,4245,0.87,automatic
+뛰어가다,VV,4246,0.69,to run|to rush
+자율,NNG,4247,0.83,autonomy
+닫히다,VV,4248,0.92,to close|to shut
+차관,NNG,4249,0.67,vice-minister
+공산주의,NNG,4250,0.92,communism
+재빨리,MAG,4251,0.82,quickly
+끌려가다,VV,4252,0.92,to be taken|to be dragged
+걸어오다,VV,4253,0.76,to walk|to come on foot
+세다,VV,4254,0.79,to count
+해안,NNG,4255,0.94,seashore|seaside
+협조,NNG,4256,0.90,cooperation
+발표되다,VV,4257,0.81,to be announced
+이상,NNG,4258,0.94,abnormality|disorder
+감자,NNG,4259,0.94,potato
+승부,NNG,4260,0.83,victory and defeat|match
+묶이다,VV,4261,0.97,to be tied|to be bound
+데려가다,VV,4262,0.79,to take|to bring
+여럿,NNG,4263,0.79,many (people/things)
+부도,NNG,4264,0.79,bankruptcy
+출판,NNG,4265,0.85,press|publication
+일일이,MAG,4266,0.94,one by one
+하필,MAG,4267,0.89,of all things
+중반,NNG,4268,0.91,middle stage
+단속,NNG,4269,0.75,crackdown|control
+규범,NNG,4270,0.79,standard|criterion
+왕조,NNG,4271,0.78,dynasty
+정당하다,VA,4272,0.96,to be just|to be right
+괴롭히다,VV,4273,0.96,to harass|to annoy
+죄인,NNG,4274,0.84,sinner|criminal
+매달다,VV,4275,0.79,to hang|to put up
+반도체,NNG,4276,0.60,semiconductor
+궁극적,NNG,4277,0.86,ultimate|eventual
+지사,NNG,4278,0.73,branch (office)
+달빛,NNG,4279,0.84,moonlight
+결심하다,VV,4280,0.97,to decide|to determine
+관찰하다,VV,4281,0.89,to observe|to watch
+공개하다,VV,4282,0.69,to make it public
+체질,NNG,4283,0.95,physical constitution
+매력,NNG,4284,0.98,attraction|charm
+선두,NNG,4285,0.80,front position|head
+심리적,NNG,4286,0.91,psychological
+털어놓다,VV,4287,0.91,to confess|to disclose
+교섭,NNG,4288,0.81,negotiation|bargaining
+구호,NNG,4289,0.96,slogan|chant
+흥,NNG,4290,0.83,excitement|amusement
+통과하다,VV,4291,0.97,to pass (through)
+엄격하다,VA,4292,0.92,to be strict
+중세,NNG,4293,0.73,Middle Ages
+포로,NNG,4294,0.98,captive|prisoner
+구상,NNG,4295,0.85,plan|design|idea
+피해자,NNG,4296,0.86,victim
+파랗다,VA,4297,0.91,to be blue
+현행,NNG,4298,0.58,current|existing
+희미하다,VA,4299,0.84,to be dim|to be vague
+전반,NNG,4300,0.83,whole
+설치되다,VV,4301,0.87,to be installed
+올려놓다,VV,4302,0.92,to put on
+신당,NNG,4303,0.68,new political party
+조성,NNG,4304,0.75,making|creation
+대처하다,VV,4305,0.89,to cope with|to manage
+주방,NNG,4306,0.81,kitchen
+찢어지다,VV,4307,0.85,to be torn|to be ripped
+거듭,MAG,4308,0.96,repeatedly
+동의하다,VV,4309,0.94,to agree|to consent
+머리카락,NNG,4310,0.92,hair
+시야,NNG,4311,0.92,sight|view
+연간,NNG,4312,0.63,annual
+아비,NNG,4313,0.86,father
+잇따르다,VV,4314,0.49,to follow one after another
+양복,NNG,4315,0.88,suit
+돌멩이,NNG,4316,0.75,stone
+중단,NNG,4317,0.74,interruption|suspension
+신청하다,VV,4318,0.73,to apply for|to request
+영원하다,VA,4319,0.97,to be eternal
+피아노,NNG,4320,0.95,piano
+는지,EC,4321,0.94,connective ending (question)
+사무,NNG,4322,0.87,office work
+정문,NNG,4323,0.89,main gate
+청소,NNG,4324,0.95,cleaning|sweeping
+려다,EC,4325,0.90,connective ending (trying to)
+대한,NNG,4326,0.89,Korea
+동굴,NNG,4327,0.94,cave
+성향,NNG,4328,0.88,tendency|inclination
+반복하다,VV,4329,0.97,to repeat
+유전자,NNG,4330,0.77,gene
+작가,NNG,4331,0.83,writer|fellow
+수행,NNG,4332,0.92,fulfillment|performance
+두껍다,VA,4333,0.89,to be thick
+뻔하다,VX,4334,0.86,almost do|nearly do
+투기,NNG,4335,0.75,speculation|venture
+올라서다,VV,4336,0.89,to step up|to rise
+전개하다,VV,4337,0.81,to unfold|to develop
+차장,NNG,4338,0.82,assistant director
+무료,NNG,4339,0.65,free (of charge)
+물러가다,VV,4340,0.80,to step back|to leave
+거니,EC,4341,0.79,connective ending (estimate)
+확산,NNG,4342,0.74,spread|diffusion
+어조,NNG,4343,0.83,tone (of voice)
+처벌,NNG,4344,0.81,punishment|penalty
+감소,NNG,4345,0.67,decrease|decline
+고시,NNG,4346,0.85,examination|test
+보물,NNG,4347,0.82,treasure
+상무,NNG,4348,0.85,executive director
+숨지다,VV,4349,0.57,to die
+연말,NNG,4350,0.65,end of the year
+인재,NNG,4351,0.86,person of ability
+절망,NNG,4352,0.96,despair
+연구원,NNG,4353,0.58,research center
+고장,NNG,4354,0.94,region|area|town
+추위,NNG,4355,0.98,cold
+무관하다,VA,4356,0.96,to be unrelated
+열기,NNG,4357,0.95,heat
+골프,NNG,4358,0.68,golf
+요령,NNG,4359,0.88,trick|know-how
+참가,NNG,4360,0.70,participation
+별다르다,VA,4361,0.98,to be particular|to be special
+신문사,NNG,4362,0.97,newspaper company
+부서,NNG,4363,0.89,department|division
+주고받다,VV,4364,0.98,to give and take
+선원,NNG,4365,0.96,crew
+확장,NNG,4366,0.88,extension|expansion
+국토,NNG,4367,0.90,territory
+수용,NNG,4368,0.86,acceptance|reception
+넓히다,VV,4369,0.92,to widen|to expand
+농가,NNG,4370,0.86,household farm
+막연하다,VA,4371,0.96,to be vague|to be uncertain
+국방부,NNG,4372,0.51,Ministry of National Defense
+조작,NNG,4373,0.87,operation|handling
+를,EF,4374,0.91,quotative ending
+절대,NNG,4375,0.94,absoluteness
+중단하다,VV,4376,0.85,to stop|to cease
+흐리다,VA,4377,0.95,to be cloudy
+자연히,MAG,4378,0.93,naturally
+구하다,VV,4379,0.93,to save|to rescue
+인형,NNG,4380,0.99,doll
+노예,NNG,4381,0.88,slave
+과자,NNG,4382,0.87,snack
+고유,NNG,4383,0.89,inherent|indigenous
+감사,NNG,4384,0.87,gratitude|appreciation
+충돌,NNG,4385,0.89,collision|crash
+각자,MAG,4386,0.86,each|respectively
+외국어,NNG,4387,0.83,foreign language
+주년,NNB,4388,0.71,counter (anniversary)
+과학자,NNG,4389,0.83,scientist
+전면,NNG,4390,0.69,every aspect
+회복하다,VV,4391,0.95,to recover|to restore
+꼭,MAG,4392,0.82,tightly|firmly
+시조,NNG,4393,0.78,traditional Korean short poem
+고추,NNG,4394,0.95,pepper
+기념,NNG,4395,0.79,commemoration
+조항,NNG,4396,0.74,article|clause
+사과,NNG,4397,0.98,apple
+시중,NNG,4398,0.77,market
+주목,NNG,4399,0.81,attention
+최후,NNG,4400,1.00,last
+수립,NNG,4401,0.84,establishment|founding
+종목,NNG,4402,0.52,event
+실천하다,VV,4403,0.91,to practice|to fulfill
+평등,NNG,4404,0.86,equality
+내면,NNG,4405,0.93,inner side
+별명,NNG,4406,0.93,nickname
+보건,NNG,4407,0.74,health
+흑인,NNG,4408,0.96,black person
+지극히,MAG,4409,0.97,extremely|exceedingly
+육지,NNG,4410,0.83,land
+본질적,NNG,4411,0.80,essential|fundamental
+낯,NNG,4412,0.81,face
+화장품,NNG,4413,0.88,cosmetics
+우려하다,VV,4414,0.68,to concern|to worry
+리그,NNG,4415,0.35,league
+홍수,NNG,4416,0.89,flood
+방위,NNG,4417,0.87,defense
+사이트,NNG,4418,0.47,site
+오로지,MAG,4419,0.99,only
+성적,NNG,4420,0.98,sex
+가로,NNG,4421,0.88,width
+잦다,VA,4422,0.91,to be frequent
+수영,NNG,4423,0.92,swimming
+손톱,NNG,4424,0.88,fingernail
+어긋나다,VV,4425,0.97,to be dislocated|to go wrong
+품목,NNG,4426,0.67,item
+가짜,NNG,4427,0.94,fake|forgery
+흘러내리다,VV,4428,0.78,to roll down
+월말,NNG,4429,0.50,end of the month
+두려워하다,VV,4430,0.99,to fear|to be afraid of
+만족,NNG,4431,0.94,satisfaction
+맛보다,VV,4432,0.99,to taste|to try
+빛깔,NNG,4433,0.95,color
+미국인,NNP,4434,0.92,American
+우선,NNG,4435,0.91,priority
+정체,NNG,4436,0.99,identity
+표면,NNG,4437,0.84,surface
+북,NNP,4438,0.83,North Korea
+승인,NNG,4439,0.76,approval|approbation
+흥분,NNG,4440,0.96,excitement|agitation
+미워하다,VV,4441,0.87,to hate|to dislike
+간직하다,VV,4442,0.99,to keep|to have
+허락하다,VV,4443,0.94,to allow|to let
+구축하다,VV,4444,0.88,to construct|to build
+해당되다,VV,4445,0.90,to apply|to belong to
+회계,NNG,4446,0.72,accounting
+행정부,NNG,4447,0.71,administration
+중동,NNP,4448,0.82,Middle East
+꺼리다,VV,4449,0.94,to avoid|to shun
+갖가지,NNG,4450,0.98,various kinds
+즐거움,NNG,4451,0.95,pleasure|joy
+외환,NNG,4452,0.51,foreign exchange
+부실,NNG,4453,0.57,weak|unreliability
+품질,NNG,4454,0.76,quality
+불행,NNG,4455,0.98,unhappiness|misfortune
+설정,NNG,4456,0.85,set-up|creation
+기세,NNG,4457,0.94,force|vigor
+순위,NNG,4458,0.72,ranking
+충동,NNG,4459,0.92,impulse|urge
+섬유,NNG,4460,0.81,fiber|textile
+소지,NNG,4461,0.80,possession|holding
+출판사,NNG,4462,0.94,publisher
+기호,NNG,4463,0.72,symbol|sign
+우수하다,VA,4464,0.91,to be excellent
+귀국하다,VV,4465,0.95,to return to one's country
+편집,NNG,4466,0.89,edit|editing
+보수,NNG,4467,0.82,conservatism
+부지,NNG,4468,0.78,site|land
+이론적,NNG,4469,0.73,theoretical
+번쩍,MAG,4470,0.73,with a flash
+딸리다,VV,4471,0.83,to be attached to
+낚시,NNG,4472,0.92,fishing
+집권,NNG,4473,0.78,seizure of power
+사법,NNG,4474,0.78,jurisdiction
+부서지다,VV,4475,0.90,to shatter|to break
+기색,NNG,4476,0.78,look|appearance
+시각,NNG,4477,0.91,sight|vision
+넉넉하다,VA,4478,0.95,to be enough|to be sufficient
+모여들다,VV,4479,0.97,to gather|to come together
+주한,NNG,4480,0.68,stationed in Korea
+어기다,VV,4481,0.96,to offend|to violate
+뒤늦다,VA,4482,0.91,to be late|to be belated
+거들다,VV,4483,0.84,to support|to help
+끼이다,VV,4484,0.91,to be put between
+얼핏,MAG,4485,0.88,in a flash
+입맛,NNG,4486,0.91,one's taste
+비키다,VV,4487,0.78,to step aside
+활성화,NNG,4488,0.74,activation
+머릿속,NNG,4489,0.84,one's head
+깃발,NNG,4490,0.92,flag|colors
+섬기다,VV,4491,0.83,to serve
+고속도로,NNG,4492,0.87,highway
+대폭,MAG,4493,0.56,sharply|drastically
+대개,NNG,4494,0.92,most (things/people)
+명제,NNG,4495,0.50,proposition
+고도,NNG,4496,0.88,altitude|height
+멎다,VV,4497,0.79,to stop
+미사일,NNG,4498,0.63,missile
+장애인,NNG,4499,0.48,handicapped
+무속,NNG,4500,0.73,shamanism
+보태다,VV,4501,0.90,to add
+모스크바,NNP,4502,0.87,Moscow
+지나치다,VV,4503,0.94,to pass by|to exceed
+사과,NNG,4504,0.92,apology
+발상,NNG,4505,0.91,idea|thinking
+가입하다,VV,4506,0.80,to join|to affiliate
+장르,NNG,4507,0.74,genre
+교훈,NNG,4508,0.92,lesson|moral
+냉장고,NNG,4509,0.92,refrigerator
+적합하다,VA,4510,0.88,to be proper
+쿠데타,NNG,4511,0.98,coup
+뒤쪽,NNG,4512,0.89,back|the rear
+한데,MAG,4513,0.85,together
+먹이,NNG,4514,0.98,food|prey
+발행,NNG,4515,0.66,publication
+지정,NNG,4516,0.76,designation
+위성,NNG,4517,0.76,satellite
+종교적,NNG,4518,0.79,religious
+중생,NNG,4519,0.86,people|all living things
+튀어나오다,VV,4520,0.91,to stick out
+확신,NNG,4521,0.99,conviction
+군중,NNG,4522,0.98,crowd|mass
+결과적,NNG,4523,0.90,result
+수도권,NNG,4524,0.51,metropolitan area
+일치하다,VV,4525,0.87,to match
+쪽,NNG,4526,0.82,direction
+인격,NNG,4527,0.91,personality
+종종,MAG,4528,0.98,occasionally|often
+장식,NNG,4529,0.95,ornament
+매장,NNG,4530,0.73,shop
+라운드,NNG,4531,0.53,round
+긴장하다,VV,4532,0.88,to feel nervous
+거세다,VA,4533,0.95,to be fierce
+냉전,NNG,4534,0.82,Cold War
+선장,NNG,4535,0.88,captain
+채,MAG,4536,0.94,as yet|before
+정국,NNG,4537,0.75,political situation
+의욕,NNG,4538,0.96,volition|will
+흥분하다,VV,4539,0.92,to excite
+앞서,MAG,4540,0.92,before|earlier
+후손,NNG,4541,0.90,descendant
+상상력,NNG,4542,0.86,imagination
+명단,NNG,4543,0.83,list
+사형,NNG,4544,0.97,death penalty
+지주,NNG,4545,0.91,landlord
+고장,NNG,4546,0.92,breakdown|trouble
+각오,NNG,4547,0.96,determination
+어젯밤,NNG,4548,0.74,last night
+만물,NNG,4549,0.83,all things
+물체,NNG,4550,0.79,object
+유사하다,VA,4551,0.81,to be similar
+장기적,NNG,4552,0.77,long term
+진전,NNG,4553,0.87,progress|advance
+저서,NNG,4554,0.90,one's book
+계통,NNG,4555,0.90,system|family line
+태풍,NNG,4556,0.83,typhoon
+연관,NNG,4557,0.90,relation|connection
+한층,MAG,4558,0.98,more|more and more
+당분간,MAG,4559,0.88,for a while
+지성,NNG,4560,0.87,brain power
+지도,NNG,4561,0.98,map
+나뉘다,VV,4562,0.91,to be divided
+수익,NNG,4563,0.65,profit|earnings
+얇다,VA,4564,0.95,to be thin|flimsy
+매매,NNG,4565,0.81,dealing|trading
+공직자,NNG,4566,0.62,public official
+등급,NNG,4567,0.70,class|rank
+바퀴,NNB,4568,0.86,wheel|counter (turn)
+독자적,NNG,4569,0.83,independent
+계열사,NNG,4570,0.50,subsidiary
+홈런,NNG,4571,0.51,home run
+제기,NNG,4572,0.82,bringing up
+라도,EC,4573,0.88,even if
+힘쓰다,VV,4574,0.92,to strive
+지속되다,VV,4575,0.85,to last|to continue
+도쿄,NNP,4576,0.67,Tokyo
+공연히,MAG,4577,0.84,unnecessarily
+안전하다,VA,4578,0.98,to be safe
+진심,NNG,4579,0.94,sincerity|honesty
+디지털,NNG,4580,0.57,digital
+보증,NNG,4581,0.81,guarantee|warranty
+명확하다,VA,4582,0.91,to be clear|obvious
+속성,NNG,4583,0.75,attribute|properties
+학위,NNG,4584,0.88,academic degree
+험하다,VA,4585,0.88,to be tough
+이사장,NNG,4586,0.69,chairperson of the board
+예술가,NNG,4587,0.93,artist
+인공,NNG,4588,0.91,artificiality
+대강,MAG,4589,0.81,roughly|broadly
+활짝,MAG,4590,0.93,widely|in full blossom
+사안,NNG,4591,0.76,issue|matter
+일선,NNG,4592,0.81,front-line
+갈래,NNG,4593,0.90,part|section
+전적,NNG,4594,0.96,full|overall
+식다,VV,4595,0.92,to cool down
+이어서,MAG,4596,0.87,subsequently
+경제학,NNG,4597,0.87,economics
+법안,NNG,4598,0.57,bill
+유난히,MAG,4599,0.93,particularly
+학술,NNG,4600,0.80,academic
+길가,NNG,4601,0.90,roadside
+흘러나오다,VV,4602,0.87,to flow out
+감당하다,VV,4603,1.00,to bear|to cope with
+연맹,NNG,4604,0.73,federation|union
+그중,NNG,4605,0.99,among them
+부상,NNG,4606,0.83,injury|wound
+장차,MAG,4607,0.95,in the future
+지분,NNG,4608,0.46,stake|share
+비서실,NNG,4609,0.71,secretary's office
+꾸준히,MAG,4610,0.87,consistently
+업적,NNG,4611,0.88,achievement
+사상,NNG,4612,0.66,in history
+탄생하다,VV,4613,0.85,to be born
+기록되다,VV,4614,0.88,to be recorded
+개미,NNG,4615,0.91,ant
+미인,NNG,4616,0.89,beautiful woman
+방지,NNG,4617,0.66,prevention
+전원,NNG,4618,0.89,everyone
+방바닥,NNG,4619,0.74,floor
+앞뒤,NNG,4620,0.96,front and back
+한가운데,NNG,4621,0.93,very middle
+다짐하다,VV,4622,0.94,to pledge|to resolve
+분류,NNG,4623,0.81,classification
+발자국,NNG,4624,0.87,footprint
+선보이다,VV,4625,0.39,to show|to display
+보조,NNG,4626,0.91,help|assistant
+특수하다,VA,4627,0.80,to be special
+병들다,VV,4628,0.95,to get sick
+풍속,NNG,4629,0.86,custom
+모처럼,MAG,4630,0.95,after a long time
+결,NNG,4631,0.89,grain|texture
+내쉬다,VV,4632,0.80,to exhale
+시리즈,NNG,4633,0.65,series
+유치원,NNG,4634,0.92,kindergarten
+잠자다,VV,4635,0.93,to sleep
+당대,NNG,4636,0.85,in those days
+이달,NNG,4637,0.40,this month
+결의,NNG,4638,0.92,resolution
+단장,NNG,4639,0.82,leader
+미디어,NNG,4640,0.73,media
+조절,NNG,4641,0.83,control|adjust
+서명,NNG,4642,0.84,autograph|signature
+무용,NNG,4643,0.91,dance|dancing
+침략,NNG,4644,0.83,attack
+고용,NNG,4645,0.72,employment
+햇볕,NNG,4646,0.97,sun|warmth of the sun
+지향하다,VV,4647,0.85,to aim|to pursue
+적당히,MAG,4648,0.93,suitably
+상당수,NNG,4649,0.76,considerable number
+스페인,NNP,4650,0.74,Spain
+살아남다,VV,4651,0.98,to survive
+튼튼하다,VA,4652,0.95,to be strong
+기적,NNG,4653,0.97,miracle
+공천,NNG,4654,0.56,nomination
+공단,NNG,4655,0.79,industrial complex
+위로하다,VV,4656,0.96,to console
+바로잡다,VV,4657,0.90,to straighten|to adjust
+유치,NNG,4658,0.63,attraction
+사냥,NNG,4659,0.94,hunting
+군,NNG,4660,0.89,district|county
+뽑히다,VV,4661,0.95,to be pulled out
+만만하다,VA,4662,0.93,to be easy to handle
+딱하다,VA,4663,0.85,to be pitiful
+메시지,NNG,4664,0.86,message
+곧장,MAG,4665,0.85,straight
+건설하다,VV,4666,0.88,to construct
+해군,NNG,4667,0.87,navy
+깨물다,VV,4668,0.72,to bite
+양자,NNG,4669,0.86,both|the two
+초조하다,VA,4670,0.88,to be anxious
+밀리다,VV,4671,0.87,to get behind
+한일,NNG,4672,0.82,Korea and Japan
+창조하다,VV,4673,0.85,to create|to make
+려던,EC,4674,0.96,connective ending (intention)
+학회,NNG,4675,0.84,academic society
+뒷모습,NNG,4676,0.76,appearance from behind
+의례,NNG,4677,0.63,ceremony|courtesy
+수표,NNG,4678,0.94,check
+안정되다,VV,4679,0.94,to be stabilized
+카페,NNG,4680,0.95,café
+고작,MAG,4681,0.97,at most
+타격,NNG,4682,0.85,blow|hit|damage
+설득하다,VV,4683,0.97,to persuade
+즉각,MAG,4684,0.83,instantly
+연령,NNG,4685,0.87,age
+선전,NNG,4686,0.95,publicity|propaganda
+제도적,NNG,4687,0.83,institutional
+머뭇거리다,VV,4688,0.78,to hesitate
+증세,NNG,4689,0.98,symptom
+정상,NNG,4690,0.91,normality
+분열,NNG,4691,0.89,division
+놀리다,VV,4692,0.80,to tease
+지껄이다,VV,4693,0.70,to chat|to chatter
+뱃속,NNG,4694,0.85,stomach|inside
+성당,NNG,4695,0.98,Catholic church
+현안,NNG,4696,0.59,pending issue
+꾸리다,VV,4697,0.99,to wrap up|to manage
+줄곧,MAG,4698,0.97,all the time
+주의하다,VV,4699,0.88,to be careful
+선조,NNG,4700,0.84,ancestor
+삼국,NNG,4701,0.76,three countries
+벌레,NNG,4702,0.97,insect|bug
+전국적,NNG,4703,0.89,nationwide
+대표하다,VV,4704,0.88,to represent
+어리다,VV,4705,0.92,to gather in|to fill with
+되풀이하다,VV,4706,0.97,to repeat
+후자,NNG,4707,0.71,latter
+표시,NNG,4708,0.97,indication
+항의,NNG,4709,0.89,protest|complaint
+영문,NNG,4710,0.90,English
+중위,NNG,4711,0.53,lieutenant
+가닥,NNG,4712,0.95,strand
+서민,NNG,4713,0.91,ordinary people
+록,NNG,4714,0.95,rock (music)
+제약,NNG,4715,0.86,restriction
+구도,NNG,4716,0.87,composition
+목록,NNG,4717,0.87,list|inventory
+해체,NNG,4718,0.86,dismantling
+부수다,VV,4719,0.95,to crash|to smash
+출연하다,VV,4720,0.68,to make an appearance
+지침,NNG,4721,0.82,guideline
+알아내다,VV,4722,0.96,to find|to discover
+비타민,NNG,4723,0.75,vitamin
+변경,NNG,4724,0.83,change|alteration
+채택하다,VV,4725,0.79,to select|to adopt
+물리치다,VV,4726,0.99,to repel|to defeat
+구조적,NNG,4727,0.82,structural
+표시,NNG,4728,0.85,sign|mark
+전화기,NNG,4729,0.85,telephone
+대비,NNG,4730,0.80,contrast
+면적,NNG,4731,0.79,area|square measure
+말기,NNG,4732,0.88,end|last period
+구별하다,VV,4733,0.85,to distinguish
+천사,NNG,4734,0.90,angel
+가르침,NNG,4735,0.86,teaching
+유행,NNG,4736,0.94,fashion|trend
+음모,NNG,4737,0.98,conspiracy
+완화,NNG,4738,0.68,relax|ease
+기뻐하다,VV,4739,0.97,to be glad
+똑바로,MAG,4740,0.84,straight|upright
+라면서,EC,4741,0.82,connective ending (quotative)
+효율,NNG,4742,0.76,efficiency
+일찍이,MAG,4743,0.95,early
+번갈다,VV,4744,0.92,to take turns
+초청,NNG,4745,0.73,invitation
+분기,NNG,4746,0.38,quarter (of a year)
+생생하다,VA,4747,0.98,to be vivid
+맺히다,VV,4748,0.90,to form
+강요하다,VV,4749,0.97,to force
+유적,NNG,4750,0.82,remains|relics
+근로,NNG,4751,0.83,labor|work
+취급하다,VV,4752,0.96,to treat
+신사,NNG,4753,0.93,gentleman
+체계적,NNG,4754,0.84,systematic
+오락,NNG,4755,0.88,entertainment
+일상적,NNG,4756,0.87,daily|usual
+조정하다,VV,4757,0.83,to adjust|to settle
+정세,NNG,4758,0.94,state of affairs
+요건,NNG,4759,0.86,prerequisite
+발걸음,NNG,4760,0.90,step|pace
+확산되다,VV,4761,0.72,to spread
+관세,NNG,4762,0.72,customs duties
+끔찍하다,VA,4763,0.94,to be terrible|awful
+순환,NNG,4764,0.87,circulation
+심판,NNG,4765,0.87,judgment|judge
+용서,NNG,4766,0.91,forgiveness|pardon
+액수,NNG,4767,0.92,amount (of money)
+껴안다,VV,4768,0.83,to hug|to embrace
+국경,NNG,4769,0.91,border|frontier
+답하다,VV,4770,0.91,to answer
+수치,NNG,4771,0.87,numerical value
+등지,NNB,4772,0.87,and like the places
+지급하다,VV,4773,0.73,to provide|to pay
+불길,NNG,4774,0.89,flame|blaze
+신학,NNG,4775,0.84,theology
+묘사하다,VV,4776,0.78,to describe
+장미,NNG,4777,0.96,rose
+반성,NNG,4778,0.91,self-reflection
+실망,NNG,4779,0.95,disappointment
+쫓겨나다,VV,4780,0.93,to be expelled
+소음,NNG,4781,0.93,noise
+일시,NNG,4782,0.94,temporary
+체면,NNG,4783,0.93,face
+요구되다,VV,4784,0.83,to be required
+처분,NNG,4785,0.87,selling|punishment
+몸뚱이,NNG,4786,0.73,body
+빠져나오다,VV,4787,0.80,to escape|to get out
+평,NNG,4788,0.90,comment|reputation
+전시,NNG,4789,0.79,exhibition
+공급하다,VV,4790,0.81,to supply
+끌어들이다,VV,4791,0.99,to attract|to involve
+젖히다,VV,4792,0.83,to bend back
+뇌물,NNG,4793,0.81,bribe
+성공적,NNG,4794,0.89,successful
+발목,NNG,4795,0.92,ankle
+국세청,NNP,4796,0.50,National Tax Service
+정계,NNG,4797,0.77,political world
+항공,NNG,4798,0.74,aviation
+국무,NNG,4799,0.80,state affairs
+몰려들다,VV,4800,0.95,to crowd|to flock
+효율적,NNG,4801,0.81,efficient
+방해,NNG,4802,0.95,disturbance
+구축,NNG,4803,0.75,construction
+장악하다,VV,4804,0.88,to dominate
+소화,NNG,4805,0.92,digestion
+비판적,NNG,4806,0.83,criticism|critical
+의상,NNG,4807,0.90,clothing
+홈페이지,NNG,4808,0.60,home page
+고비,NNG,4809,0.93,crisis|critical moment
+붕괴,NNG,4810,0.80,collapse
+사납다,VA,4811,0.85,to be wild|ferocious
+담임,NNG,4812,0.93,person in charge
+구별,NNG,4813,0.86,distinction
+핑계,NNG,4814,0.93,excuse
+순수,NNG,4815,0.91,purity|innocence
+이따금,MAG,4816,0.83,from time to time
+이동하다,VV,4817,0.94,to move|to travel
+제국주의,NNG,4818,0.79,imperialism
+코스,NNG,4819,0.82,course|route
+기울다,VV,4820,0.98,to lean|to decline
+변수,NNG,4821,0.81,variable
+비전,NNG,4822,0.84,vision|prospect
+원형,NNG,4823,0.91,original form
+재능,NNG,4824,0.94,talent
+참모,NNG,4825,0.89,adviser
+늘어놓다,VV,4826,0.88,to arrange|to scatter
+송이,NNB,4827,0.93,counter (flowers)
+캄캄하다,VA,4828,0.85,to be very dark
+기원,NNG,4829,0.81,origin|genesis
+특유,NNG,4830,0.96,peculiarity
+문학적,NNG,4831,0.73,literary
+영양,NNG,4832,0.91,nourishment
+제치다,VV,4833,0.89,to beat|to beat out
+우정,NNG,4834,0.99,friendship
+조성하다,VV,4835,0.84,to make|to create
+엿보다,VV,4836,0.99,to peep|to peek
+소망,NNG,4837,0.96,wish|hope
+다면서,EC,4838,0.93,connective ending (quotative)
+거듭하다,VV,4839,0.93,to repeat
+위상,NNG,4840,0.82,status
+판매하다,VV,4841,0.62,to sell
+범하다,VV,4842,0.97,to commit|to make
+가상,NNG,4843,0.87,virtual|imaginary
+경비,NNG,4844,0.95,expense|cost
+좌석,NNG,4845,0.92,seat
+뚫리다,VV,4846,0.91,to be perforated
+설비,NNG,4847,0.75,facility
+마늘,NNG,4848,0.91,garlic
+장터,NNG,4849,0.85,marketplace
+본사,NNG,4850,0.82,main office
+식탁,NNG,4851,0.98,table
+신음,NNG,4852,0.73,moan|groan
+뿌리치다,VV,4853,0.81,to shake off|to refuse
+후회하다,VV,4854,0.91,to regret
+전용,NNG,4855,0.72,exclusive use
+구속되다,VV,4856,0.82,to be arrested
+그리스,NNP,4857,0.84,Greece
+적시다,VV,4858,0.91,to wet
+한결,MAG,4859,0.96,much more
+여느,ADN,4860,0.94,other|ordinary
+조정,NNG,4861,0.93,royal court
+증명하다,VV,4862,0.95,to prove|to verify
+고이다,VV,4863,0.86,to stagnate
+탄압,NNG,4864,0.90,suppression
+유리창,NNG,4865,0.90,window
+생애,NNG,4866,0.96,life|lifetime
+쏠리다,VV,4867,0.93,to lean|to incline
+개별,NNG,4868,0.80,individual|each
+회의,NNG,4869,0.41,skepticism|doubt
+자랑스럽다,VA,4870,1.00,to be proud
+고려,NNG,4871,0.92,consideration
+중시하다,VV,4872,0.82,to attach importance
+모색하다,VV,4873,0.83,to seek|to find
+강도,NNG,4874,0.92,strength|intensity
+배제하다,VV,4875,0.83,to exclude
+참고,NNG,4876,0.88,reference
+섹스,NNG,4877,0.98,sex
+전화번호,NNG,4878,0.87,phone number
+마비,NNG,4879,0.93,paralysis|numbness
+안기다,VV,4880,0.97,to give|to cause
+단단하다,VA,4881,0.98,to be tight|solid
+추적,NNG,4882,0.82,trace|chase
+원숭이,NNG,4883,0.95,monkey
+산하,NNG,4884,0.76,subsidiary|under
+제시되다,VV,4885,0.77,to be presented
+연출,NNG,4886,0.85,direction|production
+불러일으키다,VV,4887,0.90,to cause|to arouse
+홀,NNG,4888,0.97,hall
+고통스럽다,VA,4889,0.97,to be painful
+처방,NNG,4890,0.92,prescription
+큰소리,NNG,4891,0.84,loud voice|shout
+개최,NNG,4892,0.58,hosting
+중대하다,VA,4893,0.96,to be important
+유권자,NNG,4894,0.61,voter|electorate
+여권,NNG,4895,0.62,ruling party side
+국면,NNG,4896,0.78,situation
+풍토,NNG,4897,0.88,climate
+부품,NNG,4898,0.71,part|component
+동정,NNG,4899,0.92,sympathy
+프로젝트,NNG,4900,0.81,project
+보급,NNG,4901,0.91,diffusion
+자질,NNG,4902,0.89,talent|gift
+날아오다,VV,4903,0.90,to fly
+성실하다,VA,4904,0.97,to be sincere
+사슴,NNG,4905,0.89,deer
+투자자,NNG,4906,0.41,investor
+따름,NNB,4907,0.95,just
+정착,NNG,4908,0.82,settlement
+소설가,NNG,4909,0.98,novelist
+교역,NNG,4910,0.80,trade|commerce
+해치다,VV,4911,0.97,to hurt|to injure
+지루하다,VA,4912,0.97,to be boring
+소유하다,VV,4913,0.92,to own|to possess
+선진,NNG,4914,0.85,advanced|pioneer
+신도,NNG,4915,0.99,believer
+ㄴ다면,EC,4916,0.91,connective ending (supposing)
+자문,NNG,4917,0.79,consultation
+이민,NNG,4918,0.95,migration
+가로막다,VV,4919,0.96,to block
+일반인,NNG,4920,0.77,ordinary people
+마약,NNG,4921,0.95,drug
+잠자리,NNG,4922,0.92,bed|sleeping place
+사령관,NNG,4923,0.91,commander
+심리학,NNG,4924,0.79,psychology
+서술,NNG,4925,0.70,description
+세미나,NNG,4926,0.77,seminar
+이듬해,NNG,4927,0.95,next year
+호주,NNP,4928,0.72,Australia
+새삼,MAG,4929,0.95,anew|suddenly
+교체,NNG,4930,0.68,change|substitution
+도리어,MAG,4931,0.94,on the contrary
+전신,NNG,4932,0.94,whole body
+불꽃,NNG,4933,0.95,flare|flame
+사로잡히다,VV,4934,0.91,to be caught alive
+사적,NNG,4935,0.84,private|personal
+일련,NNG,4936,0.88,series
+구성원,NNG,4937,0.81,member
+찌푸리다,VV,4938,0.77,to frown|to grimace
+존경하다,VV,4939,0.95,to respect|to admire
+실태,NNG,4940,0.74,reality
+손실,NNG,4941,0.76,loss
+전형적,NNG,4942,0.92,typical
+반복,NNG,4943,0.88,repetition
+깊이,NNG,4944,0.96,depth
+부지런히,MAG,4945,0.89,diligently
+캐나다,NNP,4946,0.79,Canada
+톤,NNB,4947,0.90,counter (ton)
+대금,NNG,4948,0.80,payment|price
+유명,NNG,4949,0.80,celebrity|fame
+중단되다,VV,4950,0.83,to stop
+이대로,MAG,4951,0.89,as it is
+자라나다,VV,4952,0.92,to grow up
+민감하다,VA,4953,0.93,to be sensitive
+초라하다,VA,4954,0.93,to be shabby
+간접,NNG,4955,0.84,indirectness
+열정,NNG,4956,0.99,passion|ardor
+대치,NNG,4957,0.82,confrontation
+재계,NNG,4958,0.61,financial world
+군부,NNG,4959,0.90,military authorities
+수입,NNG,4960,0.87,income|earnings
+서부,NNG,4961,0.91,west coast
+파악,NNG,4962,0.89,grasp|understanding
+상실하다,VV,4963,0.86,to lose
+고정,NNG,4964,0.95,fixing|fixation
+세트,NNG,4965,0.77,set
+개선하다,VV,4966,0.81,to improve
+도서,NNG,4967,0.78,books
+인정되다,VV,4968,0.80,to be acknowledged
+절실하다,VA,4969,0.97,to be urgent|serious
+모집,NNG,4970,0.72,recruitment
+더위,NNG,4971,0.98,heat
+의논하다,VV,4972,0.91,to discuss|to consult
+실현하다,VV,4973,0.85,to realize|to fulfill
+빼내다,VV,4974,0.92,to pick out|to take out
+내뱉다,VV,4975,0.73,to spit (out)
+문인,NNG,4976,0.87,writer|literary person
+초,NNG,4977,0.76,beginning (of)
+표현되다,VV,4978,0.75,to be expressed
+시신,NNG,4979,0.92,body|corpse
+결단,NNG,4980,0.97,decision
+원자력,NNG,4981,0.66,nuclear power
+전후,NNG,4982,0.96,front and back
+묘사,NNG,4983,0.84,depiction
+재야,NNG,4984,0.81,party out of office
+데이터,NNG,4985,0.80,data
+경찰관,NNG,4986,0.92,police officer
+대비,NNG,4987,0.88,preparation
+이용되다,VV,4988,0.72,to be used
+유물,NNG,4989,0.85,relic|artifact
+찍히다,VV,4990,0.95,to be imprinted
+개발되다,VV,4991,0.84,to be developed
+주차장,NNG,4992,0.89,parking lot
+사막,NNG,4993,0.98,desert
+존중하다,VV,4994,0.93,to respect
+안심하다,VV,4995,0.93,to feel relieved
+임기,NNG,4996,0.72,term
+완성되다,VV,4997,0.93,to be completed
+성적,NNG,4998,0.91,grade
+염두,NNG,4999,0.97,mind|attention
+슬그머니,MAG,5000,0.85,stealthily

@@ -1,0 +1,25 @@
+name: small_test_vocab
+source: hand-built fixture
+entries:
+  - lemma: 저
+    pos: NP
+    gloss: ["I (humble)"]
+    tags: [humble]
+  - lemma: 학생
+    pos: NNG
+    gloss: ["student"]
+  - lemma: 이다
+    pos: VCP
+    gloss: ["to be (copula)"]
+  - lemma: 먹다
+    pos: VV
+    gloss: ["to eat"]
+  - lemma: 밥
+    pos: NNG
+    gloss: ["rice, meal"]
+  - lemma: 는
+    pos: JX
+    gloss: ["topic marker"]
+  - lemma: 을
+    pos: JKO
+    gloss: ["object marker"]
