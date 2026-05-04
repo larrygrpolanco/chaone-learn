@@ -11,6 +11,7 @@ from hanbun.lists import (
     load_vocab_json,
     load_vocab_yaml,
 )
+from hanbun.render import RenderConfig, RenderedSpan, render_mixed
 from hanbun.tokenize import Token, is_grammatical, tokenize
 
 __all__ = [
@@ -29,4 +30,7 @@ __all__ = [
     "Token",
     "tokenize",
     "is_grammatical",
+    "render_mixed",
+    "RenderConfig",
+    "RenderedSpan",
 ]

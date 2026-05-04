@@ -1,6 +1,7 @@
 from hanbun import analyze, load_vocab_yaml, load_freq_csv
+from hanbun.render import RenderConfig, render_mixed
 
-# Load  lists
+# Load lists
 vl = load_vocab_yaml("examples/lists/beginning-1-vocab.yaml")
 fl = load_freq_csv("examples/lists/1-5000_freq.csv")
 
@@ -23,3 +24,27 @@ print()
 print("=== UNKNOWNS (not in any list) ===")
 for u in result.unknowns:
     print(f"  {u['lemma']} ({u['pos']})  — appears {u['count']}x")
+print()
+
+# --- Renderer ---
+
+print("=== RENDERED (threshold 500: words above rank 500 → English) ===")
+config = RenderConfig(threshold_rank=500)
+spans = render_mixed(result, config)
+rendered = "".join(s.gloss if s.status == "substituted" else s.original for s in spans)
+print(rendered)
+print()
+
+print("=== RENDERED (threshold 1000: stricter, more Korean shown) ===")
+config_1000 = RenderConfig(threshold_rank=1000)
+spans_1000 = render_mixed(result, config_1000)
+rendered_1000 = "".join(s.gloss if s.status == "substituted" else s.original for s in spans_1000)
+print(rendered_1000)
+print()
+
+print("=== SPAN BREAKDOWN (first sentence, threshold 500) ===")
+first_sentence_spans = [s for s in spans if "\n" not in s.original][:20]
+for s in first_sentence_spans:
+    label = f"[{s.status}]"
+    display = s.gloss if s.status == "substituted" else repr(s.original)
+    print(f"  {label:<16} {display}")

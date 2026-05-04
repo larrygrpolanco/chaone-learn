@@ -1,0 +1,20 @@
+#!/bin/bash
+# Run the learning subtitle generator from the repo root.
+# Usage: ./learn subtitles/Stranger/S01_E09.srt [--threshold 100] [--preview 30] [--stats]
+set -e
+REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
+CALL_DIR="$(pwd)"
+
+# Resolve the first positional arg (the .srt file) to an absolute path
+# so it still works after we cd into hanbun/
+args=()
+for arg in "$@"; do
+    if [[ "$arg" != -* ]] && [[ "$arg" == *.srt ]]; then
+        args+=("$(cd "$CALL_DIR" && realpath "$arg")")
+    else
+        args+=("$arg")
+    fi
+done
+
+cd "$REPO_ROOT/hanbun"
+exec uv run python "$REPO_ROOT/subtitles/srt_ai_mixed.py" "${args[@]}"
