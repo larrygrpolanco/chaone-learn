@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
-	import { topicMarker } from '$lib/korean';
+	import { lesson1Manifest } from '$lib/content/lessons/lesson_1/manifest';
 
 	let { data } = $props();
 
@@ -19,18 +19,8 @@
 	}
 
 	function restatement(row: { attrs: Record<string, string> }, e: NonNullable<Editing>): string {
-		// build the restatement with the *new* value substituted in
 		const merged = { ...row.attrs, [e.field]: e.value };
-		const name = merged.name ?? '';
-		const topic = name ? `${name}${topicMarker(name)}` : '';
-		switch (e.field) {
-			case 'name':
-				return `이름이 ${e.value}이에요.`;
-			case 'nationality':
-				return `${topic} ${e.value} 사람이에요.`;
-			case 'year':
-				return `${topic} ${e.value}이에요.`;
-		}
+		return lesson1Manifest.fields[e.field].restate(e.value, merged);
 	}
 </script>
 

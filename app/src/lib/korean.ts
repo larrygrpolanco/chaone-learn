@@ -9,3 +9,8 @@ export function hasBatchim(s: string): boolean {
 export function topicMarker(name: string): '은' | '는' {
 	return hasBatchim(name) ? '은' : '는';
 }
+
+// Subject-style "and": 과 after a consonant ending, 와 after a vowel ending.
+export function andMarker(name: string): '과' | '와' {
+	return hasBatchim(name) ? '과' : '와';
+}

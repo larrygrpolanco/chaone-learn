@@ -1,16 +1,28 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import { topicMarker } from '$lib/korean';
+	import { fieldOptions } from '$lib/content/lessons/lesson_1/manifest';
+	import { addClassmate } from '$lib/content/lessons/lesson_1/moves/add_classmate';
 
-	let { data } = $props();
+	const steps = addClassmate.steps;
+	let stepIdx = $state(0);
+	let facts = $state<Record<string, string>>({});
 
-	type Step = 'name' | 'nationality' | 'year' | 'confirm';
-	let step = $state<Step>('name');
-	let name = $state('');
-	let nationality = $state('');
-	let year = $state('');
-
+	const done = $derived(stepIdx >= steps.length);
+	const current = $derived(done ? null : steps[stepIdx]);
+	const name = $derived(facts.name ?? '');
 	const topic = $derived(name ? `${name}${topicMarker(name)}` : '');
+	const confirmationLines = $derived(done ? addClassmate.confirmation(facts) : []);
+
+	function setFact(field: string, value: string) {
+		facts = { ...facts, [field]: value };
+		stepIdx += 1;
+	}
+
+	function restart() {
+		facts = {};
+		stepIdx = 0;
+	}
 </script>
 
 <div class="author">
@@ -19,47 +31,46 @@
 		<h1>새 친구가 왔어요</h1>
 	</header>
 
-	{#if step === 'name'}
-		<p>이름이 뭐예요?</p>
-		<input bind:value={name} placeholder="이름" />
-		<button disabled={!name.trim()} onclick={() => (step = 'nationality')}>다음</button>
-	{:else if step === 'nationality'}
-		<p>{topic} 어느 나라 사람이에요?</p>
-		<div class="choices">
-			{#each data.nationalities as n}
-				<button
-					class:selected={nationality === n}
-					onclick={() => {
-						nationality = n;
-						step = 'year';
-					}}>{n}</button
-				>
-			{/each}
-		</div>
-	{:else if step === 'year'}
-		<p>{topic} 몇 학년이에요?</p>
-		<div class="choices">
-			{#each data.years as y}
-				<button
-					class:selected={year === y}
-					onclick={() => {
-						year = y;
-						step = 'confirm';
-					}}>{y}</button
-				>
-			{/each}
-		</div>
+	{#if current}
+		<p>
+			{#if current.field !== 'name' && topic}<span>{topic} </span>{/if}{current.promptKr}
+		</p>
+
+		{#if current.kind === 'free-text'}
+			<input
+				value={facts[current.field] ?? ''}
+				oninput={(e) =>
+					(facts = { ...facts, [current!.field]: (e.target as HTMLInputElement).value })}
+				placeholder="이름"
+			/>
+			<button
+				disabled={!(facts[current.field] ?? '').trim()}
+				onclick={() => (stepIdx += 1)}
+			>
+				다음
+			</button>
+		{:else}
+			<div class="choices">
+				{#each fieldOptions(current.field) as opt}
+					<button
+						class:selected={facts[current.field] === opt}
+						onclick={() => setFact(current!.field, opt)}>{opt}</button
+					>
+				{/each}
+			</div>
+		{/if}
 	{:else}
 		<p class="restatement">
-			{topic} {nationality} 사람이에요.<br />
-			{topic} {year}이에요.
+			{#each confirmationLines as line, i}
+				{line}{#if i < confirmationLines.length - 1}<br />{/if}
+			{/each}
 		</p>
 		<form method="POST" action="?/commit" use:enhance>
-			<input type="hidden" name="name" value={name} />
-			<input type="hidden" name="nationality" value={nationality} />
-			<input type="hidden" name="year" value={year} />
+			{#each steps as step}
+				<input type="hidden" name={step.field} value={facts[step.field] ?? ''} />
+			{/each}
 			<button type="submit">맞아요 (Confirm)</button>
-			<button type="button" onclick={() => (step = 'name')}>고쳐요 (Edit)</button>
+			<button type="button" onclick={restart}>고쳐요 (Edit)</button>
 		</form>
 	{/if}
 

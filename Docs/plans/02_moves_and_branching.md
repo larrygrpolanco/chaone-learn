@@ -184,4 +184,19 @@ A new plan file (`03_*.md`) gets written when slice 5 of this plan is done and t
 
 ## Session log
 
-<!-- Add 2–3 line entries here after each slice. -->
+### Slice 1 — Manifest and the move shape (port add-classmate)
+- New content tree: `src/lib/content/lessons/types.ts` (Move, LessonManifest, WorldState), `lesson_1/manifest.ts`, `lesson_1/moves/add_classmate.ts`. Manifest carries per-field `restate(value, attrs)` — the world-view editor and the move's `confirmation(facts)` both read from it, so a single source of truth for "how do we say this fact in Korean."
+- `add-classmate/+page.svelte` now iterates `addClassmate.steps` generically (free-text vs choice driven by `step.kind`, options via `fieldOptions(field)`). Adding a step in the move file changes the UI with no svelte edits.
+- World view's inline `EDITABLE_FIELDS` set + restatement switch are gone — both come from `lesson1Manifest`. `+page.server.ts` only exports `load` and `actions` (slice 3 gotcha avoided). `npm run check`: 0 errors.
+
+### Slice 2 — Port recall-nationality, add recall-year
+- `Move` became a discriminated union by `mode` (`AuthorMove | RecallMove`). RecallMove carries `field` + `prepare(world) => RecallQuestion`. `RecallQuestion` includes `successKr` so the "맞아요!" string is field-aware and produced by the manifest's `restate`, not hardcoded in the svelte.
+- Added `src/lib/server/world/state.ts` with `loadWorld(learnerId): WorldState` — the first place we materialize a full WorldState from the query layer. Slice 5's branching screen will reuse it directly.
+- `_helpers.ts` holds `charactersWithField`, `pickRandom`, `shuffle`, `buildChoices`, `isProfessor`. The professor exclusion is still a `선생님` substring check, with a comment marking honorifics as the eventual cleaner fix. recall-year and recall-nationality are now ~25 lines each, identical structurally; if a third recall move arrives we can parameterize.
+- The recall +page.svelte is duplicated for now (year vs nationality). Both render `{name, prompt, options, correct, successKr}` — same shape. Extract to a shared component if a third lands.
+
+### Slice 3 — Negotiated-authoring (negotiate-nationality)
+- Added `NegotiatedMove` + `NegotiatedQuestion` to the union. The move's picker is: 80% prefer a lacker (target without the field), 20% pick a haver and propose a wrong value; fall back deterministically when only one pool is non-empty. `isCurrent` is included on the question even though it's always false today — it covers the LESSONS §4 "matches existing" no-write confirm case once weighted picking arrives.
+- Both 네 (when not isCurrent) and 아니요-then-pick submit the same `?/commit` action with `{entityId, field, value}`. Reusing the same action for both paths kept the +page.server.ts minimal. The Korean restatement at the success step is computed **client-side** from the manifest's `restate` — same source as the world-view editor.
+- The chooser excludes the proposal itself (don't offer the rejected value again) and picks 4 from the remaining pool. Plan says "the same shuffled option set the recall move uses" — close enough; if it matters we'll align on `buildChoices` later.
+- Three modes now have three visible identities: blue=author, orange=recall, green (#6aa86a) badge=negotiated. Color picks are throwaway; the structural thing is that each move declares its mode and the svelte styles match.
