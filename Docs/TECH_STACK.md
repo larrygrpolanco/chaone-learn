@@ -8,7 +8,7 @@ This sits alongside `WORLD.md` and `LESSONS.md` and extends them. When something
 
 - **SvelteKit + TypeScript.** Frontend framework and routing. Server logic lives in `+page.server.ts` and `+server.ts` files; UI in `.svelte` components. The world-layer reactive surface (the view that updates as authoring exercises commit) is a natural fit for Svelte stores.
 - **Drizzle ORM.** Typed SQL query builder with a schema-first migration system. Schema is plain TypeScript in `src/lib/server/db/schema.ts`. Drizzle generates migrations from that file and types every query automatically. We get SQL-shaped queries (good — we'll need recursive CTEs for location traversal), full type inference, and SQLite-now/Postgres-later portability.
-- **SQLite via `better-sqlite3`.** Local file database. Fast, embedded, ships with the app. We'll outgrow it eventually — but probably not before we've validated the platform's core direction.
+- **SQLite via `libSQL`.** Local file database. Fast, embedded, ships with the app. We'll outgrow it eventually — but probably not before we've validated the platform's core direction.
 - **No service layer or separate API.** This is a solo project. Load functions and form actions import the db and schema directly. The query layer in `src/lib/server/world/` is the only abstraction we want; everything routes through it.
 
 Project layout:
