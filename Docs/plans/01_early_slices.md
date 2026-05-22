@@ -155,4 +155,33 @@ A new plan file (`02_*.md`) gets written when slice 5 is done and the next chunk
 
 ## Session log
 
-(Add a 2–3 line note here after each slice.)
+### Slice 1 — Skeleton
+- SvelteKit + Drizzle + libsql were already scaffolded under `app/`; the starter `task` table got replaced with `learners` + `entities`. Everything in this project lives under `app/`, not the repo root — run all npm/drizzle/sqlite commands from there.
+- DB file is `local.db` (from `.env`), not `dev.db` as drafted above. Update any future slice copy accordingly.
+- Added `npm run db:seed` (`node --env-file=.env --import tsx scripts/seed.ts`). Idempotent via `onConflictDoNothing`. tsx is already in node_modules — no install needed.
+
+### Slice 2 — Attributes round-trip
+- Had to extend the svelte-kit TS `include` in `svelte.config.js` to cover `../scripts/**/*.ts` so seed scripts type-check. Without it, `process` etc. show as unknown.
+- Supersession round-trip verified end-to-end: superseded Steve's nationality via a one-off script, confirmed old row got `superseded_at`, new row stayed current, and the world view rendered the new value on refresh.
+- Sandy's `year` deliberately left blank in seed — natural author opportunity. Worth replicating the pattern in future lesson seeds.
+
+### Slice 3 — Author exercise (add-classmate)
+- SvelteKit `+page.server.ts` only allows specific named exports (`load`, `actions`, etc.). Hoisted option lists (`nationalities`, `years`) had to be local consts, not exports. First attempt 500'd.
+- Added `src/lib/korean.ts` with `hasBatchim` + `topicMarker` (은/는) — used for restatement and recall prompts. Pure jamo math on the syllable codepoint; no dependency.
+- Per user feedback during this slice: store **short referential names** (`스티브`, `영미`, `마이클`, `샌디`) — full names are awkward when reused as a subject every utterance. `이 선생님` kept because the title is how she's addressed. Logged thought: a future `role`/`title` attribute is probably better than parsing names.
+
+### Slice 4 — Recall exercise (recall-nationality)
+- Excluded the professor (`name` contains `선생님`) from the recall pool because the natural form `이 선생님은 어느 나라 사람이세요?` needs honorifics that lesson 1 grammar doesn't cover. Cleaner than introducing honorifics or carrying a special case. Same lesson likely applies to other roles as they arrive — exclude from pool, don't special-case.
+- SvelteKit SSR encodes page data with **devalue** (unquoted JS object literals like `{name:"톰"}`), not JSON, so any verification script that greps for `"name":` will miss. Use `name:"..."` patterns instead.
+- Confirmed the recall reads the live un-superseded fact: superseded Steve's nationality to `영국`, sampled until Steve appeared, page returned `correct:"영국"`.
+
+### Slice 5 — Editing interface (safety valve)
+- Chose **soft delete** (`entities.deleted_at`) over hard delete. Keeps attribute_facts history intact and matches WORLD/LESSONS "never destructively change the world." `listEntitiesByKind` filters `isNull(deletedAt)`.
+- Per decision 3.3 (no canon protection), editing Steve's nationality via the UI succeeds — only the **delete** button is differentiated by `source` (textbook = disabled). Re-confirm this is still the right call when synthesis/seed phases need a stricter canon for any reason.
+- Inline edit uses a two-step modal: input/select → Korean restatement → "맞아요" commits, "고쳐요" goes back. Restatement strings are hardcoded per field (`이름이 X이에요.` / `X은/는 Y 사람이에요.` / `X은/는 Y이에요.`) — when LESSON manifests arrive, these should move into the manifest or move file, not a route file.
+
+### Cross-cutting notes for future plans
+- The query layer rule (all DB I/O through `src/lib/server/world/*`) held cleanly. Worth keeping strict — relations and any new entity types should land in `world/relations.ts` etc., never in `+page.server.ts`.
+- Korean values throughout. Every helper that produces Korean from data (markers, restatements) becomes part of the language axis; group them in `src/lib/korean.ts` and `src/lib/content/...` once we have a few more.
+- Smoke testing via `curl` + `sqlite3` worked well for every slice. Treat the database as the source of truth, not the rendered HTML — verifying both caught nothing wrong but built the habit.
+- Test classmates added during smoke tests linger in `local.db`. Cleanup script worth writing if this recurs: `delete from attribute_facts where source='learner'; delete from entities where source='learner';` followed by a soft-restore of any superseded textbook facts. Could become a `db:reset-learner` script.

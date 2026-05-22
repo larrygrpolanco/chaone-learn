@@ -14,7 +14,8 @@ export const entities = sqliteTable('entities', {
 	kind: text('kind').notNull(),
 	source: text('source', { enum: ['textbook', 'learner'] }).notNull(),
 	createdInLesson: integer('created_in_lesson').notNull(),
-	createdAt: integer('created_at').notNull()
+	createdAt: integer('created_at').notNull(),
+	deletedAt: integer('deleted_at')
 });
 
 export const attributeFacts = sqliteTable('attribute_facts', {
