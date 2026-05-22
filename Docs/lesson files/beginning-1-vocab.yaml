@@ -1,0 +1,710 @@
+name: Beginning Korean 1 (Integrated Korean)
+source: "Integrated Korean Beginning 1, 3rd Edition"
+
+entries:
+  # Lesson 1: Greetings
+  - lemma: 1학년
+    pos: NNG
+    gloss: ["freshman"]
+  - lemma: 2학년
+    pos: NNG
+    gloss: ["sophomore"]
+  - lemma: 3학년
+    pos: NNG
+    gloss: ["junior"]
+  - lemma: 4학년
+    pos: NNG
+    gloss: ["senior"]
+  - lemma: 대학생
+    pos: NNG
+    gloss: ["college student"]
+  - lemma: 미국
+    pos: NNP
+    gloss: ["the United States"]
+  - lemma: 사람
+    pos: NNG
+    gloss: ["person", "people"]
+  - lemma: 인사
+    pos: NNG
+    gloss: ["greeting"]
+  - lemma: 학년
+    pos: NNG
+    gloss: ["school year"]
+  - lemma: 학생
+    pos: NNG
+    gloss: ["student"]
+  - lemma: 한국
+    pos: NNP
+    gloss: ["Korea"]
+  - lemma: 저
+    pos: NP
+    gloss: ["I (humble)"]
+    tags: [humble]
+  - lemma: 나
+    pos: NP
+    gloss: ["I (plain)"]
+    tags: [plain]
+  - lemma: 안녕하다
+    pos: VA
+    gloss: ["to be well"]
+  - lemma: 이다
+    pos: VCP
+    gloss: ["to be (copula)"]
+  - lemma: 아니다
+    pos: VCN
+    gloss: ["to not be"]
+  - lemma: 과
+    pos: NNB
+    gloss: ["lesson", "chapter"]
+  - lemma: 도
+    pos: JX
+    gloss: ["also", "too"]
+  - lemma: 은
+    pos: JX
+    gloss: ["topic particle"]
+  - lemma: 선생님
+    pos: NNG
+    gloss: ["teacher"]
+  - lemma: 씨
+    pos: NNB
+    gloss: ["Mr./Ms."]
+  - lemma: 영국
+    pos: NNP
+    gloss: ["United Kingdom"]
+  - lemma: 영어
+    pos: NNG
+    gloss: ["English language"]
+  - lemma: 이름
+    pos: NNG
+    gloss: ["name"]
+  - lemma: 일본
+    pos: NNP
+    gloss: ["Japan"]
+  - lemma: 중국
+    pos: NNP
+    gloss: ["China"]
+  - lemma: 프랑스
+    pos: NNP
+    gloss: ["France"]
+  - lemma: 클래스
+    pos: NNG
+    gloss: ["class"]
+  - lemma: 한국어
+    pos: NNG
+    gloss: ["Korean language"]
+  - lemma: 뭐
+    pos: NP
+    gloss: ["what"]
+  - lemma: 네
+    pos: MAG
+    gloss: ["yes"]
+  - lemma: 아니요
+    pos: MAG
+    gloss: ["no"]
+  - lemma: 이
+    pos: JKS
+    gloss: ["subject particle"]
+  - lemma: 그렇다
+    pos: VA
+    gloss: ["to be so"]
+  - lemma: 반갑다
+    pos: VA
+    gloss: ["to be glad"]
+
+  # Lesson 2: Korean Language Class
+  - lemma: 도서관
+    pos: NNG
+    gloss: ["library"]
+  - lemma: 수업
+    pos: NNG
+    gloss: ["course", "class"]
+  - lemma: 숙제
+    pos: NNG
+    gloss: ["homework"]
+  - lemma: 식당
+    pos: NNG
+    gloss: ["restaurant", "cafeteria"]
+  - lemma: 아침
+    pos: NNG
+    gloss: ["breakfast", "morning"]
+  - lemma: 친구
+    pos: NNG
+    gloss: ["friend"]
+  - lemma: 커피
+    pos: NNG
+    gloss: ["coffee"]
+  - lemma: 학교
+    pos: NNG
+    gloss: ["school"]
+  - lemma: 들
+    pos: XSN
+    gloss: ["plural marker"]
+  - lemma: 괜찮다
+    pos: VA
+    gloss: ["to be all right"]
+  - lemma: 넓다
+    pos: VA
+    gloss: ["to be spacious"]
+  - lemma: 많다
+    pos: VA
+    gloss: ["to be many"]
+  - lemma: 맛있다
+    pos: VA
+    gloss: ["to be delicious"]
+  - lemma: 어떻다
+    pos: VA
+    gloss: ["to be how"]
+  - lemma: 재미있다
+    pos: VA
+    gloss: ["to be fun"]
+  - lemma: 좋다
+    pos: VA
+    gloss: ["to be good"]
+  - lemma: 먹다
+    pos: VV
+    gloss: ["to eat"]
+  - lemma: 앉다
+    pos: VV
+    gloss: ["to sit"]
+  - lemma: 알다
+    pos: VV
+    gloss: ["to know"]
+  - lemma: 아주
+    pos: MAG
+    gloss: ["very"]
+  - lemma: 공부하다
+    pos: VV
+    gloss: ["to study"]
+  - lemma: 남자
+    pos: NNG
+    gloss: ["man"]
+  - lemma: 내일
+    pos: NNG
+    gloss: ["tomorrow"]
+  - lemma: 시험
+    pos: NNG
+    gloss: ["test"]
+  - lemma: 역사
+    pos: NNG
+    gloss: ["history"]
+  - lemma: 오늘
+    pos: NNG
+    gloss: ["today"]
+  - lemma: 음식
+    pos: NNG
+    gloss: ["food"]
+  - lemma: 주스
+    pos: NNG
+    gloss: ["juice"]
+  - lemma: 텔레비전
+    pos: NNG
+    gloss: ["television"]
+  - lemma: 을
+    pos: JKO
+    gloss: ["object particle"]
+  - lemma: 그리고
+    pos: MAJ
+    gloss: ["and"]
+  - lemma: 만나다
+    pos: VV
+    gloss: ["to meet"]
+  - lemma: 보다
+    pos: VV
+    gloss: ["to see"]
+  - lemma: 쓰다
+    pos: VV
+    gloss: ["to write"]
+  - lemma: 지내다
+    pos: VV
+    gloss: ["to get along"]
+  - lemma: 하다
+    pos: VV
+    gloss: ["to do"]
+  - lemma: 맛없다
+    pos: VA
+    gloss: ["to be tasteless"]
+  - lemma: 싸다
+    pos: VA
+    gloss: ["to be cheap"]
+  - lemma: 재미없다
+    pos: VA
+    gloss: ["to be uninteresting"]
+  - lemma: 크다
+    pos: VA
+    gloss: ["to be big"]
+  - lemma: 어떻게
+    pos: MAG
+    gloss: ["how"]
+  - lemma: 요즘
+    pos: NNG
+    gloss: ["these days"]
+  - lemma: 잘
+    pos: MAG
+    gloss: ["well"]
+  - lemma: 지금
+    pos: NNG
+    gloss: ["now"]
+
+  # Lesson 3: University Campus
+  - lemma: 가방
+    pos: NNG
+    gloss: ["bag"]
+  - lemma: 기숙사
+    pos: NNG
+    gloss: ["dormitory"]
+  - lemma: 대학교
+    pos: NNG
+    gloss: ["university"]
+  - lemma: 뒤
+    pos: NNG
+    gloss: ["back", "behind"]
+  - lemma: 밑
+    pos: NNG
+    gloss: ["bottom", "below"]
+  - lemma: 밖
+    pos: NNG
+    gloss: ["outside"]
+  - lemma: 빌딩
+    pos: NNG
+    gloss: ["building"]
+  - lemma: 서점
+    pos: NNG
+    gloss: ["bookstore"]
+  - lemma: 시계
+    pos: NNG
+    gloss: ["clock"]
+  - lemma: 안
+    pos: NNG
+    gloss: ["inside"]
+  - lemma: 앞
+    pos: NNG
+    gloss: ["front"]
+  - lemma: 어디
+    pos: NP
+    gloss: ["where"]
+  - lemma: 옆
+    pos: NNG
+    gloss: ["side"]
+  - lemma: 우체국
+    pos: NNG
+    gloss: ["post office"]
+  - lemma: 의자
+    pos: NNG
+    gloss: ["chair"]
+  - lemma: 위
+    pos: NNG
+    gloss: ["top", "above"]
+  - lemma: 책상
+    pos: NNG
+    gloss: ["desk"]
+  - lemma: 책
+    pos: NNG
+    gloss: ["book"]
+  - lemma: 학생회관
+    pos: NNG
+    gloss: ["student center"]
+  - lemma: 층
+    pos: NNB
+    gloss: ["floor"]
+  - lemma: 있다
+    pos: VA
+    gloss: ["to be", "to exist"]
+  - lemma: 에
+    pos: JKB
+    gloss: ["at", "in (location)"]
+  - lemma: 경제학
+    pos: NNG
+    gloss: ["economics"]
+  - lemma: 교과서
+    pos: NNG
+    gloss: ["textbook"]
+  - lemma: 교실
+    pos: NNG
+    gloss: ["classroom"]
+  - lemma: 사전
+    pos: NNG
+    gloss: ["dictionary"]
+  - lemma: 시간
+    pos: NNG
+    gloss: ["time"]
+  - lemma: 여자
+    pos: NNG
+    gloss: ["woman"]
+  - lemma: 우산
+    pos: NNG
+    gloss: ["umbrella"]
+  - lemma: 질문
+    pos: NNG
+    gloss: ["question"]
+  - lemma: 집
+    pos: NNG
+    gloss: ["home"]
+  - lemma: 컴퓨터
+    pos: NNG
+    gloss: ["computer"]
+  - lemma: 누구
+    pos: NP
+    gloss: ["who"]
+  - lemma: 가다
+    pos: VV
+    gloss: ["to go"]
+  - lemma: 인사하다
+    pos: VV
+    gloss: ["to greet"]
+  - lemma: 읽다
+    pos: VV
+    gloss: ["to read"]
+  - lemma: 없다
+    pos: VA
+    gloss: ["to not exist"]
+  - lemma: 매일
+    pos: MAG
+    gloss: ["every day"]
+  - lemma: 열심히
+    pos: MAG
+    gloss: ["diligently"]
+  - lemma: 그래서
+    pos: MAJ
+    gloss: ["so", "therefore"]
+  - lemma: 그런데
+    pos: MAJ
+    gloss: ["but", "however"]
+
+  # Lesson 4: At Home
+  - lemma: 개
+    pos: NNG
+    gloss: ["dog"]
+  - lemma: 고등학생
+    pos: NNG
+    gloss: ["high school student"]
+  - lemma: 남동생
+    pos: NNG
+    gloss: ["younger brother"]
+  - lemma: 대학원생
+    pos: NNG
+    gloss: ["graduate student"]
+  - lemma: 동생
+    pos: NNG
+    gloss: ["younger sibling"]
+  - lemma: 부모님
+    pos: NNG
+    gloss: ["parents"]
+  - lemma: 아버지
+    pos: NNG
+    gloss: ["father"]
+  - lemma: 어머니
+    pos: NNG
+    gloss: ["mother"]
+  - lemma: 여동생
+    pos: NNG
+    gloss: ["younger sister"]
+  - lemma: 오빠
+    pos: NNG
+    gloss: ["older brother (female speaker)"]
+  - lemma: 형
+    pos: NNG
+    gloss: ["older brother (male speaker)"]
+  - lemma: 한
+    pos: MM
+    gloss: ["one (determiner)"]
+  - lemma: 두
+    pos: MM
+    gloss: ["two (determiner)"]
+  - lemma: 세
+    pos: MM
+    gloss: ["three (determiner)"]
+  - lemma: 스무
+    pos: MM
+    gloss: ["twenty (determiner)"]
+  - lemma: 개
+    pos: NNB
+    gloss: ["item counter"]
+  - lemma: 권
+    pos: NNB
+    gloss: ["volume counter"]
+  - lemma: 마리
+    pos: NNB
+    gloss: ["animal counter"]
+  - lemma: 명
+    pos: NNB
+    gloss: ["people counter"]
+  - lemma: 몇
+    pos: MM
+    gloss: ["how many"]
+  - lemma: 계시다
+    pos: VV
+    gloss: ["to stay", "to be (honorific)"]
+    tags: [honorific]
+  - lemma: 하고
+    pos: JC
+    gloss: ["and (with nouns)"]
+  - lemma: 누나
+    pos: NNG
+    gloss: ["older sister (male speaker)"]
+  - lemma: 언니
+    pos: NNG
+    gloss: ["older sister (female speaker)"]
+  - lemma: 생물학
+    pos: NNG
+    gloss: ["biology"]
+  - lemma: 만
+    pos: JX
+    gloss: ["only"]
+  - lemma: 의
+    pos: JKG
+    gloss: ["possessive particle"]
+  - lemma: 고맙다
+    pos: VA
+    gloss: ["to be thankful"]
+  - lemma: 나쁘다
+    pos: VA
+    gloss: ["to be bad"]
+  - lemma: 비싸다
+    pos: VA
+    gloss: ["to be expensive"]
+  - lemma: 예쁘다
+    pos: VA
+    gloss: ["to be pretty"]
+  - lemma: 작다
+    pos: VA
+    gloss: ["to be small"]
+  - lemma: 마시다
+    pos: VV
+    gloss: ["to drink"]
+  - lemma: 배우다
+    pos: VV
+    gloss: ["to learn"]
+  - lemma: 오다
+    pos: VV
+    gloss: ["to come"]
+  - lemma: 자다
+    pos: VV
+    gloss: ["to sleep"]
+  - lemma: 주다
+    pos: VV
+    gloss: ["to give"]
+
+  # Lesson 5: Bookstore / Time
+  - lemma: 공원
+    pos: NNG
+    gloss: ["park"]
+  - lemma: 백화점
+    pos: NNG
+    gloss: ["department store"]
+  - lemma: 생일
+    pos: NNG
+    gloss: ["birthday"]
+  - lemma: 선물
+    pos: NNG
+    gloss: ["present"]
+  - lemma: 쇼핑하다
+    pos: VV
+    gloss: ["to shop"]
+  - lemma: 운동하다
+    pos: VV
+    gloss: ["to exercise"]
+  - lemma: 일하다
+    pos: VV
+    gloss: ["to work"]
+  - lemma: 저녁
+    pos: NNG
+    gloss: ["evening", "dinner"]
+  - lemma: 전화하다
+    pos: VV
+    gloss: ["to phone"]
+  - lemma: 점심
+    pos: NNG
+    gloss: ["lunch"]
+  - lemma: 커피숍
+    pos: NNG
+    gloss: ["coffee shop"]
+  - lemma: 가르치다
+    pos: VV
+    gloss: ["to teach"]
+  - lemma: 사다
+    pos: VV
+    gloss: ["to buy"]
+  - lemma: 치다
+    pos: VV
+    gloss: ["to play (instrument/sports)"]
+  - lemma: 에서
+    pos: JKB
+    gloss: ["at", "in (dynamic location)"]
+  - lemma: 오전
+    pos: NNG
+    gloss: ["morning", "a.m."]
+  - lemma: 오후
+    pos: NNG
+    gloss: ["afternoon", "p.m."]
+  - lemma: 옷
+    pos: NNG
+    gloss: ["clothes"]
+  - lemma: 월요일
+    pos: NNG
+    gloss: ["Monday"]
+  - lemma: 화요일
+    pos: NNG
+    gloss: ["Tuesday"]
+  - lemma: 수요일
+    pos: NNG
+    gloss: ["Wednesday"]
+  - lemma: 목요일
+    pos: NNG
+    gloss: ["Thursday"]
+  - lemma: 금요일
+    pos: NNG
+    gloss: ["Friday"]
+  - lemma: 토요일
+    pos: NNG
+    gloss: ["Saturday"]
+  - lemma: 일요일
+    pos: NNG
+    gloss: ["Sunday"]
+  - lemma: 걷다
+    pos: VV
+    gloss: ["to walk"]
+  - lemma: 듣다
+    pos: VV
+    gloss: ["to listen", "to take a course"]
+  - lemma: 언제
+    pos: MAG
+    gloss: ["when"]
+  - lemma: 시
+    pos: NNB
+    gloss: ["hour"]
+  - lemma: 분
+    pos: NNB
+    gloss: ["minute"]
+
+  # Lesson 6: My Day
+  - lemma: 날씨
+    pos: NNG
+    gloss: ["weather"]
+  - lemma: 버스
+    pos: NNG
+    gloss: ["bus"]
+  - lemma: 볼펜
+    pos: NNG
+    gloss: ["ballpoint pen"]
+  - lemma: 지하철
+    pos: NNG
+    gloss: ["subway"]
+  - lemma: 차
+    pos: NNG
+    gloss: ["car"]
+  - lemma: 까지
+    pos: JX
+    gloss: ["until", "to"]
+  - lemma: 로
+    pos: JKB
+    gloss: ["by means of"]
+  - lemma: 가깝다
+    pos: VA
+    gloss: ["to be close"]
+  - lemma: 덥다
+    pos: VA
+    gloss: ["to be hot"]
+  - lemma: 멀다
+    pos: VA
+    gloss: ["to be far"]
+  - lemma: 어렵다
+    pos: VA
+    gloss: ["to be difficult"]
+  - lemma: 쉽다
+    pos: VA
+    gloss: ["to be easy"]
+  - lemma: 춥다
+    pos: VA
+    gloss: ["to be cold"]
+  - lemma: 걸리다
+    pos: VV
+    gloss: ["to take (time)"]
+  - lemma: 살다
+    pos: VV
+    gloss: ["to live"]
+  - lemma: 보통
+    pos: MAG
+    gloss: ["usually"]
+  - lemma: 얼마나
+    pos: MAG
+    gloss: ["how much", "how long"]
+  - lemma: 어제
+    pos: NNG
+    gloss: ["yesterday"]
+  - lemma: 수영하다
+    pos: VV
+    gloss: ["to swim"]
+  - lemma: 모르다
+    pos: VV
+    gloss: ["to not know"]
+  - lemma: 일어나다
+    pos: VV
+    gloss: ["to get up"]
+  - lemma: 안
+    pos: MAG
+    gloss: ["not"]
+  - lemma: 못
+    pos: MAG
+    gloss: ["cannot"]
+  - lemma: 왜
+    pos: MAG
+    gloss: ["why"]
+  - lemma: 자주
+    pos: MAG
+    gloss: ["often"]
+
+  # Lesson 7: Weekend
+  - lemma: 계절
+    pos: NNG
+    gloss: ["season"]
+  - lemma: 극장
+    pos: NNG
+    gloss: ["theater"]
+  - lemma: 방학
+    pos: NNG
+    gloss: ["school vacation"]
+  - lemma: 여행하다
+    pos: VV
+    gloss: ["to travel"]
+  - lemma: 영화
+    pos: NNG
+    gloss: ["movie"]
+  - lemma: 아마
+    pos: MAG
+    gloss: ["probably"]
+  - lemma: 정말
+    pos: MAG
+    gloss: ["really"]
+  - lemma: 무슨
+    pos: MM
+    gloss: ["what kind of"]
+  - lemma: 어느
+    pos: MM
+    gloss: ["which"]
+  - lemma: 봄
+    pos: NNG
+    gloss: ["spring"]
+  - lemma: 여름
+    pos: NNG
+    gloss: ["summer"]
+  - lemma: 가을
+    pos: NNG
+    gloss: ["autumn"]
+  - lemma: 겨울
+    pos: NNG
+    gloss: ["winter"]
+  - lemma: 청소하다
+    pos: VV
+    gloss: ["to clean"]
+  - lemma: 만들다
+    pos: VV
+    gloss: ["to make"]
+  - lemma: 보내다
+    pos: VV
+    gloss: ["to spend time"]
+  - lemma: 가끔
+    pos: MAG
+    gloss: ["sometimes"]
+  - lemma: 고
+    pos: EC
+    gloss: ["and (clausal)"]
