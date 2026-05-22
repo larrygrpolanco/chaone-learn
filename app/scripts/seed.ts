@@ -15,24 +15,24 @@ const now = Date.now();
 const textbookCharacters: { id: string; facts: Record<string, string> }[] = [
 	{
 		id: 'char_prof_lee',
-		facts: { name: '이민수 선생님', nationality: '한국' }
+		facts: { name: '이 선생님', nationality: '한국' }
 	},
 	{
 		id: 'char_steve',
-		facts: { name: '스티브 윌슨', nationality: '미국', year: '삼학년' }
+		facts: { name: '스티브', nationality: '미국', year: '삼학년' }
 	},
 	{
 		id: 'char_youngmee',
-		facts: { name: '김영미', nationality: '한국', year: '일학년' }
+		facts: { name: '영미', nationality: '한국', year: '일학년' }
 	},
 	{
 		id: 'char_michael',
-		facts: { name: '마이클 정', nationality: '한국', year: '일학년' }
+		facts: { name: '마이클', nationality: '한국', year: '일학년' }
 	},
 	{
 		// Sandy's `year` is intentionally omitted — natural author opportunity.
 		id: 'char_sandy',
-		facts: { name: '샌디 왕', nationality: '중국' }
+		facts: { name: '샌디', nationality: '중국' }
 	}
 ];
 
