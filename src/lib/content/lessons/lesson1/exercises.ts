@@ -1,4 +1,4 @@
-import { LESSON1_NATIONALITIES, LESSON1_YEARS } from './scope';
+import { LESSON1_NATIONALITIES, LESSON1_YEARS, isValidNationality, isValidYear } from './scope';
 
 // ── Types ────────────────────────────────────────────────────────────────────
 
@@ -8,6 +8,20 @@ export type AuthoringField = {
 	type: 'text' | 'select';
 	options?: readonly string[];
 	required: boolean;
+};
+
+export type ValidationResult = {
+	valid: boolean;
+	error?: string;
+};
+
+export type SeedStep = {
+	step: number;
+	id: string;
+	target: 'learner' | 'classmate';
+	field: AuthoringField;
+	teacherMessage: string;
+	validate: (value: string) => ValidationResult;
 };
 
 export type AuthoringExercise = {
@@ -29,32 +43,95 @@ export type RecallExercise = {
 	evaluate: (answer: string, correctAnswer: string) => EvaluationResult;
 };
 
-// ── Exercises ─────────────────────────────────────────────────────────────────
+// ── Seed Steps ────────────────────────────────────────────────────────────────
 
-/** Seed: learner enters their own info */
-export const seedSelfExercise: AuthoringExercise = {
-	phase: 'seed',
-	id: 'lesson1.seed.self',
-	fields: [
-		{ key: 'name', label: '이름 (Name)', type: 'text', required: true },
-		{
-			key: 'nationality',
+/** All 6 Seed-phase steps, in order. */
+export const SEED_STEPS: SeedStep[] = [
+	{
+		step: 1,
+		id: 'lesson1.seed.learner-name',
+		target: 'learner',
+		field: { key: 'value', label: '이름 (Name)', type: 'text', required: true },
+		teacherMessage:
+			"Welcome to Lesson 1! Every world starts with you — let's add you to the class roster. What's your name?",
+		validate: (value) => {
+			if (!value.trim()) return { valid: false, error: 'Name is required.' };
+			return { valid: true };
+		}
+	},
+	{
+		step: 2,
+		id: 'lesson1.seed.learner-year',
+		target: 'learner',
+		field: { key: 'value', label: '학년 (Year)', type: 'select', options: LESSON1_YEARS, required: true },
+		teacherMessage: '반가워요! What year are you in?',
+		validate: (value) => {
+			if (!isValidYear(value)) return { valid: false, error: 'Please select a valid year.' };
+			return { valid: true };
+		}
+	},
+	{
+		step: 3,
+		id: 'lesson1.seed.learner-nationality',
+		target: 'learner',
+		field: {
+			key: 'value',
 			label: '국적 (Nationality)',
 			type: 'select',
 			options: LESSON1_NATIONALITIES,
 			required: true
 		},
-		{
-			key: 'year',
-			label: '학년 (Year)',
-			type: 'select',
-			options: LESSON1_YEARS,
-			required: true
+		teacherMessage: 'Almost done with your profile! Where are you from?',
+		validate: (value) => {
+			if (!isValidNationality(value)) return { valid: false, error: 'Please select a valid nationality.' };
+			return { valid: true };
 		}
-	]
-};
+	},
+	{
+		step: 4,
+		id: 'lesson1.seed.classmate-name',
+		target: 'classmate',
+		field: { key: 'value', label: '이름 (Name)', type: 'text', required: true },
+		teacherMessage:
+			"You're on the roster! Now let's add a classmate. Use anyone you like — a real friend, a fictional character, whoever. What's their name?",
+		validate: (value) => {
+			if (!value.trim()) return { valid: false, error: 'Name is required.' };
+			return { valid: true };
+		}
+	},
+	{
+		step: 5,
+		id: 'lesson1.seed.classmate-year',
+		target: 'classmate',
+		field: { key: 'value', label: '학년 (Year)', type: 'select', options: LESSON1_YEARS, required: true },
+		teacherMessage: 'What year are they in?',
+		validate: (value) => {
+			if (!isValidYear(value)) return { valid: false, error: 'Please select a valid year.' };
+			return { valid: true };
+		}
+	},
+	{
+		step: 6,
+		id: 'lesson1.seed.classmate-nationality',
+		target: 'classmate',
+		field: {
+			key: 'value',
+			label: '국적 (Nationality)',
+			type: 'select',
+			options: LESSON1_NATIONALITIES,
+			required: true
+		},
+		teacherMessage: 'Last step — where are they from? Once you submit, the Building phase unlocks!',
+		validate: (value) => {
+			if (!isValidNationality(value)) return { valid: false, error: 'Please select a valid nationality.' };
+			return { valid: true };
+		}
+	}
+];
 
-/** Building: learner adds a classmate */
+// ── Building Exercise ──────────────────────────────────────────────────────────
+
+/** Building: learner adds additional classmates */
 export const buildingClassmateExercise: AuthoringExercise = {
 	phase: 'building',
 	id: 'lesson1.building.classmate',
@@ -69,6 +146,8 @@ export const buildingClassmateExercise: AuthoringExercise = {
 		}
 	]
 };
+
+// ── Synthesis Exercise ─────────────────────────────────────────────────────────
 
 /** Synthesis: recall a classmate's nationality in Korean */
 export const synthesisNationalityExercise: RecallExercise = {

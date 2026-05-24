@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import ClassRoster from '$lib/components/ClassRoster.svelte';
-	import { LESSON1_NATIONALITIES, LESSON1_YEARS } from '$lib/content/lessons/lesson1/scope';
 
 	let { data, form } = $props();
 </script>
@@ -9,41 +8,35 @@
 <main>
 	<h1>Lesson 1 — Seed Phase</h1>
 
+	<p class="step-indicator">Step {data.step} of {data.totalSteps}</p>
+
 	<div class="teacher-message">
 		<p>🍎 {data.teacherMessage}</p>
 	</div>
 
 	<form method="POST" use:enhance>
-		<div class="field">
-			<label for="name">이름 (Name)</label>
-			<input id="name" name="name" type="text" required placeholder="Your name" />
-		</div>
+		<input type="hidden" name="step" value={data.step} />
 
 		<div class="field">
-			<label for="nationality">국적 (Nationality)</label>
-			<select id="nationality" name="nationality" required>
-				<option value="">— select —</option>
-				{#each LESSON1_NATIONALITIES as nat}
-					<option value={nat}>{nat}</option>
-				{/each}
-			</select>
-		</div>
+			<label for="value">{data.fieldLabel}</label>
 
-		<div class="field">
-			<label for="year">학년 (Year)</label>
-			<select id="year" name="year" required>
-				<option value="">— select —</option>
-				{#each LESSON1_YEARS as yr}
-					<option value={yr}>{yr}</option>
-				{/each}
-			</select>
+			{#if data.fieldType === 'text'}
+				<input id="value" name="value" type="text" required placeholder="Type here…" />
+			{:else}
+				<select id="value" name="value" required>
+					<option value="">— select —</option>
+					{#each data.fieldOptions as opt}
+						<option value={opt}>{opt}</option>
+					{/each}
+				</select>
+			{/if}
 		</div>
 
 		{#if form?.error}
 			<p class="error">{form.error}</p>
 		{/if}
 
-		<button type="submit">Add me to the roster →</button>
+		<button type="submit">Continue →</button>
 	</form>
 
 	<aside>
@@ -58,6 +51,11 @@
 		margin: 2rem auto;
 		padding: 1rem;
 		font-family: sans-serif;
+	}
+	.step-indicator {
+		color: #888;
+		font-size: 0.85rem;
+		margin-bottom: 0.5rem;
 	}
 	.teacher-message {
 		background: #f0f4ff;
