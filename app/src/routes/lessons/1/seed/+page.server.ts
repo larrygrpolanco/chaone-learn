@@ -1,43 +1,48 @@
 import { fail, redirect } from '@sveltejs/kit';
 import { topicMarker } from '$lib/korean';
-import { createEntity, listEntitiesByKind } from '$lib/server/world/entities';
+import {
+	createEntity,
+	getEntity,
+	listEntitiesByKind,
+	resetLearner
+} from '$lib/server/world/entities';
 import { commitAttributeFact, listAttributesForEntity } from '$lib/server/world/facts';
-import { loadWorld } from '$lib/server/world/state';
 import {
 	fieldOptions,
 	isAllowedValue,
 	lesson1Manifest
 } from '$lib/content/lessons/lesson_1/manifest';
-import {
-	buildChoices,
-	nonProfessorCharacters
-} from '$lib/content/lessons/lesson_1/moves/_helpers';
+import { buildChoices } from '$lib/content/lessons/lesson_1/moves/_helpers';
 import { lesson1Seed, type SeedStep } from '$lib/content/lessons/lesson_1/seed';
 import type { Actions } from './$types';
 
 const DEV_LEARNER = 'dev_learner';
 const LESSON = 1;
+const GARY_ID = 'char_textbook_gary_l1';
 
 type Speaker = string;
 
 type StepData =
-	| { kind: 'narrative'; speaker: Speaker; promptKr: string; subKr?: string; cta: string }
+	| {
+			kind: 'narrative';
+			speaker: Speaker;
+			bodyEn?: string;
+			promptKr: string;
+			subKr?: string;
+			cta: string;
+	  }
 	| {
 			kind: 'author_add_student';
 			speaker: Speaker;
+			bodyEn?: string;
 			promptKr: string;
 			nationalityOptions: readonly string[];
 			yearOptions: readonly string[];
 	  }
 	| {
-			kind: 'author_acknowledge';
-			speaker: Speaker;
-			promptKr: string;
-			cta: string;
-	  }
-	| {
 			kind: 'recall_inline';
 			speaker: Speaker;
+			bodyEn?: string;
 			setupKr: string;
 			targetName: string;
 			promptKr: string;
@@ -48,21 +53,21 @@ type StepData =
 	| {
 			kind: 'update_inline';
 			speaker: Speaker;
+			bodyEn?: string;
 			targetEntityId: string;
 			targetName: string;
 			field: 'nationality' | 'year';
 			currentValue: string;
-			proposedValue: string;
 			promptKr: string;
 			alternateOptions: string[];
-			restateProposed: string;
 	  }
 	| {
 			kind: 'missing_target';
 			speaker: Speaker;
+			bodyEn?: string;
 			promptKr: string;
 	  }
-	| { kind: 'wrap'; speaker: Speaker; promptKr: string; cta: string };
+	| { kind: 'wrap'; speaker: Speaker; bodyEn?: string; promptKr: string; cta: string };
 
 function clampStep(raw: string | null): number {
 	const n = Number(raw ?? 0);
@@ -84,11 +89,44 @@ async function pickLatestLearnerCharacter(): Promise<
 	return null;
 }
 
+// Gary is textbook canon for lesson 1's seed (the update beat targets him).
+// Idempotent: only writes on first load when he doesn't yet exist.
+async function ensureGary(): Promise<{ id: string; attrs: Record<string, string> }> {
+	const existing = await getEntity(DEV_LEARNER, GARY_ID);
+	if (!existing) {
+		await createEntity({
+			id: GARY_ID,
+			learnerId: DEV_LEARNER,
+			kind: 'character',
+			source: 'textbook',
+			createdInLesson: LESSON
+		});
+		await commitAttributeFact({
+			learnerId: DEV_LEARNER,
+			entityId: GARY_ID,
+			field: 'name',
+			value: '게리',
+			source: 'textbook',
+			lessonId: LESSON
+		});
+		await commitAttributeFact({
+			learnerId: DEV_LEARNER,
+			entityId: GARY_ID,
+			field: 'year',
+			value: '일학년',
+			source: 'textbook',
+			lessonId: LESSON
+		});
+	}
+	const attrs = await listAttributesForEntity(DEV_LEARNER, GARY_ID);
+	return { id: GARY_ID, attrs };
+}
+
 function buildStepData(
 	def: SeedStep,
 	ctx: {
-		hasExistingStudents: boolean;
 		latest: { id: string; attrs: Record<string, string> } | null;
+		gary: { id: string; attrs: Record<string, string> };
 	}
 ): StepData {
 	switch (def.kind) {
@@ -96,22 +134,16 @@ function buildStepData(
 			return {
 				kind: 'narrative',
 				speaker: def.speaker,
+				bodyEn: def.bodyEn,
 				promptKr: def.promptKr,
 				subKr: def.subKr,
 				cta: def.cta
 			};
 		case 'author_add_student':
-			if (ctx.hasExistingStudents) {
-				return {
-					kind: 'author_acknowledge',
-					speaker: def.speaker,
-					promptKr: '우리 반에 학생이 있어요.',
-					cta: '다음'
-				};
-			}
 			return {
 				kind: 'author_add_student',
 				speaker: def.speaker,
+				bodyEn: def.bodyEn,
 				promptKr: def.promptKr,
 				nationalityOptions: fieldOptions('nationality'),
 				yearOptions: fieldOptions('year')
@@ -121,6 +153,7 @@ function buildStepData(
 				return {
 					kind: 'missing_target',
 					speaker: def.speaker,
+					bodyEn: def.bodyEn,
 					promptKr: '아직 학생이 없어요.'
 				};
 			}
@@ -134,6 +167,7 @@ function buildStepData(
 			return {
 				kind: 'recall_inline',
 				speaker: def.speaker,
+				bodyEn: def.bodyEn,
 				setupKr: def.setupKr,
 				targetName: name,
 				promptKr,
@@ -143,42 +177,40 @@ function buildStepData(
 			};
 		}
 		case 'update_inline': {
-			if (!ctx.latest || !ctx.latest.attrs[def.field]) {
+			// Gary is the only update target in this seed.
+			const target = ctx.gary;
+			if (!target.attrs[def.field]) {
 				return {
 					kind: 'missing_target',
 					speaker: def.speaker,
+					bodyEn: def.bodyEn,
 					promptKr: '아직 학생이 없어요.'
 				};
 			}
-			const name = ctx.latest.attrs.name;
-			const currentValue = ctx.latest.attrs[def.field];
-			const pool = fieldOptions(def.field).filter((v) => v !== currentValue);
-			const proposedValue = pool[0] ?? currentValue;
+			const name = target.attrs.name;
+			const currentValue = target.attrs[def.field];
 			const topic = `${name}${topicMarker(name)}`;
 			const promptKr =
 				def.field === 'nationality'
-					? `${topic} ${proposedValue} 사람이에요?`
-					: `${topic} ${proposedValue}이에요?`;
+					? `${topic} ${currentValue} 사람이에요?`
+					: `${topic} ${currentValue}이에요?`;
 			return {
 				kind: 'update_inline',
 				speaker: def.speaker,
-				targetEntityId: ctx.latest.id,
+				bodyEn: def.bodyEn,
+				targetEntityId: target.id,
 				targetName: name,
 				field: def.field,
 				currentValue,
-				proposedValue,
 				promptKr,
-				alternateOptions: pool,
-				restateProposed: lesson1Manifest.fields[def.field].restate(
-					proposedValue,
-					ctx.latest.attrs
-				)
+				alternateOptions: fieldOptions(def.field).filter((v) => v !== currentValue)
 			};
 		}
 		case 'wrap':
 			return {
 				kind: 'wrap',
 				speaker: def.speaker,
+				bodyEn: def.bodyEn,
 				promptKr: def.promptKr,
 				cta: def.cta
 			};
@@ -188,10 +220,12 @@ function buildStepData(
 export async function load({ url }: { url: URL }) {
 	const step = clampStep(url.searchParams.get('step'));
 	const def = lesson1Seed[step];
-	const world = await loadWorld(DEV_LEARNER);
-	const hasExistingStudents = nonProfessorCharacters(world).length > 0;
+	// Landing on step 0 restarts the seed: wipe and re-seed Gary.
+	// Keeps the flow deterministic — no ghost students from prior runs.
+	if (step === 0) await resetLearner(DEV_LEARNER);
+	const gary = await ensureGary();
 	const latest = await pickLatestLearnerCharacter();
-	const stepData = buildStepData(def, { hasExistingStudents, latest });
+	const stepData = buildStepData(def, { latest, gary });
 
 	return {
 		step,

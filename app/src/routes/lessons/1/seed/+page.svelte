@@ -12,7 +12,7 @@
 	let recallWrong = $state<Set<string>>(new Set());
 	let recallSolved = $state(false);
 
-	let updateChoice = $state<'asking' | 'choosing' | 'committing'>('asking');
+	let updateChoice = $state<'asking' | 'choosing'>('asking');
 	let alternatePick = $state('');
 
 	$effect(() => {
@@ -48,23 +48,31 @@
 
 <div class="seed">
 	<header>
-		<span class="speaker">{data.stepData.speaker}</span>
+		{#if data.stepData.speaker}
+			<span class="speaker">{data.stepData.speaker}</span>
+		{/if}
 		<span class="progress">{data.step + 1} / {data.totalSteps}</span>
 		<a class="world-link" href="/lessons/1/world">World</a>
 	</header>
 
 	{#if data.stepData.kind === 'narrative'}
+		{#if data.stepData.bodyEn}
+			{#each data.stepData.bodyEn.split('\n\n') as para}
+				<p class="line body-en">{para}</p>
+			{/each}
+		{/if}
 		<p class="line big">{data.stepData.promptKr}</p>
 		{#if data.stepData.subKr}
 			<p class="line">{data.stepData.subKr}</p>
 		{/if}
 		<a class="cta" href="/lessons/1/seed?step={data.nextStep}">{data.stepData.cta}</a>
 
-	{:else if data.stepData.kind === 'author_acknowledge'}
-		<p class="line big">{data.stepData.promptKr}</p>
-		<a class="cta" href="/lessons/1/seed?step={data.nextStep}">{data.stepData.cta}</a>
-
 	{:else if data.stepData.kind === 'author_add_student'}
+		{#if data.stepData.bodyEn}
+			{#each data.stepData.bodyEn.split('\n\n') as para}
+				<p class="line body-en">{para}</p>
+			{/each}
+		{/if}
 		<p class="line big">{data.stepData.promptKr}</p>
 
 		{#if phase === 'name'}
@@ -117,6 +125,11 @@
 		{/if}
 
 	{:else if data.stepData.kind === 'recall_inline'}
+		{#if data.stepData.bodyEn}
+			{#each data.stepData.bodyEn.split('\n\n') as para}
+				<p class="line body-en">{para}</p>
+			{/each}
+		{/if}
 		<p class="line">{data.stepData.setupKr}</p>
 		<p class="line big">{data.stepData.promptKr}</p>
 
@@ -143,28 +156,23 @@
 		{/if}
 
 	{:else if data.stepData.kind === 'update_inline'}
+		{#if data.stepData.bodyEn}
+			{#each data.stepData.bodyEn.split('\n\n') as para}
+				<p class="line body-en">{para}</p>
+			{/each}
+		{/if}
 		<p class="line big">{data.stepData.promptKr}</p>
 
 		{#if updateChoice === 'asking'}
 			<div class="choices yn">
-				<form
-					method="POST"
-					action="?/updateCommit"
-					use:enhance
-					style="display:inline-block"
-				>
-					<input type="hidden" name="entityId" value={data.stepData.targetEntityId} />
-					<input type="hidden" name="field" value={data.stepData.field} />
-					<input type="hidden" name="value" value={data.stepData.proposedValue} />
-					<button class="cta confirm" type="submit" onclick={() => (updateChoice = 'committing')}>
-						네
-					</button>
-				</form>
+				<a class="cta confirm" href="/lessons/1/seed?step={data.nextStep}">네</a>
 				<button onclick={() => (updateChoice = 'choosing')}>아니요</button>
 			</div>
-			<p class="story-note">네 → This will change the story.</p>
 		{:else if updateChoice === 'choosing'}
-			<p class="line">그럼 {data.stepData.targetName}은/는 어느 나라 사람이에요?</p>
+			<p class="line">
+				그럼 {data.stepData.targetName}은/는
+				{data.stepData.field === 'nationality' ? '어느 나라 사람이에요?' : '몇 학년이에요?'}
+			</p>
 			<div class="choices">
 				{#each data.stepData.alternateOptions as opt}
 					<button
@@ -186,10 +194,20 @@
 		{/if}
 
 	{:else if data.stepData.kind === 'missing_target'}
+		{#if data.stepData.bodyEn}
+			{#each data.stepData.bodyEn.split('\n\n') as para}
+				<p class="line body-en">{para}</p>
+			{/each}
+		{/if}
 		<p class="line big">{data.stepData.promptKr}</p>
 		<a class="cta" href="/lessons/1/seed?step=0">처음으로</a>
 
 	{:else if data.stepData.kind === 'wrap'}
+		{#if data.stepData.bodyEn}
+			{#each data.stepData.bodyEn.split('\n\n') as para}
+				<p class="line body-en">{para}</p>
+			{/each}
+		{/if}
 		<p class="line big">{data.stepData.promptKr}</p>
 		<a class="cta" href="/lessons/1/practice">{data.stepData.cta}</a>
 	{/if}

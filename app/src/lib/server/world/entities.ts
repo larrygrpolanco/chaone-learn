@@ -1,5 +1,5 @@
 import { db } from '$lib/server/db';
-import { entities } from '$lib/server/db/schema';
+import { attributeFacts, entities } from '$lib/server/db/schema';
 import { and, eq, isNull } from 'drizzle-orm';
 
 export type EntityKind = 'character' | 'location' | 'object';
@@ -32,6 +32,12 @@ export async function deleteEntity(learnerId: string, id: string) {
 		.update(entities)
 		.set({ deletedAt: Date.now() })
 		.where(and(eq(entities.learnerId, learnerId), eq(entities.id, id)));
+}
+
+// Hard-wipe everything for a learner. Used by the seed restart.
+export async function resetLearner(learnerId: string) {
+	await db.delete(attributeFacts).where(eq(attributeFacts.learnerId, learnerId));
+	await db.delete(entities).where(eq(entities.learnerId, learnerId));
 }
 
 export async function createEntity(input: {
