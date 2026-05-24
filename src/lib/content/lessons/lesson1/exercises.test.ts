@@ -2,9 +2,12 @@ import { describe, it, expect } from 'vitest';
 import {
 	SEED_STEPS,
 	buildingClassmateExercise,
+	buildingUpdateNationalityExercise,
+	buildingUpdateYearExercise,
 	synthesisNationalityExercise
 } from './exercises';
 import { LESSON1_NATIONALITIES, LESSON1_YEARS } from './scope';
+
 
 describe('SEED_STEPS', () => {
 	it('has exactly 6 steps', () => {
@@ -131,9 +134,74 @@ describe('buildingClassmateExercise', () => {
 		expect(nameField?.required).toBe(true);
 	});
 
+	it('has required year field', () => {
+		const yearField = buildingClassmateExercise.fields.find((f) => f.key === 'year');
+		expect(yearField?.required).toBe(true);
+	});
+
 	it('has required nationality field', () => {
 		const natField = buildingClassmateExercise.fields.find((f) => f.key === 'nationality');
 		expect(natField?.required).toBe(true);
+	});
+});
+
+describe('buildingUpdateNationalityExercise', () => {
+	it('is in building phase', () => {
+		expect(buildingUpdateNationalityExercise.phase).toBe('building');
+	});
+
+	it('has nationality field key', () => {
+		expect(buildingUpdateNationalityExercise.field.key).toBe('nationality');
+	});
+
+	it('accepts a valid nationality', () => {
+		const result = buildingUpdateNationalityExercise.validate('미국 사람');
+		expect(result.valid).toBe(true);
+	});
+
+	it('rejects an invalid nationality string', () => {
+		const result = buildingUpdateNationalityExercise.validate('독일 사람');
+		expect(result.valid).toBe(false);
+		expect(result.error).toBeDefined();
+	});
+
+	it('rejects an empty string', () => {
+		const result = buildingUpdateNationalityExercise.validate('');
+		expect(result.valid).toBe(false);
+	});
+
+	it('field options match LESSON1_NATIONALITIES', () => {
+		expect(buildingUpdateNationalityExercise.field.options).toEqual(LESSON1_NATIONALITIES);
+	});
+});
+
+describe('buildingUpdateYearExercise', () => {
+	it('is in building phase', () => {
+		expect(buildingUpdateYearExercise.phase).toBe('building');
+	});
+
+	it('has year field key', () => {
+		expect(buildingUpdateYearExercise.field.key).toBe('year');
+	});
+
+	it('accepts a valid year', () => {
+		const result = buildingUpdateYearExercise.validate('2학년');
+		expect(result.valid).toBe(true);
+	});
+
+	it('rejects an invalid year string', () => {
+		const result = buildingUpdateYearExercise.validate('5학년');
+		expect(result.valid).toBe(false);
+		expect(result.error).toBeDefined();
+	});
+
+	it('rejects an empty string', () => {
+		const result = buildingUpdateYearExercise.validate('');
+		expect(result.valid).toBe(false);
+	});
+
+	it('field options match LESSON1_YEARS', () => {
+		expect(buildingUpdateYearExercise.field.options).toEqual(LESSON1_YEARS);
 	});
 });
 

@@ -7,7 +7,9 @@ export const teacherAssistant = {
 	},
 	building: {
 		start:
-			'Your world is taking shape! Add more classmates — give them a name and nationality. This is your world, so use anyone you like: a real friend, a fictional character, whoever.'
+			"Your world is taking shape! Add more classmates — give them a name, year, and nationality. You can also correct any classmate's details after adding them. When you're done, head to Synthesis!",
+		update:
+			"Need to make a correction? Select a classmate below and update their nationality or year."
 	},
 	synthesis: {
 		intro:

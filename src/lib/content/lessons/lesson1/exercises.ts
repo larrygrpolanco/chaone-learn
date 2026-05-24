@@ -129,14 +129,15 @@ export const SEED_STEPS: SeedStep[] = [
 	}
 ];
 
-// ── Building Exercise ──────────────────────────────────────────────────────────
+// ── Building Exercises ─────────────────────────────────────────────────────────
 
-/** Building: learner adds additional classmates */
+/** Building: learner adds additional classmates (name, year, nationality) */
 export const buildingClassmateExercise: AuthoringExercise = {
 	phase: 'building',
 	id: 'lesson1.building.classmate',
 	fields: [
 		{ key: 'name', label: '이름 (Name)', type: 'text', required: true },
+		{ key: 'year', label: '학년 (Year)', type: 'select', options: LESSON1_YEARS, required: true },
 		{
 			key: 'nationality',
 			label: '국적 (Nationality)',
@@ -145,6 +146,47 @@ export const buildingClassmateExercise: AuthoringExercise = {
 			required: true
 		}
 	]
+};
+
+export type UpdateFieldExercise = {
+	phase: 'building';
+	id: string;
+	field: AuthoringField;
+	validate: (value: string) => ValidationResult;
+};
+
+/** Building: update an existing character's nationality */
+export const buildingUpdateNationalityExercise: UpdateFieldExercise = {
+	phase: 'building',
+	id: 'lesson1.building.update-nationality',
+	field: {
+		key: 'nationality',
+		label: '국적 (Nationality)',
+		type: 'select',
+		options: LESSON1_NATIONALITIES,
+		required: true
+	},
+	validate: (value) => {
+		if (!isValidNationality(value)) return { valid: false, error: 'Please select a valid nationality.' };
+		return { valid: true };
+	}
+};
+
+/** Building: update an existing character's year */
+export const buildingUpdateYearExercise: UpdateFieldExercise = {
+	phase: 'building',
+	id: 'lesson1.building.update-year',
+	field: {
+		key: 'year',
+		label: '학년 (Year)',
+		type: 'select',
+		options: LESSON1_YEARS,
+		required: true
+	},
+	validate: (value) => {
+		if (!isValidYear(value)) return { valid: false, error: 'Please select a valid year.' };
+		return { valid: true };
+	}
 };
 
 // ── Synthesis Exercise ─────────────────────────────────────────────────────────
