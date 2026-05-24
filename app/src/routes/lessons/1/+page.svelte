@@ -1,9 +1,11 @@
 <div class="home">
 	<h1>Lesson 1 — Greetings</h1>
 	<ul>
+		<li><a href="/lessons/1/seed?step=0">Seed (tutorial)</a></li>
 		<li><a href="/lessons/1/practice">Practice</a></li>
 		<li><a href="/lessons/1/roster">Roster</a></li>
 		<li><a href="/lessons/1/world">Edit roster (manual)</a></li>
+		<li><a href="/lessons/2">Lesson 2 (stub)</a></li>
 	</ul>
 </div>
 

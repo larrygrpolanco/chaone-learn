@@ -177,4 +177,24 @@ A new plan file (`04_*.md`) gets written when slice 6 is done and the next chunk
 
 ## Session log
 
-(empty — fill in as slices land)
+**2026-05-23 — Slices 1–6 landed in one pass (no per-slice manual stops).**
+
+What got built:
+- `lesson_1/seed/index.ts` — discriminated `SeedStep` union with five steps: narrative intro, author_add_student, recall_inline, update_inline, wrap.
+- `/lessons/1/seed/+page.server.ts` — URL `?step=N` is the source of truth; load builds a per-step `stepData` (already wired with target name, options, restate strings) so the svelte renderer doesn't touch the world layer. Actions: `addStudent` commits 3 facts in one beat (name + nationality + year); `updateCommit` writes a single fact and lets `commitAttributeFact` auto-supersede.
+- `/lessons/1/seed/+page.svelte` — single distinct surface (cream `#fdf8f0`, narrow column, larger type, speaker label header). Branches on `stepData.kind`; recall reuses the shake/grey CSS pattern verbatim from recall-nationality.
+- Re-entry guard: `nonProfessorCharacters(world).length > 0` on the author beat renders an "우리 반에 학생이 있어요." acknowledgement step instead of the form.
+- `lesson_2/manifest.ts` (empty fields), `/lessons/2/+page.server.ts` + `+page.svelte` — flat list reading from `loadWorld(DEV_LEARNER)`, proves cross-lesson read.
+- `/lessons/1` home page now lists Seed first and a Lesson 2 stub link.
+
+Decisions taken without checking:
+- Update beat's 네 path commits the proposed (different) value — per 02.5 invariant audit, the platform doesn't tell the learner their imagination is wrong.
+- The "proposed" update value is `fieldOptions(field).filter(v => v !== current)[0]` — deterministic across reloads. A random pick would feel more alive; deferred to UI cleanup.
+- Recall correctness lives client-side; the `recallAdvance` action was unused and dropped — the recall step's "다음" is a plain link after `recallSolved` flips.
+- No shared component extraction between seed's author beat and `/practice/add-student/+page.svelte` yet — duplication is small.
+
+What surprised:
+- The discriminated union let the server load do all the world-shape work, keeping the svelte file pure-presentational. That's the cleanest split so far and probably the right shape if seed steps grow.
+- `loadWorld` doesn't expose `createdAt`, so picking "most recent learner character" needed a direct call to `listEntitiesByKind` in the load. Still goes through the world layer; just a layer deeper than the world-state view.
+
+Verification: `npm run check` passes (0 errors / 0 warnings, 704 files). End-to-end walkthrough deferred to the user — reset dev_learner first if you want to see the author beat (otherwise the re-entry guard fires).
