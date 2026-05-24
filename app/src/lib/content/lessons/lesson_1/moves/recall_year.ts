@@ -7,10 +7,19 @@ export const recallYear: RecallMove = {
 	id: 'recall_year',
 	lesson: 1,
 	mode: 'recall',
-	leadingQuestionEn: 'What year is this person in?',
+	leadingQuestionsEn: [
+		'Remind me about ${name}. What year are they in?',
+		'${name} is sitting near the front. What year are they?',
+		'Let’s check in with ${name}. Are they a freshman?',
+		'I’m updating my notes. What year is ${name} again?'
+	],
 	route: '/lessons/1/practice/recall-year',
 	field: 'year',
 	eligible: (world) => charactersWithField(world, 'year').length > 0,
+	previewTargetName: (world) => {
+		const havers = charactersWithField(world, 'year');
+		return havers.length ? havers[0].attrs.name : null;
+	},
 	prepare: (world) => {
 		const target = pickRandom(charactersWithField(world, 'year'));
 		const correct = target.attrs.year;

@@ -200,3 +200,17 @@ A new plan file (`03_*.md`) gets written when slice 5 of this plan is done and t
 - Both 네 (when not isCurrent) and 아니요-then-pick submit the same `?/commit` action with `{entityId, field, value}`. Reusing the same action for both paths kept the +page.server.ts minimal. The Korean restatement at the success step is computed **client-side** from the manifest's `restate` — same source as the world-view editor.
 - The chooser excludes the proposal itself (don't offer the rejected value again) and picks 4 from the remaining pool. Plan says "the same shuffled option set the recall move uses" — close enough; if it matters we'll align on `buildChoices` later.
 - Three modes now have three visible identities: blue=author, orange=recall, green (#6aa86a) badge=negotiated. Color picks are throwaway; the structural thing is that each move declares its mode and the svelte styles match.
+
+### Slice 4 — Shared-attribute (the polymorphic one)
+- Manifest gains `focusAttribute: 'nationality'`. The move type union grows a `SharedAttributeMove` whose `prepare(world)` returns a discriminated `SharedAttributeBranch` (`recall_matching` | `author_one_missing` | `author_both_missing`). The svelte switches on `branch` and runs a different mini-state-machine per branch. mode='negotiated' for the card.
+- Helpers consolidated: `nonProfessorCharacters(world)` is now the base, `charactersWithField(world, field)` is a thin filter on top. `viableSharedPairs(chars, field)` enumerates O(N²) all (X, Y) pairs that aren't "both-defined-and-different" — same call powers `eligible` (length > 0) and `prepare` (pickRandom). Cheap at N=5; refactor if a lesson ever has hundreds of characters.
+- `korean.ts` gains `andMarker` (과/와). Together with `topicMarker` (은/는) the move composes "영미와 마이클은 한국 사람이에요?" without any per-pair string hardcoding.
+- Commits route through one `?/commit` action (entity/field/value). The svelte's `enhanceCommit(handler)` factory reads the value from the form data in the post-submit callback, so the same form structure serves both 네 paths and per-option chooser paths.
+- Verified all three branches by superseding textbook nationality facts with `sqlite3` (set `superseded_at`, sample, restore). Korean is grammatically correct across name endings: 영미와/스티브는/마이클은/샌디는/영미도/마이클도.
+
+### Slice 5 — Branching practice screen
+- `moves/index.ts` exports `lesson1Moves: Move[]`. `/lessons/1/practice/+page.server.ts` loads world via `loadWorld`, filters by `eligible(world)`, returns `{id, mode, route, leadingQuestionEn}` per card. The full eligible list is shipped to the client; shuffle re-rolls locally (no extra server round-trip, per plan).
+- Cards are color/icon-coded by `mode` via CSS attribute selectors (`[data-mode="author"]` etc.). The four card colors (blue / orange / green / grey-shuffle) match each move's own page so navigating to a card lands on the same color treatment.
+- `$state` initial-value warning resolved by seeding `visible` in `$effect(() => { visible = pickThree(data.eligible); })`. Effect re-fires when the eligible list changes on navigation back (e.g. after completing a move). Shuffle button writes the same state directly.
+- `/lessons/1/+page.svelte` simplified to two links (Practice + World) per plan.
+- Eligibility verified: superseding all `year` facts removes `recall_year` from the list; restoring brings it back. The other four moves stay eligible across the toggle.

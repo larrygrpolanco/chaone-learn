@@ -34,21 +34,62 @@ export type MoveStep =
 	| { kind: 'free-text'; field: string; promptKr: string }
 	| { kind: 'choice'; field: string; promptKr: string };
 
-export type MoveMode = 'author' | 'recall' | 'negotiated';
+export type MoveMode = 'author' | 'recall';
 
 type MoveBase = {
 	id: string;
 	lesson: number;
-	leadingQuestionEn: string;
+	leadingQuestionsEn: string[];
 	route: string;
 	eligible: (world: WorldState) => boolean;
+	previewTargetName?: (world: WorldState) => string | null;
+	previewVars?: (world: WorldState) => Record<string, string> | null;
 };
 
-export type AuthorMove = MoveBase & {
+// --- Author variants ----------------------------------------------------
+
+export type StepsAuthorMove = MoveBase & {
 	mode: 'author';
+	variant: 'steps';
 	steps: MoveStep[];
 	confirmation: (facts: Record<string, string>) => string[];
 };
+
+export type SetAttributeQuestion = {
+	targetEntityId: string;
+	targetName: string;
+	field: string;
+	promptKr: string;
+	options: string[];
+};
+
+export type SetAttributeMove = MoveBase & {
+	mode: 'author';
+	variant: 'set';
+	field: string;
+	prepare: (world: WorldState) => SetAttributeQuestion;
+};
+
+export type UpdateAttributeQuestion = {
+	targetEntityId: string;
+	targetName: string;
+	field: string;
+	currentValue: string;
+	promptKr: string;
+	options: string[];
+	successKrIfYes: string;
+};
+
+export type UpdateAttributeMove = MoveBase & {
+	mode: 'author';
+	variant: 'update';
+	field: string;
+	prepare: (world: WorldState) => UpdateAttributeQuestion;
+};
+
+export type AuthorMove = StepsAuthorMove | SetAttributeMove | UpdateAttributeMove;
+
+// --- Recall -------------------------------------------------------------
 
 export type RecallQuestion = {
 	targetEntityId: string;
@@ -66,57 +107,4 @@ export type RecallMove = MoveBase & {
 	prepare: (world: WorldState) => RecallQuestion;
 };
 
-export type NegotiatedQuestion = {
-	targetEntityId: string;
-	targetName: string;
-	field: string;
-	proposal: string;
-	promptKr: string;
-	isCurrent: boolean;
-	options: string[];
-	successKrIfYes: string;
-};
-
-export type NegotiatedMove = MoveBase & {
-	mode: 'negotiated';
-	field: string;
-	prepare: (world: WorldState) => NegotiatedQuestion;
-};
-
-export type SharedAttributeBranch =
-	| {
-			branch: 'recall_matching';
-			x: { id: string; name: string };
-			y: { id: string; name: string };
-			field: string;
-			value: string;
-			promptKr: string;
-			options: string[];
-			successKr: string;
-	  }
-	| {
-			branch: 'author_one_missing';
-			known: { id: string; name: string; value: string };
-			missing: { id: string; name: string };
-			field: string;
-			proposal: string;
-			promptKr: string;
-			options: string[];
-			successKr: string;
-	  }
-	| {
-			branch: 'author_both_missing';
-			x: { id: string; name: string };
-			y: { id: string; name: string };
-			field: string;
-			stage1PromptKr: string;
-			options: string[];
-	  };
-
-export type SharedAttributeMove = MoveBase & {
-	mode: 'negotiated';
-	field: string;
-	prepare: (world: WorldState) => SharedAttributeBranch;
-};
-
-export type Move = AuthorMove | RecallMove | NegotiatedMove | SharedAttributeMove;
+export type Move = AuthorMove | RecallMove;

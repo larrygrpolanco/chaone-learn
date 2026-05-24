@@ -1,7 +1,37 @@
-<h1>Lesson 1 — Greetings</h1>
+<div class="home">
+	<h1>Lesson 1 — Greetings</h1>
+	<ul>
+		<li><a href="/lessons/1/practice">Practice</a></li>
+		<li><a href="/lessons/1/roster">Roster</a></li>
+		<li><a href="/lessons/1/world">Edit roster (manual)</a></li>
+	</ul>
+</div>
 
-<ul>
-	<li><a href="/lessons/1/world">월드 보기 (World view)</a></li>
-	<li><a href="/lessons/1/practice/add-classmate">새 친구 추가 (Add a classmate)</a></li>
-	<li><a href="/lessons/1/practice/recall-nationality">국적 맞히기 (Recall nationality)</a></li>
-</ul>
+<style>
+	.home {
+		max-width: 30rem;
+		margin: 3rem auto;
+		padding: 1rem;
+	}
+	h1 {
+		margin: 0 0 1rem;
+	}
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+	li {
+		margin: 0.5rem 0;
+	}
+	a {
+		display: block;
+		padding: 0.75rem 1rem;
+		border: 1px solid #ddd;
+		border-radius: 6px;
+		text-decoration: none;
+		color: inherit;
+	}
+	a:hover {
+		background: #f5f5f5;
+	}
+</style>

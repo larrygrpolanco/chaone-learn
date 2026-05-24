@@ -182,7 +182,7 @@ export const addClassmate: Move = {
 
 1. **Moves are thin. The manifest is the contract.** A move says "ask about field X." The manifest says "field X has these values and is editable." The runtime stitches them. New lessons mostly add fields to their manifest and reuse existing move templates against the new fields.
 
-2. **A move's mode (author / recall / negotiated) can be a function of world state.** The shared-attribute move from LESSONS §5 is the canonical example: same template, switches between recall and author based on whether facts already exist. Most moves are fixed-mode; the polymorphic ones are the interesting craft.
+2. **A move's mode (author / recall ) can be a function of world state.** The shared-attribute move from LESSONS §5 is the canonical example: same template, switches between recall and author based on whether facts already exist. Most moves are fixed-mode; the polymorphic ones are the interesting craft.
 
 3. **The confirmation function is where the language axis shows up.** It's the only place the move *produces* Korean from world data. The grammar available is bounded by what the lesson has taught. Lesson 1 can use 이에요/예요, 도, 아니에요. Lesson 6 can use past tense. Confirmation strings written for a lesson cannot reach forward; they can reach back into earlier lessons' grammar.
 

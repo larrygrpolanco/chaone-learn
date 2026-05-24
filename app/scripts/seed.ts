@@ -68,10 +68,21 @@ async function upsertTextbookFact(
 }
 
 async function main() {
+	const withTextbook =
+		process.argv.includes('--with-textbook') || process.env.WITH_TEXTBOOK === 'true';
+
 	await db
 		.insert(learners)
 		.values({ id: DEV_LEARNER, currentLesson: LESSON, createdAt: now })
 		.onConflictDoNothing();
+
+	if (!withTextbook) {
+		console.log(
+			`Seeded learner ${DEV_LEARNER} with an empty class. ` +
+				`Pass --with-textbook to also load the textbook characters.`
+		);
+		return;
+	}
 
 	for (const c of textbookCharacters) {
 		await db
@@ -93,7 +104,7 @@ async function main() {
 
 	const factCount = await db.$count(attributeFacts);
 	console.log(
-		`Seeded ${textbookCharacters.length} entities and ${factCount} total facts for ${DEV_LEARNER}.`
+		`Seeded ${textbookCharacters.length} textbook entities and ${factCount} total facts for ${DEV_LEARNER}.`
 	);
 }
 

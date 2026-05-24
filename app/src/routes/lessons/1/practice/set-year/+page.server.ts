@@ -1,9 +1,9 @@
-import { error, fail } from '@sveltejs/kit';
+import { error, fail, redirect } from '@sveltejs/kit';
 import { loadWorld } from '$lib/server/world/state';
 import { commitAttributeFact } from '$lib/server/world/facts';
 import { getEntity } from '$lib/server/world/entities';
 import { isAllowedValue } from '$lib/content/lessons/lesson_1/manifest';
-import { sharedAttribute } from '$lib/content/lessons/lesson_1/moves/shared_attribute';
+import { setYear } from '$lib/content/lessons/lesson_1/moves/set_year';
 import type { Actions } from './$types';
 
 const DEV_LEARNER = 'dev_learner';
@@ -11,10 +11,17 @@ const LESSON = 1;
 
 export async function load() {
 	const world = await loadWorld(DEV_LEARNER);
-	if (!sharedAttribute.eligible(world)) {
-		throw error(503, 'No viable pair for shared-attribute. Add a classmate first.');
+	if (!setYear.eligible(world)) {
+		throw error(503, 'No one is missing a year.');
 	}
-	return { q: sharedAttribute.prepare(world) };
+	const q = setYear.prepare(world);
+	return {
+		entityId: q.targetEntityId,
+		name: q.targetName,
+		field: q.field,
+		prompt: q.promptKr,
+		options: q.options
+	};
 }
 
 export const actions: Actions = {
@@ -24,7 +31,7 @@ export const actions: Actions = {
 		const field = String(data.get('field') ?? '');
 		const value = String(data.get('value') ?? '').trim();
 
-		if (!entityId || field !== sharedAttribute.field || !isAllowedValue(field, value)) {
+		if (!entityId || field !== setYear.field || !isAllowedValue(field, value)) {
 			return fail(400, { error: 'invalid commit', entityId, field, value });
 		}
 
@@ -40,6 +47,6 @@ export const actions: Actions = {
 			lessonId: LESSON
 		});
 
-		return { ok: true };
+		throw redirect(303, '/lessons/1/practice');
 	}
 };

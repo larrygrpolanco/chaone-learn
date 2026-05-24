@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { invalidateAll } from '$app/navigation';
-
 	let { data } = $props();
 
 	let wrong = $state<Set<string>>(new Set());
@@ -14,17 +12,10 @@
 			wrong = new Set([...wrong, opt]);
 		}
 	}
-
-	async function next() {
-		wrong = new Set();
-		solved = false;
-		await invalidateAll();
-	}
 </script>
 
-<div class="recall">
+<div class="move" data-writes="false">
 	<header>
-		<span class="badge">Recall</span>
 		<h1>{data.name}</h1>
 	</header>
 
@@ -45,32 +36,24 @@
 
 	{#if solved}
 		<p class="ok">맞아요! {data.successKr}</p>
-		<button class="next" onclick={next}>다음</button>
+		<a class="next" href="/lessons/1/practice">Done</a>
 	{/if}
 
 	<p class="meta">
-		<a href="/lessons/1/world">← 월드 보기</a>
+		<a href="/lessons/1/roster">Roster</a> · <a href="/lessons/1/practice">Back</a>
 	</p>
 </div>
 
 <style>
-	.recall {
+	.move {
 		max-width: 30rem;
 		margin: 2rem auto;
 		padding: 1.5rem;
-		border-left: 6px solid #ee8b5a;
-		background: #fff7f0;
 		border-radius: 6px;
 	}
-	.badge {
-		display: inline-block;
-		padding: 0.15rem 0.5rem;
-		background: #ee8b5a;
-		color: white;
-		border-radius: 999px;
-		font-size: 0.75rem;
-		letter-spacing: 0.05em;
-		text-transform: uppercase;
+	.move[data-writes='false'] {
+		border-left: 6px solid #ee8b5a;
+		background: #fff7f0;
 	}
 	h1 {
 		margin: 0.5rem 0 1rem;
@@ -130,10 +113,13 @@
 		font-weight: bold;
 	}
 	.next {
+		display: inline-block;
 		margin-top: 0.5rem;
+		padding: 0.5rem 1rem;
 		background: #ee8b5a;
 		color: white;
-		border-color: #ee8b5a;
+		border-radius: 4px;
+		text-decoration: none;
 	}
 	.meta {
 		margin-top: 1.5rem;

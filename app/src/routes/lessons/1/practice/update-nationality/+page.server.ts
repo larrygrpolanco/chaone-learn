@@ -3,7 +3,7 @@ import { loadWorld } from '$lib/server/world/state';
 import { commitAttributeFact } from '$lib/server/world/facts';
 import { getEntity } from '$lib/server/world/entities';
 import { isAllowedValue } from '$lib/content/lessons/lesson_1/manifest';
-import { negotiateNationality } from '$lib/content/lessons/lesson_1/moves/negotiate_nationality';
+import { updateNationality } from '$lib/content/lessons/lesson_1/moves/update_nationality';
 import type { Actions } from './$types';
 
 const DEV_LEARNER = 'dev_learner';
@@ -11,17 +11,16 @@ const LESSON = 1;
 
 export async function load() {
 	const world = await loadWorld(DEV_LEARNER);
-	if (!negotiateNationality.eligible(world)) {
-		throw error(503, 'No characters available. Add one first.');
+	if (!updateNationality.eligible(world)) {
+		throw error(503, 'No one has a nationality set yet.');
 	}
-	const q = negotiateNationality.prepare(world);
+	const q = updateNationality.prepare(world);
 	return {
 		entityId: q.targetEntityId,
 		name: q.targetName,
 		field: q.field,
-		proposal: q.proposal,
+		currentValue: q.currentValue,
 		prompt: q.promptKr,
-		isCurrent: q.isCurrent,
 		options: q.options,
 		successKrIfYes: q.successKrIfYes
 	};
@@ -34,7 +33,7 @@ export const actions: Actions = {
 		const field = String(data.get('field') ?? '');
 		const value = String(data.get('value') ?? '').trim();
 
-		if (!entityId || field !== negotiateNationality.field || !isAllowedValue(field, value)) {
+		if (!entityId || field !== updateNationality.field || !isAllowedValue(field, value)) {
 			return fail(400, { error: 'invalid commit', entityId, field, value });
 		}
 

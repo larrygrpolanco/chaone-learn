@@ -40,18 +40,15 @@ export function buildChoices(correct: string, pool: readonly string[], n = 4): s
 
 export type Pair = [CharacterRow, CharacterRow];
 
-// All (X, Y) where X != Y and the field is *not* set to different known values.
-// A "mismatched" pair (both set, different) yields no shared-attribute branch.
-export function viableSharedPairs(chars: CharacterRow[], field: string): Pair[] {
+// All pairs (X, Y) where both have `field` set and the values match.
+export function matchingPairs(world: WorldState, field: string): Pair[] {
+	const chars = charactersWithField(world, field);
 	const pairs: Pair[] = [];
 	for (let i = 0; i < chars.length; i++) {
 		for (let j = i + 1; j < chars.length; j++) {
-			const a = chars[i];
-			const b = chars[j];
-			const av = a.attrs[field];
-			const bv = b.attrs[field];
-			if (av && bv && av !== bv) continue;
-			pairs.push([a, b]);
+			if (chars[i].attrs[field] === chars[j].attrs[field]) {
+				pairs.push([chars[i], chars[j]]);
+			}
 		}
 	}
 	return pairs;
