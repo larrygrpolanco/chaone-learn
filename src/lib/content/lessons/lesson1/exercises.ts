@@ -36,10 +36,10 @@ export type EvaluationResult = {
 	feedback: string;
 };
 
-export type RecallExercise = {
+export type RecallExercise<C extends object = { classmateName: string }> = {
 	phase: 'synthesis';
 	id: string;
-	prompt: (context: { classmateName: string }) => string;
+	prompt: (context: C) => string;
 	evaluate: (answer: string, correctAnswer: string) => EvaluationResult;
 };
 
@@ -192,13 +192,49 @@ export const buildingUpdateYearExercise: UpdateFieldExercise = {
 // ── Synthesis Exercise ─────────────────────────────────────────────────────────
 
 /** Synthesis: recall a classmate's nationality in Korean */
-export const synthesisNationalityExercise: RecallExercise = {
+export const synthesisNationalityExercise: RecallExercise<{ classmateName: string }> = {
 	phase: 'synthesis',
 	id: 'lesson1.synthesis.nationality',
 	prompt: ({ classmateName }) => `${classmateName} 씨는 어느 나라 사람이에요?`,
 	evaluate: (answer, correctAnswer) => {
 		const trimmed = answer.trim();
 		const correct = trimmed === correctAnswer;
+		return {
+			correct,
+			correctAnswer,
+			feedback: correct
+				? '맞아요! 잘 했어요! 🎉'
+				: `아니에요. The correct answer is: ${correctAnswer}`
+		};
+	}
+};
+
+/** Synthesis: recall a classmate's year in Korean */
+export const synthesisYearExercise: RecallExercise<{ classmateName: string }> = {
+	phase: 'synthesis',
+	id: 'lesson1.synthesis.year',
+	prompt: ({ classmateName }) => `${classmateName} 씨는 몇 학년이에요?`,
+	evaluate: (answer, correctAnswer) => {
+		const trimmed = answer.trim();
+		const correct = trimmed === correctAnswer;
+		return {
+			correct,
+			correctAnswer,
+			feedback: correct
+				? '맞아요! 잘 했어요! 🎉'
+				: `아니에요. The correct answer is: ${correctAnswer}`
+		};
+	}
+};
+
+/** Synthesis: recall a classmate's name from nationality and year */
+export const synthesisNameExercise: RecallExercise<{ nationality: string; year: string }> = {
+	phase: 'synthesis',
+	id: 'lesson1.synthesis.name',
+	prompt: ({ nationality, year }) => `${year} ${nationality} 학생의 이름이 뭐예요?`,
+	evaluate: (answer, correctAnswer) => {
+		const trimmed = answer.trim().toLowerCase();
+		const correct = trimmed === correctAnswer.trim().toLowerCase();
 		return {
 			correct,
 			correctAnswer,

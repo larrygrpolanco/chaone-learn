@@ -4,7 +4,9 @@ import {
 	buildingClassmateExercise,
 	buildingUpdateNationalityExercise,
 	buildingUpdateYearExercise,
-	synthesisNationalityExercise
+	synthesisNationalityExercise,
+	synthesisYearExercise,
+	synthesisNameExercise
 } from './exercises';
 import { LESSON1_NATIONALITIES, LESSON1_YEARS } from './scope';
 
@@ -234,5 +236,64 @@ describe('synthesisNationalityExercise', () => {
 		const result = synthesisNationalityExercise.evaluate('독일 사람', '미국 사람');
 		expect(result.correct).toBe(false);
 		expect(result.correctAnswer).toBe('미국 사람');
+	});
+});
+
+describe('synthesisYearExercise', () => {
+	it('phase is synthesis', () => {
+		expect(synthesisYearExercise.phase).toBe('synthesis');
+	});
+
+	it('generates correct prompt with classmate name', () => {
+		const prompt = synthesisYearExercise.prompt({ classmateName: '민준' });
+		expect(prompt).toBe('민준 씨는 몇 학년이에요?');
+	});
+
+	it('returns correct=true for exact match', () => {
+		const result = synthesisYearExercise.evaluate('2학년', '2학년');
+		expect(result.correct).toBe(true);
+	});
+
+	it('trims whitespace before evaluating', () => {
+		const result = synthesisYearExercise.evaluate('  2학년  ', '2학년');
+		expect(result.correct).toBe(true);
+	});
+
+	it('returns correct=false for wrong year, includes correctAnswer', () => {
+		const result = synthesisYearExercise.evaluate('1학년', '2학년');
+		expect(result.correct).toBe(false);
+		expect(result.correctAnswer).toBe('2학년');
+	});
+});
+
+describe('synthesisNameExercise', () => {
+	it('phase is synthesis', () => {
+		expect(synthesisNameExercise.phase).toBe('synthesis');
+	});
+
+	it('generates correct prompt', () => {
+		const prompt = synthesisNameExercise.prompt({ nationality: '미국 사람', year: '2학년' });
+		expect(prompt).toBe('2학년 미국 사람 학생의 이름이 뭐예요?');
+	});
+
+	it('returns correct=true for exact match', () => {
+		const result = synthesisNameExercise.evaluate('Larry', 'Larry');
+		expect(result.correct).toBe(true);
+	});
+
+	it('returns correct=true for case-insensitive match', () => {
+		const result = synthesisNameExercise.evaluate('larry', 'Larry');
+		expect(result.correct).toBe(true);
+	});
+
+	it('trims whitespace before evaluating', () => {
+		const result = synthesisNameExercise.evaluate('  Larry  ', 'Larry');
+		expect(result.correct).toBe(true);
+	});
+
+	it('returns correct=false for wrong name, includes correctAnswer', () => {
+		const result = synthesisNameExercise.evaluate('민준', 'Larry');
+		expect(result.correct).toBe(false);
+		expect(result.correctAnswer).toBe('Larry');
 	});
 });

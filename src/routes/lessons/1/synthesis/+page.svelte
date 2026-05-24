@@ -2,7 +2,15 @@
 	import { enhance } from '$app/forms';
 	import ClassRoster from '$lib/components/ClassRoster.svelte';
 
-	let { data, form } = $props();
+	let { data } = $props();
+
+	let currentIndex = $state(0);
+	let answeredResult = $state<null | { correct: boolean; correctAnswer: string; feedback: string }>(
+		null
+	);
+
+	let currentQuestion = $derived(data.questions[currentIndex]);
+	let isComplete = $derived(currentIndex >= data.questions.length);
 </script>
 
 <main>
@@ -12,40 +20,77 @@
 		<p>🍎 {data.teacherMessage}</p>
 	</div>
 
-	<div class="question-card">
-		<p class="question">{data.question}</p>
-	</div>
-
-	<form method="POST" action="?/answer" use:enhance>
-		<input type="hidden" name="targetId" value={data.targetCharacter.id} />
-
-		<div class="field">
-			<label for="answer">Your answer in Korean:</label>
-			<input
-				id="answer"
-				name="answer"
-				type="text"
-				placeholder="e.g. 미국 사람"
-				autocomplete="off"
-				autocorrect="off"
-			/>
+	{#if isComplete}
+		<div class="completion">
+			<p>🎉 Synthesis complete! You recalled everything from the world you built.</p>
+		</div>
+	{:else}
+		<div class="progress">
+			<span>Question {currentIndex + 1} of {data.questions.length}</span>
 		</div>
 
-		<button type="submit">Submit answer</button>
-	</form>
-
-	{#if form?.result}
-		<div class="result" class:correct={form.result.correct} class:incorrect={!form.result.correct}>
-			{#if form.result.correct}
-				<p>✅ {form.result.feedback}</p>
-			{:else}
-				<p>❌ {form.result.feedback}</p>
-			{/if}
+		<div class="question-card">
+			<p class="question">{currentQuestion.prompt}</p>
 		</div>
-	{/if}
 
-	{#if form?.error}
-		<p class="error">{form.error}</p>
+		{#if answeredResult === null}
+			<form
+				method="POST"
+				action="?/answer"
+				use:enhance={({ formData }) => {
+					return async ({ result }) => {
+						if (result.type === 'success' && result.data?.result) {
+							answeredResult = result.data.result as {
+								correct: boolean;
+								correctAnswer: string;
+								feedback: string;
+							};
+						}
+					};
+				}}
+			>
+				<input type="hidden" name="targetId" value={currentQuestion.targetId} />
+				<input type="hidden" name="questionType" value={currentQuestion.type} />
+
+				<div class="field">
+					<label for="answer">Your answer in Korean:</label>
+					<input
+						id="answer"
+						name="answer"
+						type="text"
+						placeholder={currentQuestion.type === 'name' ? 'e.g. 민준' : currentQuestion.type === 'year' ? 'e.g. 2학년' : 'e.g. 미국 사람'}
+						autocomplete="off"
+						autocorrect="off"
+					/>
+				</div>
+
+				<button type="submit">Submit answer</button>
+			</form>
+		{/if}
+
+		{#if answeredResult !== null}
+			<div
+				class="result"
+				class:correct={answeredResult.correct}
+				class:incorrect={!answeredResult.correct}
+			>
+				{#if answeredResult.correct}
+					<p>✅ {answeredResult.feedback}</p>
+				{:else}
+					<p>❌ {answeredResult.feedback}</p>
+				{/if}
+			</div>
+
+			<button
+				class="next-btn"
+				onclick={() => {
+					currentIndex++;
+					answeredResult = null;
+				}}
+			>
+				Next question →
+			</button>
+		{/if}
 	{/if}
 
 	<aside>
@@ -67,6 +112,11 @@
 		padding: 0.75rem 1rem;
 		margin-bottom: 1.5rem;
 		border-radius: 0 4px 4px 0;
+	}
+	.progress {
+		font-size: 0.9rem;
+		color: #666;
+		margin-bottom: 0.5rem;
 	}
 	.question-card {
 		background: #fff9e6;
@@ -105,6 +155,10 @@
 		cursor: pointer;
 		font-size: 1rem;
 	}
+	.next-btn {
+		margin-top: 1rem;
+		background: #27ae60;
+	}
 	.result {
 		margin-top: 1rem;
 		padding: 0.75rem 1rem;
@@ -118,9 +172,15 @@
 		background: #fdecea;
 		border: 1px solid #e74c3c;
 	}
-	.error {
-		color: #c0392b;
-		font-size: 0.9rem;
+	.completion {
+		background: #d5f5e3;
+		border: 1px solid #27ae60;
+		border-radius: 6px;
+		padding: 1.5rem;
+		text-align: center;
+		font-size: 1.2rem;
+		font-weight: 600;
+		margin-bottom: 1.5rem;
 	}
 	aside {
 		margin-top: 2rem;
